@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="chooser_view" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="203" height="168" params="98305" style="0" caption="%24%7Bwidget.chooser.title%7D" width_min="150" height_min="90">
+      <children>
+        <border x="0" y="0" width="190" height="135" params="2176" style="0" caption="%24%7Bwidgets.chooser.title%7D">
+          <children>
+            <container x="8" y="8" width="173" height="120" params="2192" style="0" caption="%24%7Bwidgets.chooser.title%7D">
+              <children>
+                <scrollable_itemlist_vertical x="0" y="0" width="172" height="120" params="2192" style="0" name="item_list" caption="%24%7Bwidgets.chooser.title%7D"/>
+              </children>
+            </container>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

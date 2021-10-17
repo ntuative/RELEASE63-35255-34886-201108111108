@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="roomvisits_frame" width="20" height="20" version="0.0">
+  <window>
+    <frame x="60" y="4" width="292" height="224" params="98305" style="0" caption="Room%20visits" width_min="150" height_min="100">
+      <children>
+        <container x="0" y="0" width="280" height="192" params="2192" style="0" name="visits_cont" caption="Room%20visits" color="0xffffffff" background="true">
+          <children>
+            <itemlist_vertical x="0" y="0" width="263" height="192" params="2193" style="0" name="visits_list" caption="Room%20visits" background="true"/>
+            <scrollbar_vertical x="263" y="0" width="17" height="192" params="2129" style="0" name="scroller" caption="Room%20visits">
+              <variables>
+                <var key="scrollable" value="visits_list" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

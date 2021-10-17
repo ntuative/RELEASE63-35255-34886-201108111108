@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="issue_handler_issue_info" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="280" height="16" params="16" style="0" color="0xffa2d6ea" background="true">
+      <children>
+        <text x="0" y="0" width="80" height="16" params="17" style="0" name="reporter" caption="reporter" treshold="0">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="80" y="0" width="60" height="16" params="16" style="0" name="category" caption="category">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="140" y="0" width="90" height="16" params="16" style="0" name="room" caption="room" treshold="0">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="230" y="0" width="50" height="16" params="16" style="0" name="time_open" caption="hh%3Amm%3Ass">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>

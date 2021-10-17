@@ -1,0 +1,23 @@
+# Default Configuration File
+logout.disconnect.url=http://%predefined%/account/disconnected
+link.format.userpage=http://%predefined%/rd/%ID%
+link.format.mail.compose=http://%predefined%/me#mail/compose/%recipientid%
+link.format.mail.inbox=http://%predefined%/me#mail/inbox/%random%/
+link.format.tag.search=http://%predefined%/tag/search?tag=%tag%
+link.format.user.search=http://%predefined%/me#habbo-search
+link.format.friendlist.pref=http://%predefined%/profile/friendsmanagement?tab=6
+link.format.collectibles=http://%predefined%/credits/collectibles
+link.format.credits=http://%predefined%/credits
+link.format.pixels=http://%predefined%/credits/pixels
+link.format.club=http://%predefined%/credits/habboclub
+link.format.pets=http://%predefined%/hotel/pets
+link.format.madmoney=http://%predefined%/credits/credits_subscription
+logout.disconnect.url=http://%predefined%/account/disconnected?reason=logout
+logout.concurrent.url=http://%predefined%/account/disconnected
+logout.url=http://%predefined%/account/disconnected
+group_logo_url_template=http://%predefined%/habbo-imaging/badge-fill/%imagerdata%.gif
+group.homepage.url=http://%predefined%/groups/%groupid%/id
+avatar.editor.url=%predefined%/profile
+avatar.editor.character.update.url=http://%predefined%/profile/characterupdate
+avatareditor.promohabbos=http://%predefined%/habblet/xml/promo_habbos
+

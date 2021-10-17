@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="chatline" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="263" height="14" params="144" style="0" name="visitrow" background="true">
+      <children>
+        <text x="189" y="0" width="30" height="14" params="80" style="0" name="time_txt" caption="15%3A14">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="5" y="0" width="185" height="14" params="145" style="0" name="room_name_txt" caption="Funky%20room" background="true">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="underline" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="223" y="0" width="39" height="14" params="81" style="0" name="view_room_txt" caption="Enter" background="true">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="underline" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>

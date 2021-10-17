@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="newuser_call_guidebot" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="209" height="159" params="131088" style="0" height_min="159" height_max="159">
+      <children>
+        <border x="0" y="0" width="209" height="159" params="131088" style="0" height_min="159" height_max="159">
+          <children>
+            <container x="0" y="0" width="209" height="159" params="131089" style="0">
+              <children>
+                <text x="10" y="10" width="189" height="100" params="4325392" style="0" name="info_text" caption="%24%7Bhelp.tutorial.guidebot.info%7D">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                    <var key="auto_size" value="null" type="String"/>
+                  </variables>
+                </text>
+                <button x="128" y="127" width="70" height="21" params="131089" style="0" name="button_cancel" caption="%24%7Bgeneric.back%7D"/>
+              </children>
+            </container>
+          </children>
+        </border>
+      </children>
+    </container>
+  </window>
+</layout>

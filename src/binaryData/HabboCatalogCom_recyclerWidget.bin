@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="recyclerWidget" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="170" width="339" height="245" params="17" style="0" name="recyclerContent">
+      <children>
+        <button x="28" y="45" width="182" height="24" params="131089" style="0" name="recycler_recycle" caption="${catalog.recycler.button.recycle}"/>
+        <bitmap x="28" y="1" width="34" height="34" params="17" style="0" name="slot_bg_1"/>
+        <bitmap x="65" y="1" width="34" height="34" params="17" style="0" name="slot_bg_2"/>
+        <bitmap x="102" y="1" width="34" height="34" params="17" style="0" name="slot_bg_3"/>
+        <bitmap x="139" y="1" width="34" height="34" params="17" style="0" name="slot_bg_4"/>
+        <bitmap x="176" y="1" width="34" height="34" params="17" style="0" name="slot_bg_5"/>
+        <bitmap x="28" y="1" width="34" height="34" params="17" style="0" name="slot_img_1"/>
+        <bitmap x="65" y="1" width="34" height="34" params="17" style="0" name="slot_img_2"/>
+        <bitmap x="102" y="1" width="34" height="34" params="17" style="0" name="slot_img_3"/>
+        <bitmap x="139" y="1" width="34" height="34" params="17" style="0" name="slot_img_4"/>
+        <bitmap x="176" y="1" width="34" height="34" params="17" style="0" name="slot_img_5"/>
+      </children>
+    </container>
+  </window>
+</layout>

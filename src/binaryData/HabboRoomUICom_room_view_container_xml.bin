@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="room_view_container" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="100" height="100" params="2224" style="0" name="room_view_container">
+      <children>
+        <display_object_wrapper x="0" y="0" width="100" height="100" params="2209" style="0" name="room_canvas_wrapper"/>
+        <display_object_wrapper x="0" y="0" width="100" height="100" params="2208" style="0" name="colorizer_wrapper"/>
+      </children>
+    </container>
+  </window>
+</layout>

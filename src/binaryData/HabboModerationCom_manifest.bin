@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.bootstrap.ModerationManager" version="0.0" >
+	    <interface iid="com.sulake.iid.IIDHabboModeration" />
+		<assets>
+		    <asset mimeType="text/xml" name="chatlog_chatline_xml" />
+		    <asset mimeType="text/xml" name="chatlog_frame_xml" />
+		    <asset mimeType="text/xml" name="chatlog_roomheader_xml" />		
+			<asset mimeType="text/xml" name="issue_browser_xml" />
+			<asset mimeType="text/xml" name="open_issues_list_item_xml" />
+			<asset mimeType="text/xml" name="my_issues_list_item_xml" />
+            <asset mimeType="text/xml" name="picked_issues_list_item_xml" />
+			<asset mimeType="text/xml" name="open_issues_xml" />
+			<asset mimeType="text/xml" name="picked_issues_xml" />			
+			<asset mimeType="text/xml" name="modact_offence_xml" />
+			<asset mimeType="text/xml" name="modact_offencectg_xml" />
+			<asset mimeType="text/xml" name="modact_summary_xml" />
+            <asset mimeType="text/xml" name="my_issues_xml" />
+            <asset mimeType="text/xml" name="roomtool_frame_xml" />
+            <asset mimeType="text/xml" name="roomtool_roomdata_xml" />
+            <asset mimeType="text/xml" name="roomvisits_frame_xml" />
+            <asset mimeType="text/xml" name="roomvisits_row_xml" />
+			<asset mimeType="text/xml" name="send_msgs_xml" />
+			<asset mimeType="text/xml" name="start_panel_xml" />
+			<asset mimeType="text/xml" name="user_info_xml" />
+			<asset mimeType="text/xml" name="user_info_frame_xml" />
+			<asset mimeType="text/xml" name="issue_handler_xml" />
+            <asset mimeType="text/xml" name="issue_handler_issue_info_xml" />
+            <asset mimeType="text/xml" name="issue_handler_message_list_item_xml" />
+            <asset mimeType="image/png" name="room_icon_png" />
+			<asset mimeType="image/png" name="user_icon_png" />
+		</assets>
+	</component>
+	
+</manifest>

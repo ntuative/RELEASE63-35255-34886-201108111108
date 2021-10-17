@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="rev_room_event_info" width="242" height="231" version="0.1" uid="90BF55BB-F76C-135F-2444-E4183A06021A">
+  <window>
+    <frame x="24" y="24" width="242" height="231" params="32769" style="1" caption="%24%7Bnavigator.roomsettings.roominfo%7D" color="0x0222222">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <container x="0" y="0" width="230" height="200" params="12582913" style="0" name="content">
+          <children>
+            <border x="0" y="0" width="230" height="79" params="98305" style="1" name="embed_info">
+              <children>
+                <text x="5" y="3" width="100" height="13" params="17" style="1" caption="%24%7Bnavigator.embed.caption%7D">
+                  <variables>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="text_style" value="bold" type="String"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="5" y="16" width="216" height="29" params="16" style="0" name="embed_info_txt" caption="%24%7Bnavigator.embed.info%7D">
+                  <variables>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <input x="5" y="54" width="217" height="15" params="1" style="0" name="embed_src_txt">
+                  <variables>
+                    <var key="always_show_selection" value="true" type="Boolean"/>
+                    <var key="border" value="true" type="Boolean"/>
+                    <var key="border_color" value="0xffffff" type="hex"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                  </variables>
+                </input>
+              </children>
+            </border>
+            <border x="0" y="0" width="230" height="90" params="98305" style="1" name="event_info">
+              <children>
+                <container x="0" y="0" width="230" height="100" params="17" style="1" name="event_details">
+                  <children>
+                    <text x="5" y="3" width="4" height="4" params="17" style="1" name="event_name">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="bold" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <container x="5" y="20" width="220" height="100" params="17" style="1" name="tags"/>
+                    <text x="5" y="25" width="220" height="30" params="16" style="0" name="event_desc" caption="PH%20Event%20Desc%3A%20Neque%20porro%20quisquam%20est%20qui%20dolorem%20ipsum%20quia%20dolor%20sit%20amet%2C%20consectetur%2C%20adipisci%20velit">
+                      <variables>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </container>
+                <container x="0" y="0" width="230" height="29" params="17" style="1" name="event_buttons">
+                  <children>
+                    <button x="5" y="4" width="100" height="22" params="131089" style="1" name="create_event_button" caption="%24%7Bnavigator.createevent%7D" width_min="100" width_max="100"/>
+                    <button x="5" y="4" width="100" height="22" params="131089" style="1" name="edit_event_button" caption="%24%7Bnavigator.roominfo.editevent%7D" width_min="100" width_max="100"/>
+                  </children>
+                </container>
+              </children>
+            </border>
+            <border x="0" y="50" width="230" height="90" params="98305" style="1" name="room_info">
+              <children>
+                <container x="0" y="0" width="230" height="100" params="17" style="1" name="public_space_details">
+                  <children>
+                    <text x="5" y="3" width="185" height="40" params="17" style="1" name="public_space_name">
+                      <variables>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="bold" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <text x="5" y="65" width="220" height="30" params="16" style="0" name="public_space_desc" caption="PH%20Room%20Desc%3A%20Neque%20porro%20quisquam%20est%20qui%20dolorem%20ipsum%20quia%20dolor%20sit%20amet%2C%20consectetur%2C%20adipisci%20velit">
+                      <variables>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </container>
+                <container x="0" y="0" width="230" height="100" params="17" style="1" name="room_details">
+                  <children>
+                    <bitmap x="206" y="1" width="18" height="18" params="16" style="0" name="home"/>
+                    <bitmap x="192" y="1" width="18" height="18" params="16" style="0" name="favourite"/>
+                    <text x="5" y="3" width="185" height="40" params="17" style="1" name="room_name">
+                      <variables>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="bold" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <container x="0" y="20" width="230" height="16" params="17" style="1" name="owner_name_cont">
+                      <children>
+                        <text x="5" y="0" width="42" height="13" params="17" style="1" name="owner_caption" caption="%24%7Bnavigator.roomownercaption%7D">
+                          <variables>
+                            <var key="auto_size" value="left" type="String"/>
+                            <var key="text_color" value="0xffffff" type="hex"/>
+                            <var key="text_style" value="bold" type="String"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                          </variables>
+                        </text>
+                        <text x="30" y="0" width="80" height="13" params="17" style="0" name="owner_name" caption="PH%20Owner%20Name">
+                          <variables>
+                            <var key="auto_size" value="left" type="String"/>
+                            <var key="text_color" value="0xffffff" type="hex"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                          </variables>
+                        </text>
+                      </children>
+                    </container>
+                    <container x="5" y="37" width="220" height="100" params="17" style="1" name="tags"/>
+                    <text x="5" y="65" width="220" height="30" params="16" style="0" name="room_desc" caption="PH%20Room%20Desc%3A%20Neque%20porro%20quisquam%20est%20qui%20dolorem%20ipsum%20quia%20dolor%20sit%20amet%2C%20consectetur%2C%20adipisci%20velit">
+                      <variables>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <container x="5" y="21" width="220" height="57" params="17" style="1" name="rating_cont">
+                      <children>
+                        <text x="0" y="6" width="43" height="13" params="17" style="1" name="rating_caption" caption="%24%7Bnavigator.roomrating%7D">
+                          <variables>
+                            <var key="auto_size" value="left" type="String"/>
+                            <var key="text_color" value="0xffffff" type="hex"/>
+                            <var key="text_style" value="bold" type="String"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                          </variables>
+                        </text>
+                        <text x="70" y="6" width="34" height="13" params="17" style="0" name="rating_txt" caption="PH%20123">
+                          <variables>
+                            <var key="auto_size" value="left" type="String"/>
+                            <var key="text_color" value="0xffffff" type="hex"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                          </variables>
+                        </text>
+                        <container_button x="0" y="8" width="220" height="20" params="17" style="1" name="rate_up_button" width_max="220">
+                          <children>
+                            <bitmap x="6" y="3" width="18" height="16" params="16" style="0" name="thumb_up"/>
+                            <text x="26" y="3" width="190" height="12" params="16" style="0" name="rate_up_text" caption="%24%7Bnavigator.rateroom%7D">
+                              <variables>
+                                <var key="text_color" value="0xffffff" type="hex"/>
+                                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                              </variables>
+                            </text>
+                          </children>
+                        </container_button>
+                        <container_button x="0" y="35" width="220" height="20" params="17" style="1" name="facebook_like_button" width_max="220">
+                          <children>
+                            <bitmap x="5" y="3" width="18" height="16" params="16" style="0" name="facebook_logo_small"/>
+                            <text x="26" y="3" width="190" height="12" params="16" style="0" name="facebook_like_text" caption="%24%7Bnavigator.like.room%7D">
+                              <variables>
+                                <var key="text_color" value="0xffffff" type="hex"/>
+                                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                              </variables>
+                            </text>
+                          </children>
+                        </container_button>
+                      </children>
+                    </container>
+                    <button x="5" y="10" width="220" height="21" params="131089" style="1" name="staff_pick_button" caption="filledByTheServer" width_min="220" width_max="220"/>
+                  </children>
+                </container>
+                <container x="0" y="0" width="230" height="29" params="17" style="1" name="room_buttons">
+                  <children>
+                    <container_button x="5" y="4" width="220" height="20" params="17" style="1" name="add_favourite_button" width_max="220">
+                      <children>
+                        <bitmap x="5" y="2" width="18" height="16" params="17" style="0" name="favourite"/>
+                        <text x="26" y="3" width="122" height="20" params="16" style="0" caption="%24%7Bnavigator.roominfo.addtofavourites%7D">
+                          <variables>
+                            <var key="text_color" value="0xffffff" type="hex"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                          </variables>
+                        </text>
+                      </children>
+                    </container_button>
+                    <container_button x="5" y="4" width="220" height="20" params="17" style="1" name="rem_favourite_button" width_max="220">
+                      <children>
+                        <bitmap x="5" y="2" width="18" height="16" params="17" style="0" name="favourite"/>
+                        <text x="26" y="3" width="122" height="20" params="16" style="0" caption="%24%7Bnavigator.roominfo.removefromfavourites%7D">
+                          <variables>
+                            <var key="text_color" value="0xffffff" type="hex"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                          </variables>
+                        </text>
+                      </children>
+                    </container_button>
+                    <container_button x="110" y="4" width="115" height="22" params="17" style="1" name="make_home_button" width_max="115">
+                      <children>
+                        <bitmap x="5" y="2" width="18" height="16" params="17" style="0" name="home"/>
+                        <text x="26" y="3" width="122" height="20" params="16" style="0" caption="%24%7Bnavigator.roominfo.makehome%7D">
+                          <variables>
+                            <var key="text_color" value="0xffffff" type="hex"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                          </variables>
+                        </text>
+                      </children>
+                      <variables>
+                        <var key="tool_tip_caption" value="${navigator.roominfo.makehome.tooltip}" type="String"/>
+                      </variables>
+                    </container_button>
+                    <button x="5" y="4" width="100" height="22" params="131089" style="1" name="room_settings_button" caption="%24%7Bnavigator.roomsettings%7D" width_min="100" width_max="100"/>
+                  </children>
+                </container>
+              </children>
+            </border>
+            <container x="0" y="0" width="230" height="40" params="16" style="0" name="buttons_container">
+              <children>
+                <button x="0" y="10" width="225" height="25" params="131089" style="1" name="zoom_button" caption="Zoom" width_min="110" width_max="225"/>
+              </children>
+            </container>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="friend_request_entry" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="190" height="20" params="17" style="0" name="cont_26981" color="0xff9a9773" background="true">
+      <children>
+        <label x="0" y="3" width="181" height="20" params="17" style="0" name="requester_name_text" caption="PH%20Requester%20Name">
+          <variables>
+            <var key="text_style" value="regular" />
+          </variables>
+        </label>
+        <label x="110" y="3" width="70" height="20" params="81" style="0" name="info_text" caption="PH%20Info%20Text">
+          <variables>
+            <var key="text_style" value="regular" />
+          </variables>
+        </label>
+        <container x="149" y="4" width="16" height="14" params="81" style="0" name="accept" background="true">
+          <children>
+            <icon x="0" y="0" width="16" height="14" params="16" style="8" name="icon" color="0x33cc00"/>
+          </children>
+        </container>
+        <container x="174" y="4" width="16" height="14" params="81" style="0" name="reject" background="true">
+          <children>
+            <icon x="0" y="0" width="16" height="14" params="16" style="9" name="icon" color="0xff3333"/>
+          </children>
+        </container>
+      </children>
+    </container>
+  </window>
+</layout>

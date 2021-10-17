@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<manifest>
+	<component class="com.sulake.bootstrap.HabboHelp" version="0.0">
+	<interface iid="com.sulake.iid.IIDHabboHelp" />
+		<assets>
+			<asset mimeType="text/xml" name="placeholder_xml" />
+			<asset mimeType="text/xml" name="help_frame_xml" />
+			<asset mimeType="text/xml" name="help_back_button_xml" />
+			<asset mimeType="text/xml" name="help_front_page_xml" />
+			<asset mimeType="text/xml" name="help_faq_categories_xml" />
+			<asset mimeType="text/xml" name="help_faq_category_xml" />
+			<asset mimeType="text/xml" name="help_faq_entry_xml" />
+			<asset mimeType="text/xml" name="help_itemlist_item_white_bg_xml" />
+			<asset mimeType="text/xml" name="help_itemlist_item_urgent_xml" />
+			<asset mimeType="text/xml" name="help_itemlist_item_xml" />
+			<asset mimeType="text/xml" name="help_cfh_send_xml" />
+			<asset mimeType="text/xml" name="help_cfh_pick_topic_xml" />
+			<asset mimeType="text/xml" name="help_cfh_pick_topic_item_xml" />
+			<asset mimeType="text/xml" name="help_cfh_thanks_xml" />
+			<asset mimeType="text/xml" name="help_cfh_abusive_xml" />
+			<asset mimeType="text/xml" name="help_cfh_pending_xml" />
+
+			<asset mimeType="text/xml" name="report_user_pick_topic_xml" />
+			<asset mimeType="text/xml" name="report_user_send_xml" />
+			<asset mimeType="text/xml" name="report_user_pick_user_xml" />
+			<asset mimeType="text/xml" name="report_user_pick_user_item_xml" />
+			
+			<asset mimeType="image/png" name="back_png" />
+			<asset mimeType="image/png" name="back_hi_png" />
+			<asset mimeType="image/png" name="guidebot_icon_png" />
+			
+			<asset mimeType="text/xml" name="tutorial_frame_xml" />
+			<asset mimeType="text/xml" name="tutorial_front_page_xml" />
+			<asset mimeType="text/xml" name="tutorial_change_name_xml" />
+            <asset mimeType="text/xml" name="tutorial_change_name_confirmation_xml" />
+			<asset mimeType="text/xml" name="tutorial_change_clothes_xml" />
+			<asset mimeType="text/xml" name="tutorial_call_guidebot_xml" />
+			<asset mimeType="text/xml" name="tutorial_name_suggestion_item_xml" />
+			<asset mimeType="text/xml" name="tutorial_arrow_xml" />
+
+            <asset mimeType="text/xml" name="hotel_merge_name_change_xml" />
+            <asset mimeType="text/xml" name="hotel_merge_name_selection_xml" />
+            <asset mimeType="text/xml" name="hotel_merge_name_confirmation_xml" />
+
+            <asset mimeType="text/xml" name="welcome_name_change_xml" />
+            <asset mimeType="text/xml" name="welcome_name_selection_xml" />
+            <asset mimeType="text/xml" name="welcome_name_confirmation_xml" />
+            <asset mimeType="text/xml" name="welcome_screen_xml" />
+            <asset mimeType="image/png" name="welcome_screen_arrow" />
+
+			<asset mimeType="image/png" name="tutorial_button_changelooks_over" />
+			<asset mimeType="image/png" name="tutorial_button_changelooks" />
+			<asset mimeType="image/png" name="tutorial_button_changename_over" />
+			<asset mimeType="image/png" name="tutorial_button_changename" />
+			<asset mimeType="image/png" name="tutorial_button_guidebot_over" />
+			<asset mimeType="image/png" name="tutorial_button_guidebot" />
+			<asset mimeType="image/png" name="tutorial_button_min_bg" />
+			<asset mimeType="image/png" name="tutorial_button_min_over" />
+			<asset mimeType="image/png" name="tutorial_button_min" />
+			<asset mimeType="image/png" name="tutorial_button_name_check" />
+			<asset mimeType="image/png" name="tutorial_button_name_check_over" />
+			<asset mimeType="image/png" name="tutorial_highlight_blue_arrow" />
+		</assets>
+	</component>
+</manifest>

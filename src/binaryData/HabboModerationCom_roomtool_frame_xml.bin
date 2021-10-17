@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="roomtool_frame" width="20" height="20" version="0.0">
+  <window>
+    <frame x="10" y="10" width="240" height="308" params="32769" style="0" caption="Room%20Info">
+      <children>
+        <itemlist_vertical x="0" y="0" width="230" height="276" params="8388625" style="0" name="list_cont" caption="Room%20Info" background="true">
+          <children>
+            <border x="0" y="0" width="230" height="17" params="4194320" style="0" name="room_cont" caption="Room%20Info"/>
+            <container x="0" y="17" width="230" height="5" params="16" style="0" name="spacing" caption="Room%20Info"/>
+            <border x="0" y="22" width="230" height="74" params="16" style="0" name="info_cont" caption="Room%20Info">
+              <children>
+                <text x="5" y="2" width="80" height="13" params="16" style="0" caption="Room%20owner%3A">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="5" y="15" width="90" height="13" params="16" style="0" caption="Users%20in%20room%3A">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="5" y="28" width="90" height="13" params="16" style="0" caption="Owner%20in%20room%3A">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="5" y="41" width="90" height="13" params="16" style="0" caption="Has%20event%3A">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="85" y="2" width="71" height="13" params="17" style="0" name="owner_name_txt" caption="sulka" background="true">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="underline" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="100" y="28" width="40" height="13" params="16" style="0" name="owner_in_room_txt" caption="yes">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="100" y="15" width="40" height="13" params="16" style="0" name="user_count_txt" caption="18">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="100" y="41" width="40" height="13" params="16" style="0" name="has_event_txt" caption="no">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <button x="155" y="4" width="70" height="21" params="131089" style="0" name="enter_room_but" caption="Enter%20room" width_min="70" width_max="70"/>
+                <button x="155" y="26" width="70" height="21" params="131089" style="0" name="chatlog_but" caption="Chatlog" width_min="70" width_max="70"/>
+                <button x="155" y="48" width="70" height="21" params="131089" style="0" name="edit_in_hk_but" caption="Edit%20in%20HK" width_min="70" width_max="70"/>
+              </children>
+            </border>
+            <container x="0" y="95" width="230" height="5" params="16" style="0" name="event_spacing" caption="Room%20Info"/>
+            <border x="0" y="100" width="230" height="17" params="16" style="0" name="event_cont" caption="Room%20Info"/>
+            <container x="0" y="117" width="230" height="5" params="16" style="0" name="spacing" caption="Room%20Info"/>
+            <border x="0" y="122" width="230" height="76" params="16" style="0" name="act_cont" caption="Room%20Info">
+              <children>
+                <checkbox x="5" y="5" width="16" height="16" params="17" style="0" name="kick_check" caption="Room%20Info"/>
+                <checkbox x="5" y="30" width="16" height="16" params="17" style="0" name="lock_check" caption="Room%20Info"/>
+                <checkbox x="5" y="54" width="16" height="16" params="17" style="0" name="changename_check" caption="Room%20Info"/>
+                <text x="24" y="5" width="199" height="25" params="16" style="0" caption="Kick%20users%20out%20of%20the%20room%20%28automatically%20stops%20the%20event%29">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="24" y="31" width="199" height="16" params="16" style="0" caption="Change%20room%20lock%20to%20doorbell">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="24" y="48" width="199" height="25" params="16" style="0" caption="Change%20room%20name%20to%20%27Inappropriate%20to%20hotel%20management%27">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </border>
+            <container x="0" y="198" width="230" height="5" params="16" style="0" name="spacing" caption="Room%20Info"/>
+            <dropmenu x="0" y="0" width="227" height="20" params="1" style="0" name="msgTemplatesSelect" caption="Select%20from%20message%20templates"/>
+            <container x="0" y="198" width="230" height="5" params="16" style="0" name="spacing" caption="Room%20Info"/>
+            <input x="0" y="203" width="227" height="45" params="1" style="0" name="message_input" caption="Type%20a%20mandatory%20message%20to%20the%20users%20in%20this%20text%20box." color="0xffffffff" background="true">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="border" value="true" type="Boolean"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </input>
+            <container x="0" y="248" width="230" height="5" params="16" style="0" name="spacing" caption="Room%20Info"/>
+            <container x="0" y="253" width="230" height="21" params="16" style="0" name="footer_cont" caption="Room%20Info">
+              <children>
+                <button x="0" y="0" width="97" height="21" params="131089" style="0" name="send_caution_but" caption="Send%20Caution" width_min="97" width_max="97"/>
+                <button x="131" y="0" width="97" height="21" params="131089" style="0" name="send_message_but" caption="Send%20message" width_min="97" width_max="97"/>
+              </children>
+            </container>
+          </children>
+          <variables>
+            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+            <var key="resize_on_item_update" value="true" type="Boolean"/>
+          </variables>
+        </itemlist_vertical>
+      </children>
+    </frame>
+  </window>
+</layout>

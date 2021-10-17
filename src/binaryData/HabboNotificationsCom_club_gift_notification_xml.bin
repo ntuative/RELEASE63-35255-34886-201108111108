@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="achievement_notification" width="192" height="83" version="0.1" uid="F5E2802A-9603-A353-40B7-DF91F78125FF">
+  <window>
+    <border x="0" y="0" width="192" height="82" params="273" style="6" caption="%24%7Bnotifications.title.club_gift%7D" color="0x06f6f6f">
+      <children>
+        <icon x="6" y="7" width="16" height="16" params="16" style="14" name="club_icon"/>
+        <text x="25" y="7" width="174" height="36" params="16" style="0" name="info_text" caption="%24%7Bnotifications.text.club_gift%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <button x="-33" y="44" width="217" height="28" params="393233" style="4" name="open_catalog_button" caption="%24%7Bnotifications.button.show_gift_list%7D"/>
+        <region x="8" y="49" width="35" height="18" params="131089" style="6" name="cancel_link_region" clipping="false" treshold="0">
+          <children>
+            <text x="0" y="0" width="147" height="17" params="0" style="1" name="cancel_link" caption="%24%7Bnotifications.button.later%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+      </children>
+    </border>
+  </window>
+</layout>

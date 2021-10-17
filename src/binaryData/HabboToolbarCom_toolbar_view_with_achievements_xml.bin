@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="toolbar_view_squeezed" width="86" height="540" version="0.1" uid="DCDDEEF2-C4A0-824D-6E40-92192B4EE329">
+  <window>
+    <border x="0" y="0" width="86" height="540" params="1" style="6" name="main" color="0x079756e">
+      <filters>
+        <DropShadowFilter distance="3" alpha="0.6"/>
+      </filters>
+      <children>
+        <region x="5" y="0" width="76" height="80" params="17" style="0" name="NAVIGATOR" treshold="0" tags="ICON_REG">
+          <children>
+            <border x="3" y="5" width="70" height="75" params="2064" style="2" name="bg_navigator" color="0x057544d" tags="ICON_BORDER">
+              <children>
+                <bitmap x="5" y="-2" width="60" height="60" params="208" style="0" name="icon_navigator" tags="ICON_BMP"/>
+              </children>
+            </border>
+            <text x="1" y="63" width="76" height="17" params="263184" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.navigator%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="17" params="263184" style="0" name="text" caption="%24%7Btoolbar.icon.label.navigator%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="90" width="76" height="80" params="17" style="0" name="QUESTS" treshold="0" tags="ICON_REG%2CVIEW_STATE_TOGGLE">
+          <children>
+            <border x="3" y="5" width="70" height="75" params="2064" style="2" name="bg_quests" color="0x057544d" tags="ICON_BORDER">
+              <children>
+                <bitmap x="5" y="0" width="60" height="60" params="208" style="0" name="icon_quests" tags="ICON_BMP"/>
+              </children>
+            </border>
+            <text x="1" y="63" width="76" height="17" params="263184" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.quests%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="17" params="263184" style="0" name="text" caption="%24%7Btoolbar.icon.label.quests%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="180" width="76" height="80" params="17" style="0" name="ACHIEVEMENTS" treshold="0" tags="ICON_REG">
+          <children>
+            <border x="3" y="5" width="70" height="75" params="2064" style="2" name="bg_achievements" color="0x057544d" tags="ICON_BORDER">
+              <children>
+                <bitmap x="5" y="0" width="60" height="60" params="208" style="0" name="icon_achievements" tags="ICON_BMP"/>
+              </children>
+            </border>
+            <text x="1" y="63" width="76" height="17" params="263184" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.achievements%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="17" params="263184" style="0" name="text" caption="%24%7Btoolbar.icon.label.achievements%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="270" width="76" height="80" params="17" style="0" name="CATALOGUE" treshold="0" tags="ICON_REG">
+          <children>
+            <border x="3" y="5" width="70" height="75" params="2064" style="2" name="bg_catalogue" color="0x057544d" tags="ICON_BORDER">
+              <children>
+                <bitmap x="5" y="0" width="60" height="60" params="208" style="0" name="icon_catalogue" tags="ICON_BMP"/>
+              </children>
+            </border>
+            <text x="1" y="63" width="76" height="17" params="263184" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.catalogue%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="17" params="263184" style="0" name="text" caption="%24%7Btoolbar.icon.label.catalogue%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="360" width="76" height="80" params="17" style="0" name="INVENTORY" treshold="0" tags="ICON_REG%2CVIEW_STATE_TOGGLE">
+          <children>
+            <border x="3" y="5" width="70" height="75" params="2064" style="2" name="bg_inventory" color="0x057544d" tags="ICON_BORDER">
+              <children>
+                <bitmap x="5" y="0" width="60" height="60" params="208" style="0" name="icon_inventory" tags="ICON_BMP"/>
+              </children>
+            </border>
+            <text x="1" y="63" width="76" height="17" params="263184" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.inventory%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="17" params="263184" style="0" name="text" caption="%24%7Btoolbar.icon.label.inventory%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="450" width="76" height="80" params="17" style="0" name="MEMENU" treshold="0" tags="ICON_REG%2CVIEW_STATE_TOGGLE">
+          <children>
+            <border x="3" y="5" width="70" height="75" params="2064" style="2" name="bg_memenu" color="0x057544d" tags="ICON_BORDER">
+              <children>
+                <bitmap x="5" y="0" width="60" height="60" params="208" style="0" name="icon_me_menu" tags="ICON_BMP"/>
+              </children>
+            </border>
+            <text x="1" y="63" width="76" height="17" params="263184" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.memenu%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="17" params="263184" style="0" name="text" caption="%24%7Btoolbar.icon.label.memenu%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+      </children>
+    </border>
+  </window>
+</layout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="purse_indicator_credits" width="95" height="29" version="0.1" uid="EB3298D7-079A-5BA3-79C8-BC214436A28E">
+  <window>
+    <border x="0" y="0" width="95" height="29" params="17" style="6" name="outer_border" color="0xffaeaca7" clipping="false" treshold="0">
+      <children>
+        <text x="5" y="4" width="61" height="19" params="262160" style="0" name="days_shadow" caption="0">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="right" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="14" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+            <var key="kerning" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="4" y="3" width="61" height="19" params="262160" style="0" name="days" caption="0">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="right" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="14" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+            <var key="kerning" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <icon x="71" y="6" width="16" height="16" params="22" style="14" name="club_icon"/>
+      </children>
+    </border>
+  </window>
+</layout>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<layout name="habbo_window_layout_badge" width="14" height="18" version="0.0">
+	<window>
+		<label name="_BTN_TEXT" style="0" x="0" y="0" width="14" height="18" tags="_EXCLUDE, _INTERNAL, title">
+			<params>
+				<param name="relative_horizontal_scale_center" />
+				<param name="relative_vertical_scale_center" />
+				<param name="use_parent_graphic_context" />
+                <param name="inherit_caption" />
+			</params>
+			<variables>
+                <var key="text_style" value="u_bold" />
+				<var key="font_size" value="11" type="uint"/>
+                <var key="text_color" value="0xffffffff" type="hex" />
+				<var key="sharpness" value="80" type="Number"/>
+				<var key="thickness" value="-15" type="Number"/>
+				<var key="margins"><value>
+					<Map>
+						<var key="left"   value="3" type="int" />
+						<var key="top"    value="0" type="int" />
+						<var key="right"  value="5" type="int" />
+						<var key="bottom" value="1" type="int" />
+					</Map>
+				</value></var>
+			</variables>
+		</label>
+	</window>
+</layout>

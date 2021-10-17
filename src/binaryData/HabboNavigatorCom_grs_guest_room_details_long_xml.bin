@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="navigator_guest_room_details_long" width="253" height="220" version="0.1" uid="C90CF9BA-4636-F3EE-FF33-905DF279817C">
+  <window>
+    <border x="0" y="0" width="253" height="220" params="0" style="0" name="room_popup_container">
+      <children>
+        <container x="10" y="10" width="230" height="200" params="145" style="0" name="details_container">
+          <children>
+            <text x="0" y="0" width="233" height="30" params="144" style="0" name="roomname" caption="PH%20Room%20Name%3A%20Neque%20porro%20quisquam%20est%20que">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="0" y="30" width="180" height="17" params="16" style="0" name="roomowner_cont">
+              <children>
+                <text x="0" y="0" width="42" height="13" params="16" style="0" name="roomowner.caption" caption="%24%7Bnavigator.roomownercaption%7D">
+                  <variables>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                  </variables>
+                </text>
+                <html x="50" y="0" width="80" height="13" params="1" style="0" name="roomowner" caption="PH%20Room%20Owner" background="true" treshold="0">
+                  <variables>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="underline" value="true" type="Boolean"/>
+                    <var key="editable" value="false" type="Boolean"/>
+                    <var key="selectable" value="false" type="Boolean"/>
+                  </variables>
+                </html>
+              </children>
+            </container>
+            <container x="0" y="50" width="180" height="12" params="16" style="0" name="roomctg_cont">
+              <children>
+                <text x="0" y="0" width="60" height="13" params="16" style="0" name="roomctg.caption" caption="%24%7Bnavigator.roomctg%7D">
+                  <variables>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                  </variables>
+                </text>
+                <text x="50" y="0" width="65" height="13" params="17" style="0" name="roomctg" caption="PH%20Category" background="true">
+                  <variables>
+                    <var key="auto_size" value="left" type="String"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+            <text x="0" y="70" width="233" height="30" params="144" style="0" name="roomdesc" caption="PH%20Room%20Desc%3A%20Neque%20porro%20quisquam%20est%20qui%20dolorem%20ipsum%20quia%20dolor%20sit%20amet%2C%20consectetur%2C%20adipisci%20velit">
+              <variables>
+                <var key="text_color" value="0x808080" type="hex"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="0" y="90" width="233" height="70" params="16" style="0" name="extra_cont">
+              <children>
+                <container x="72" y="0" width="161" height="40" params="17" style="0" name="tags"/>
+                <container x="72" y="38" width="161" height="12" params="16" style="0" name="startedat_cont">
+                  <children>
+                    <text x="0" y="0" width="69" height="13" params="16" style="0" name="startedat.caption" caption="%24%7Bnavigator.eventstartedat%7D">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="font_face" value="Volter Bold" type="String"/>
+                      </variables>
+                    </text>
+                    <text x="50" y="0" width="46" height="13" params="17" style="0" name="startedat" caption="PH%3A%2015%3A48" background="true">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                      </variables>
+                    </text>
+                  </children>
+                </container>
+                <container x="72" y="52" width="161" height="12" params="16" style="0" name="rating_cont">
+                  <children>
+                    <text x="0" y="0" width="43" height="13" params="16" style="0" name="rating.caption" caption="%24%7Bnavigator.ratingcaption%7D">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="font_face" value="Volter Bold" type="String"/>
+                      </variables>
+                    </text>
+                    <text x="50" y="0" width="21" height="13" params="17" style="0" name="rating" caption="999" background="true">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                      </variables>
+                    </text>
+                  </children>
+                </container>
+              </children>
+            </container>
+            <container x="0" y="130" width="233" height="31" params="16" style="0" name="doormode_doorbell">
+              <children>
+                <bitmap x="0" y="0" width="19" height="24" params="16" style="0" name="doormode_doorbell"/>
+                <text x="35" y="0" width="198" height="31" params="16" style="0" name="infotxt" caption="%24%7Bnavigator.info.doorbell%7D">
+                  <variables>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+            <container x="0" y="166" width="233" height="31" params="16" style="0" name="doormode_password">
+              <children>
+                <bitmap x="0" y="0" width="19" height="24" params="16" style="0" name="doormode_password"/>
+                <text x="35" y="0" width="198" height="31" params="16" style="0" name="infotxt" caption="%24%7Bnavigator.info.password%7D">
+                  <variables>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+            <container x="0" y="202" width="233" height="20" params="16" style="0" name="trading_allowed">
+              <children>
+                <bitmap x="0" y="0" width="31" height="15" params="16" style="0" name="trading_allowed"/>
+                <text x="35" y="0" width="198" height="20" params="16" style="0" name="infotxt" caption="%24%7Bnavigator.info.tradingallowed%7D">
+                  <variables>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+          </children>
+        </container>
+      </children>
+    </border>
+  </window>
+</layout>

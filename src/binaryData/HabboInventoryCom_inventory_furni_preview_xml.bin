@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="inventory_furni_preview_b" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="160" height="215" params="16" style="0" name="furni_preview" background="true">
+      <children>
+        <itemlist_vertical x="0" y="0" width="160" height="215" params="16" style="0" name="preview_element_list">
+          <children>
+            <bitmap x="5" y="0" width="150" height="100" params="17" style="0" name="furni_preview_image" background="true" />
+            <text x="0" y="100" width="160" height="12" params="786576" style="0" name="furni_name" tags="furni_name" width_min="160" width_max="160" height_min="12">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <text x="0" y="112" width="160" height="45" params="16" style="0" name="furni_description" tags="furni_description">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </itemlist_vertical>
+          <itemlist x="0" y="0" width="52" height="34" params="17" style="0" name="icons_element_list">
+            <children>
+              <region x="0" y="0" width="52" height="16" params="131089" style="0" name="tradeable_info_region" treshold="0">
+                <children>
+                  <text x="33" y="1" width="4" height="4" params="0" style="0" name="tradeable_number" tags="NUMBER%2CCOUNT">
+                    <variables>
+                      <var key="font_face" value="Volter" type="String"/>
+                      <var key="font_size" value="9" type="uint"/>
+                      <var key="text_color" value="0x0" type="hex"/>
+                      <var key="embed_fonts" value="true" type="Boolean"/>
+                      <var key="auto_size" value="left" type="String"/>
+                    </variables>
+                  </text>
+                  <bitmap x="0" y="0" width="40" height="16" params="16" style="0" name="tradeable_icon"/>
+                </children>
+                <variables>
+                  <var key="tool_tip_caption" value="%24%7Binventory.furni.preview.tradeable_amount%7D" type="String"/>
+                </variables>
+              </region>
+              <region x="0" y="18" width="52" height="16" params="131089" style="0" name="recyclable_info_region" treshold="0">
+                <children>
+                  <text x="18" y="1" width="4" height="4" params="0" style="0" name="recyclable_number" tags="NUMBER%2CCOUNT">
+                    <variables>
+                      <var key="font_face" value="Volter" type="String"/>
+                      <var key="font_size" value="9" type="uint"/>
+                      <var key="text_color" value="0x0" type="hex"/>
+                      <var key="embed_fonts" value="true" type="Boolean"/>
+                      <var key="auto_size" value="left" type="String"/>
+                    </variables>
+                  </text>
+                  <bitmap x="0" y="0" width="28" height="16" params="16" style="0" name="recyclable_icon"/>
+                </children>
+                <variables>
+                  <var key="tool_tip_caption" value="%24%7Binventory.furni.preview.recyclable_amount%7D" type="String"/>
+                </variables>
+              </region>
+            </children>
+          </itemlist>
+        <button x="1" y="168" width="158" height="22" params="917521" style="0" name="placeinroom_btn" caption="%24%7Binventory.furni.placetoroom%7D"/>
+        <button x="1" y="168" width="158" height="22" params="917521" style="0" name="offertotrade_btn" caption="%24%7Binventory.trading.offer%7D" visible="false" width_min="60"/>
+        <button x="1" y="192" width="158" height="22" params="917521" style="0" name="sell_btn" caption="%24%7Binventory.marketplace.sell%7D"/>
+      </children>
+    </container>
+  </window>
+</layout>

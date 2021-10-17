@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="ros_stand_alone" width="100" height="100" version="0.0">
+ <window> 
+  <frame x="652" y="3" width="249" height="300" params="98305"  name="ros_stand_alone" caption="${navigator.roomsettings}">
+   <children>
+     <border x="5" y="2" width="228" height="270" params="98305"  name="settings_border"/>     
+   </children>
+  </frame>
+ </window>
+</layout> 

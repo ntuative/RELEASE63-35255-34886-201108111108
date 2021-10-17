@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ctlg_trophies" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_trophies">
+      <children>
+        <border x="30" y="270" width="286" height="83" params="16" style="2" color="0xcccccc"/>
+        <bitmap x="30" y="13" width="286" height="60" params="16" style="0" name="ctlg_header_img">
+          <variables>
+            <var key="handle_bitmap_disposing" value="true" type="Boolean"/>
+          </variables>
+        </bitmap>
+        <text x="143" y="81" width="176" height="154" params="16" style="0" name="ctlg_header_text">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="28" y="75" width="110" height="127" params="16" style="0" name="trophyWidget">
+          <children>
+            <bitmap x="4" y="0" width="102" height="127" params="16" style="0" name="ctlg_teaserimg_1">
+              <variables>
+                <var key="handle_bitmap_disposing" value="true" type="Boolean"/>
+              </variables>
+            </bitmap>
+            <container_button x="0" y="56" width="30" height="30" params="393361" style="0" name="ctlg_prevmodel_button" width_max="100">
+              <children>
+                <icon x="9" y="8" width="13" height="13" params="16" style="2" name="icon" color="0x0"/>
+              </children>
+            </container_button>
+            <container_button x="80" y="56" width="30" height="30" params="393361" style="0" name="ctlg_nextmodel_button" width_max="100">
+              <children>
+                <icon x="9" y="8" width="13" height="13" params="16" style="3" name="icon" color="0x0"/>
+              </children>
+            </container_button>
+          </children>
+        </container>
+        <text x="167" y="386" width="78" height="13" params="16" style="0" name="ctlg_price_1">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="34" y="245" width="276" height="27" params="16" style="0" name="ctlg_text_1">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="61" y="282" width="229" height="60" params="16" style="0" name="textInputWidget">
+          <children>
+            <input x="0" y="0" width="229" height="60" params="1" style="0" name="input_text">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="hex"/>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+              </variables>
+            </input>
+          </children>
+        </container>
+        <container x="28" y="225" width="150" height="40" params="17" style="0" name="colourGridWidget">
+          <children>
+            <itemgrid_vertical x="0" y="0" width="150" height="40" params="17" style="0" name="colourGrid">
+              <variables>
+                <var key="spacing" value="2" type="int"/>
+                <var key="scale_to_fit_items" value="true" type="Boolean"/>
+              </variables>
+            </itemgrid_vertical>
+          </children>
+        </container>
+        <text x="128" y="356" width="178" height="17" params="16" style="0" name="trophies_habbo_name">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="41" y="358" width="78" height="18" params="16" style="0" name="trophies_date">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="149" y="364" width="162" height="47" params="16" style="0" name="purchaseWidget"/>
+      </children>
+    </container>
+  </window>
+</layout>

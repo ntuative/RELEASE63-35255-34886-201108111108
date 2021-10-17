@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="ctlg_pixeleffects" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_pixeleffects">
+      <children>
+        <bitmap x="16" y="6" width="314" height="68" params="16" style="0" name="ctlg_header_img"/>
+        <text x="17" y="78" width="309" height="55" params="16" style="0" name="ctlg_header_text">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="18" y="130" width="134" height="14" params="16" style="0" name="ctlg_selectproduct" caption="%24%7Bcatalog_selectproduct%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="170" y="410" width="114" height="13" params="16" style="0" name="ctlg_price_pixels_wear">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="169" y="364" width="162" height="47" params="16" style="0" name="purchaseWidget"/>
+        <container x="174" y="148" width="162" height="207" params="16" style="0" name="productViewWidget">
+          <children>
+            <border x="0" y="0" width="154" height="172" params="16" style="2" name="pixelsBackground" color="0xcccccc" visible="false"/>
+            <bitmap x="5" y="11" width="144" height="162" params="16" style="0" name="ctlg_teaserimg_1"/>
+            <container x="5" y="0" width="144" height="158" params="16" style="0" color="0xff000000" background="true" name="room_canvas_container">
+              <children>
+                <display_object_wrapper x="0" y="0" width="144" height="158" params="2209" style="0" name="room_canvas"/>
+              </children>
+            </container>
+            <itemgrid_vertical x="12" y="90" width="122" height="76" params="17" style="0" name="bundleGrid">
+              <variables>
+                <var key="spacing" value="2" type="int"/>
+                <var key="scale_to_fit_items" value="true" type="Boolean"/>
+              </variables>
+            </itemgrid_vertical>
+            <scrollbar_vertical x="134" y="90" width="17" height="76" params="17" style="0" name="bundleGridScrollbar" visible="false" width_min="17" width_max="17">
+              <variables>
+                <var key="scrollable" value="bundleGrid" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+            <text x="0" y="162" width="162" height="15" params="16" style="0" name="ctlg_product_name">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="-2" y="179" width="162" height="30" params="16" style="0" name="ctlg_description">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <container x="8" y="148" width="156" height="264" params="17" style="0" name="itemGridWidget">
+          <children>
+            <itemgrid_vertical x="10" y="0" width="120" height="264" params="17" style="0" name="itemGrid">
+              <variables>
+                <var key="spacing" value="2" type="int"/>
+                <var key="scale_to_fit_items" value="true" type="Boolean"/>
+              </variables>
+            </itemgrid_vertical>
+            <scrollbar_vertical x="139" y="0" width="20" height="264" params="17" style="0" name="itemGridScrollbar">
+              <variables>
+                <var key="scrollable" value="itemGrid" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+          </children>
+        </container>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="usercount" width="20" height="20" version="0.0">
+  <window>
+    <region treshold="0"  x="0" y="0" width="34" height="13" params="80" style="0" name="usercount">
+      <children>
+        <bitmap x="0" y="0" width="34" height="13" params="16" style="0" name="usercount_bg"/>
+        <text x="19" y="1" width="9" height="13" params="16" style="0" name="txt" caption="0">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="16777215" type="uint"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </region>
+  </window>
+</layout>

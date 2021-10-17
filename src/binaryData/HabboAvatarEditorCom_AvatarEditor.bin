@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="AvatarEditor" width="131" height="124" version="0.1" uid="B93200F4-BAAD-2347-A198-304F04BB995C">
+  <window>
+    <border x="0" y="0" width="131" height="124" params="12716176" style="1" name="avatarEditor" clipping="false"/>
+  </window>
+</layout>

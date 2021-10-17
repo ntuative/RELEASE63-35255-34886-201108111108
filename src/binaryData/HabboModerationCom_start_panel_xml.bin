@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="start_panel" width="20" height="20" version="0.0">
+  <window>
+    <frame x="120" y="4" width="150" height="130" params="32769" style="0" name="mod_start_panel" caption="Mod%20Tools">
+      <children>
+        <button x="0" y="0" width_min="137" width="137" height="21" params="131089" style="0" name="room_tool_but" caption="Room tool for this room" width_max="137"/>
+        <button x="0" y="25" width_min="137" width="137" height="21" params="131089" style="0" name="chatlog_but" caption="Chatlog for this room" width_max="137"/>
+        <button x="0" y="50" width_min="137" width="137" height="21" params="131089" style="0" name="userinfo_but" caption="User info:" width_max="137"/>
+        <button x="0" y="75" width_min="137" width="137" height="21" params="131089" style="0" name="ticket_queue_but" caption="Ticket browser" width_max="137"/>
+      </children>
+    </frame>
+  </window>
+</layout>

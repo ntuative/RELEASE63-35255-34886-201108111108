@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="habbo_orderinfo_dialog" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="284" height="149" params="131089" style="0" name="habbo_orderinfo_dialog">
+      <children>
+        <border x="0" y="0" width="284" height="149" params="131088" style="0">
+          <children>
+            <itemlist_vertical x="0" y="0" width="284" height="149" params="131089" style="0" name="orderItemList">
+              <children>
+                <container x="0" y="0" width="284" height="80" params="16" style="0" name="infoContainer">
+                  <children>
+                    <text x="16" y="14" width="250" height="28" params="16" style="0" name="habbo_orderinfo_text_a" caption="%24%7Bcatalog.purchase.confirmation.dialog.costs%7D">
+                      <variables>
+                        <var key="font_face" value="Volter" type="String"/>
+                        <var key="font_size" value="9" type="uint"/>
+                        <var key="text_color" value="0x0" type="hex"/>
+                        <var key="embed_fonts" value="true" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <text x="16" y="34" width="250" height="28" params="16" style="0" name="habbo_orderinfo_text_b" caption="%24%7Bcatalog.purchase.confirmation.dialog.amount%7D">
+                      <variables>
+                        <var key="font_face" value="Volter" type="String"/>
+                        <var key="font_size" value="9" type="uint"/>
+                        <var key="text_color" value="0x0" type="hex"/>
+                        <var key="embed_fonts" value="true" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <text x="16" y="54" width="250" height="28" params="16" style="0" name="habbo_orderinfo_text_c" caption="%24%7Bcatalog.purchase.confirmation.dialog.remaining%7D">
+                      <variables>
+                        <var key="font_face" value="Volter" type="String"/>
+                        <var key="font_size" value="9" type="uint"/>
+                        <var key="text_color" value="0x0" type="hex"/>
+                        <var key="embed_fonts" value="true" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </container>
+                <container x="0" y="80" width="281" height="34" params="16" style="0" name="buttonContainer">
+                  <children>
+                    <button x="156" y="3" width="51" height="21" params="393361" style="0" name="button_cancel" caption="%24%7Bgeneric.cancel%7D" width_max="130"/>
+                    <button x="80" y="3" width="30" height="21" params="131217" style="0" name="button_ok" caption="%24%7Bgeneric.ok%7D" width_max="130"/>
+                  </children>
+                </container>
+              </children>
+            </itemlist_vertical>
+          </children>
+        </border>
+      </children>
+    </container>
+  </window>
+</layout>

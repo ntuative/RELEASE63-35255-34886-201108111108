@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="group_info" width="288" height="258" version="0.1" uid="3DB7CB1C-9D09-7719-CCB5-94DF1CE73748">
+  <window>
+    <frame x="0" y="0" width="288" height="258" params="33025" style="3" caption="%24%7Bgroup.window.title%7D" color="0xff418db0">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <container x="0" y="0" width="281" height="215" params="2064" style="0" name="groups_container" color="0xffffffffff" visible="false" background="true">
+          <children>
+            <itemlist x="0" y="0" width="264" height="215" params="2177" style="0" name="groups_item_list" background="true"/>
+            <scrollbar_vertical x="264" y="0" width="17" height="215" params="2113" style="0" name="groups_scroller">
+              <variables>
+                <var key="scrollable" value="groups_item_list" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+          </children>
+        </container>
+        <container x="0" y="0" width="282" height="218" params="17" style="0" name="group_container">
+          <children>
+            <container x="0" y="0" width="282" height="101" params="17" style="0" name="group_header">
+              <children>
+                <text x="65" y="0" width="152" height="18" params="208" style="0" name="group_name" caption="Masters%20of%20the%20universe">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="13" type="uint"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <region x="95" y="46" width="183" height="18" params="17" style="0" name="group_homepage_link_region" treshold="0">
+                  <children>
+                    <text x="0" y="0" width="134" height="17" params="4194320" style="0" name="group_homepage_link" caption="%24%7Bgroup.homepage%7D">
+                      <variables>
+                        <var key="antialias_type" value="advanced" type="String"/>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="font_face" value="Ubuntu" type="String"/>
+                        <var key="font_size" value="12" type="uint"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="underline" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </region>
+                <region x="95" y="67" width="183" height="18" params="17" style="0" name="group_room_link_region" treshold="0">
+                  <children>
+                    <text x="0" y="0" width="196" height="17" params="4194320" style="0" name="group_room_link" caption="%24%7Bgroup.room.link%7D">
+                      <variables>
+                        <var key="antialias_type" value="advanced" type="String"/>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="font_face" value="Ubuntu" type="String"/>
+                        <var key="font_size" value="12" type="uint"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="underline" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </region>
+                <text x="95" y="25" width="183" height="19" params="17" style="0" name="members_txt" caption="%24%7Bgroup.membercount%7D">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="12" type="uint"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="multiline" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <bitmap x="15" y="21" width="78" height="78" params="16" style="0" name="group_logo"/>
+              </children>
+            </container>
+            <text x="15" y="102" width="263" height="58" params="16" style="0" name="group_description" caption="jkh%20klj%20hklj%20hklj%20hkljh%20kljh%20kljh%20kljh%20lkjh%20kljh%20klj%20hlkjh%20klj%20hklj%20h%20kj%20klj%20hkljh%20klj%20hlkjh%20lkj%20hlkjh%20lkj%20hlkj%20hlkj%20hlkj%20hlkjh%20lkjh%20kljh%20klj">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="0" y="152" width="282" height="60" params="17" style="0" name="group_footer">
+              <children>
+                <button_thick x="65" y="8" width="160" height="29" params="131089" style="3" name="join_button" caption="%24%7Bgroup.join%7D" width_min="160" width_max="160"/>
+                <text x="53" y="12" width="175" height="18" params="208" style="0" name="membership_pending_txt" caption="%24%7Bgroup.membershippending%7D">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="13" type="uint"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <region x="5" y="39" width="274" height="18" params="17" style="0" name="my_groups_region" treshold="0">
+                  <children>
+                    <text x="75" y="0" width="123" height="17" params="208" style="0" name="show_my_groups_txt" caption="%24%7Bgroup.showmygroups%7D">
+                      <variables>
+                        <var key="antialias_type" value="advanced" type="String"/>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="font_face" value="Ubuntu" type="String"/>
+                        <var key="font_size" value="12" type="uint"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="underline" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </region>
+              </children>
+            </container>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

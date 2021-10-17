@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<skin name="habbo" version="0.1">
+
+	<!-- Main elements -->
+	
+	<component type="null"						    renderer="skin"	asset="habbo_skin_frame_xml"			layout="null" />
+	<component type="frame"			    style="0"	renderer="skin"	asset="habbo_skin_frame_xml"			layout="frame" color="0xff418db0" />
+	<component type="frame"			    style="1"	renderer="skin"	asset="habbo_skin_frame_xml"			layout="frame" color="0xff4c4c4c" />
+    <component type="frame"			    style="2"	renderer="skin"	asset="habbo_skin_frame_xml"			layout="frame" color="0xfffac200" />
+	<component type="frame"			    style="3"	renderer="skin"	asset="habbo_skin_frame_3_xml"			layout="frame_3" color="0xff67a3bf" />
+    <component type="badge"		        style="0"	renderer="skin"	asset="habbo_skin_border_7_xml"		    layout="border_7" color="0xffda0000"/>
+	<component type="border"		    style="0"	renderer="skin"	asset="habbo_skin_border_white_xml"		layout="border_white"	/>
+	<component type="border"		    style="1"	renderer="skin"	asset="habbo_skin_border_black_xml"		layout="border_black" />
+	<component type="border"		    style="2"	renderer="skin"	asset="habbo_skin_border_colorless_xml"	layout="border_colorless" />
+	<component type="border"		    style="3"	renderer="skin" asset="habbo_skin_border_slot_xml"		layout="border_slot" />
+    <component type="border"		    style="4"	renderer="skin" asset="habbo_skin_border_4_xml"	        layout="border_4" />
+    <component type="border"		    style="5"	renderer="skin" asset="habbo_skin_border_5_xml"	        layout="border_5" />
+	<component type="border"		    style="6"	renderer="skin" asset="habbo_skin_border_6_xml"	        layout="border_6" />
+	<component type="border"		    style="7"	renderer="skin" asset="habbo_skin_border_7_xml"	        layout="border_7" />
+	<component type="border"		    style="8"	renderer="skin" asset="habbo_skin_border_8_xml"	        layout="border_8" />
+    <component type="header"		    style="0"	renderer="skin"	asset="habbo_skin_header_xml"			layout="header"	color="0xff418db0" treshold="1" />
+	<component type="header"		    style="1"	renderer="skin"	asset="habbo_skin_header_xml"			layout="header" color="0xff4c4c4c" treshold="1" />
+	<component type="header"		    style="2"	renderer="skin"	asset="habbo_skin_header_xml"			layout="header"	color="0xfffac200" treshold="1" />
+	<component type="header"		    style="3"	renderer="null"	asset="habbo_skin_header_3_xml"			layout="header_3"	color="0xffffffff" treshold="0" />
+	<component type="container"					    renderer="null"	/>
+	<component type="bitmap"					    renderer="bitmap" />
+	<component type="canvas"					    renderer="null" />
+	<component type="background"				    renderer="null"	/>
+
+    <component type="bubble"                style="0"	renderer="skin"	asset="habbo_skin_bubble_xml"               layout="bubble"	/>
+    <component type="bubble_pointer_up"     style="0"	renderer="skin"	asset="habbo_skin_bubble_pointer_up_xml"	layout="pointer_up"   />
+    <component type="bubble_pointer_right"	style="0"	renderer="skin"	asset="habbo_skin_bubble_pointer_right_xml"	layout="pointer_right"   />
+    <component type="bubble_pointer_down"   style="0"	renderer="skin"	asset="habbo_skin_bubble_pointer_down_xml"	layout="pointer_down"   />
+    <component type="bubble_pointer_left"	style="0"	renderer="skin"	asset="habbo_skin_bubble_pointer_left_xml"	layout="pointer_left"   />
+
+        <!-- Text styles -->
+
+    <component type="text"			    style="0"	renderer="text" asset="text_styles_css"	/>
+    <component type="label"			    style="0"	renderer="label" asset="text_styles_css" />
+    <component type="password"		    style="0"	renderer="text" asset="text_styles_css" />
+
+	<!-- Default controllers -->
+	
+	<component type="button"				style="0"	renderer="skin"	asset="habbo_skin_button_default_xml"				layout="button"            			height_min="22" />
+	<component type="button"				style="1"	renderer="skin" asset="habbo_skin_button_default_black_xml"			layout="button_black"       		height_min="22" />
+	<component type="button"				style="2"	renderer="skin" asset="habbo_skin_button_default_white_xml"			layout="button_white"       		height_min="22" />
+	<component type="button"				style="3"	renderer="skin" asset="habbo_skin_button_shiny_default_xml"			layout="button_shiny"     			height_min="22"	/>
+	<component type="button"				style="4"	renderer="skin" asset="habbo_skin_button_shiny_black_xml"			layout="button_shiny_black"       	height_min="22"	/>
+	<component type="button"				style="5"	renderer="skin" asset="habbo_skin_button_shiny_default_xml"			layout="button_shiny"       		height_min="22"	/>
+	
+	<component type="button_thick"			style="0"	renderer="skin" asset="habbo_skin_button_thick_xml"					layout="button_thick"       		height_min="24" />
+	<component type="button_thick"			style="1"	renderer="skin" asset="habbo_skin_button_thick_black_xml"			layout="button_thick_black" 		height_min="24" />
+	<component type="button_thick"			style="2"	renderer="skin" asset="habbo_skin_button_thick_white_xml"			layout="button_thick_white" 		height_min="24" />
+	<component type="button_thick"			style="3"	renderer="skin" asset="habbo_skin_button_shiny_thick_xml"			layout="button_shiny_thick"       	height_min="24"	/>
+	<component type="button_thick"			style="4"	renderer="skin" asset="habbo_skin_button_shiny_thick_black_xml"		layout="button_shiny_thick_black" 	height_min="24"	/>
+	<component type="button_thick"			style="5"	renderer="skin" asset="habbo_skin_button_shiny_thick_xml"			layout="button_shiny_thick" 		height_min="24"	/>
+	
+	<component type="button_group_left"		style="0"	renderer="skin" asset="habbo_skin_button_group_left_xml"	        layout="button_group_left"          height_min="22" />
+	<component type="button_group_center"	style="0"	renderer="skin" asset="habbo_skin_button_group_center_xml"	        layout="button_group_center"        height_min="22" />
+	<component type="button_group_right"	style="0"	renderer="skin" asset="habbo_skin_button_group_right_xml"           layout="button_group_right"         height_min="22" />
+	<component type="button_group_left"		style="1"	renderer="skin" asset="habbo_skin_button_group_left_black_xml"      layout="button_group_left_black"    height_min="22" />
+	<component type="button_group_center"	style="1"	renderer="skin" asset="habbo_skin_button_group_center_black_xml"    layout="button_group_center_black"  height_min="22" />
+	<component type="button_group_right"	style="1"	renderer="skin" asset="habbo_skin_button_group_right_black_xml"     layout="button_group_right_black"   height_min="22" />
+	<component type="button_group_left"		style="2"	renderer="skin" asset="habbo_skin_button_group_left_white_xml"      layout="button_group_left_white"    height_min="22" />
+	<component type="button_group_center"	style="2"	renderer="skin" asset="habbo_skin_button_group_center_white_xml"    layout="button_group_center_white"  height_min="22" />
+	<component type="button_group_right"	style="2"	renderer="skin" asset="habbo_skin_button_group_right_white_xml"     layout="button_group_right_white"   height_min="22" />
+
+	<component type="scaler"				style="0"	renderer="skin"	asset="habbo_skin_scaler_xml"					layout="scaler" />
+	<component type="scaler"				style="1"	renderer="skin"	asset="habbo_skin_scaler_xml"					layout="scaler" />
+	<component type="scaler"				style="2"	renderer="skin"	asset="habbo_skin_scaler_xml"					layout="scaler" />
+	<component type="scaler"				style="3"	renderer="skin"	asset="habbo_skin_scaler_3_xml"					layout="scaler_3" />
+	<component type="closebutton"			style="0"	renderer="skin"	asset="habbo_skin_button_close_xml"				layout="button_close"		treshold="0" background="true" />
+	<component type="closebutton"			style="1"	renderer="skin"	asset="habbo_skin_button_close_black_xml"		layout="button_close_black"	treshold="0" background="true" />
+	<component type="closebutton"			style="2"	renderer="skin"	asset="habbo_skin_button_close_white_xml"		layout="button_close_white"	treshold="0" background="true" />
+	<component type="closebutton"			style="3"	renderer="skin"	asset="habbo_skin_button_close_3_xml"			layout="button_close_3"		treshold="0" background="true" />
+	<component type="dropmenu"				style="0"	renderer="skin"	asset="habbo_skin_dropmenu_xml"					layout="dropmenu_frame"         height_min="22" />
+	<component type="dropmenu"				style="1"	renderer="skin"	asset="habbo_skin_dropmenu_black_xml"			layout="dropmenu_frame_black"   height_min="22"/>
+	<component type="dropmenu_item"			style="0"	renderer="skin"	asset="habbo_skin_dropmenu_xml"					layout="dropmenu_item" />
+	<component type="dropmenu_item"			style="1"	renderer="skin"	asset="habbo_skin_dropmenu_black_xml"			layout="dropmenu_item_black" />
+	<component type="radiobutton"			style="0"	renderer="skin"	asset="habbo_skin_button_radio_xml"				layout="button_radio" />
+	<component type="radiobutton"			style="1"	renderer="skin"	asset="habbo_skin_button_radio_black_xml"		layout="button_radio_black" />
+	<component type="radiobutton"			style="2"	renderer="skin"	asset="habbo_skin_button_radio_white_xml"		layout="button_radio_white" />
+	<component type="checkbox"				style="0"	renderer="skin"	asset="habbo_skin_button_checkbox_xml"			layout="button_checkbox" />
+	<component type="checkbox"				style="1"	renderer="skin"	asset="habbo_skin_button_checkbox_black_xml"	layout="button_checkbox_black" />
+	<component type="checkbox"				style="2"	renderer="skin"	asset="habbo_skin_button_checkbox_white_xml"	layout="button_checkbox_white" />
+	<component type="tab_button"			style="0"	renderer="skin" asset="habbo_skin_button_tab_xml"				layout="button_tab"         height_min="22" />
+	<component type="tab_button"			style="1"	renderer="skin" asset="habbo_skin_button_tab_black_xml"			layout="button_tab_black"   height_min="22" />
+	<component type="tab_button"			style="2"	renderer="skin" asset="habbo_skin_button_tab_white_xml"			layout="button_tab_white"   height_min="22" />
+	<component type="tab_button"			style="3"	renderer="skin" asset="habbo_skin_button_tab_3_xml"				layout="button_tab_3"  	 	height_min="32" />
+	<component type="tab_container_button"	style="0"	renderer="skin" asset="habbo_skin_button_tab_xml"				layout="button_tab"         height_min="22" />
+	<component type="tab_container_button"	style="1"	renderer="skin" asset="habbo_skin_button_tab_black_xml"			layout="button_tab_black"   height_min="22" />
+	<component type="tab_container_button"	style="2"	renderer="skin" asset="habbo_skin_button_tab_white_xml"			layout="button_tab_white"   height_min="22" />
+	<component type="tab_content"			style="0"	renderer="skin" asset="habbo_skin_border_white_xml"				layout="border_white" />
+	<component type="tab_content"			style="1"	renderer="skin" asset="habbo_skin_border_black_xml"				layout="border_black" />
+	<component type="tab_content"			style="2"	renderer="skin" asset="habbo_skin_border_colorless_xml"			layout="border_colorless" />
+	<component type="tab_content"			style="3"	renderer="skin" asset="habbo_skin_tab_content_3_xml"			layout="tab_content_3" />
+	<component type="tab_context"						renderer="null" asset="habbo_skin_tab_context_xml"				layout="tab_context" />
+	<component type="tooltip"							renderer="skin" asset="habbo_skin_tooltip_xml"					layout="tooltip" />
+	<component type="container_button"		style="0"	renderer="skin" asset="habbo_skin_button_default_xml"			layout="button"         height_min="22" />
+	<component type="container_button"		style="1"	renderer="skin" asset="habbo_skin_button_default_black_xml"		layout="button_black"   height_min="22" />
+	<component type="container_button"		style="2"	renderer="skin" asset="habbo_skin_button_default_white_xml"		layout="button_white"   height_min="22" />
+	<component type="container_button"		style="3"	renderer="skin" asset="habbo_skin_button_shiny_thick_xml"			layout="button_shiny_thick"       	height_min="24"	/>
+	<component type="container_button"		style="4"	renderer="skin" asset="habbo_skin_button_shiny_large_xml"			layout="button_shiny_large"       	height_min="34"	/>
+	<component type="container_button"		style="5"	renderer="skin" asset="habbo_skin_button_shiny_large_xml"			layout="button_shiny_large"       	height_min="34"	/>
+	
+	<!-- Scrollbar elements -->
+	
+	<component type="scrollbar_horizontal"				style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_horizontal"   height_min="17" height_max="17" />
+	<component type="scrollbar_vertical"				style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_vertical"     width_min="17"  width_max="17"  />
+	<component type="scrollbar_slider_button_up"		style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_button_up"		/>
+	<component type="scrollbar_slider_button_down"		style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_button_down"		/>
+	<component type="scrollbar_slider_button_left"		style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_button_left"		/>
+	<component type="scrollbar_slider_button_right"		style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_button_right"		/>
+	<component type="scrollbar_slider_track_horizontal"	style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_track_horizontal"	/>
+	<component type="scrollbar_slider_track_vertical"	style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_track_vertical"	/>
+	<component type="scrollbar_slider_bar_horizontal"	style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_lift_horizontal"	/>
+	<component type="scrollbar_slider_bar_vertical"		style="0"	renderer="skin"	asset="habbo_skin_scrollbar_xml"	layout="scrollbar_lift_vertical"	/>
+
+	<component type="scrollbar_horizontal"				style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_horizontal_black"   height_min="17" height_max="17" />
+	<component type="scrollbar_vertical"				style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_vertical_black"     width_min="17" width_max="17"  />
+	<component type="scrollbar_slider_button_up"		style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_button_up_black"			/>
+	<component type="scrollbar_slider_button_down"		style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_button_down_black"		/>
+	<component type="scrollbar_slider_button_left"		style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_button_left_black"		/>
+	<component type="scrollbar_slider_button_right"		style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_button_right_black"		/>
+	<component type="scrollbar_slider_track_horizontal"	style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_track_horizontal_black"	/>
+	<component type="scrollbar_slider_track_vertical"	style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_track_vertical_black"		/>
+	<component type="scrollbar_slider_bar_horizontal"	style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_lift_horizontal_black"	/>
+	<component type="scrollbar_slider_bar_vertical"		style="1"	renderer="skin"	asset="habbo_skin_scrollbar_black_xml"	layout="scrollbar_lift_vertical_black"		/>
+
+	<component type="scrollbar_horizontal"				style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_horizontal_3"   height_min="14" height_max="14" />
+	<component type="scrollbar_vertical"				style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_vertical_3"     width_min="14" width_max="14"  />
+	<component type="scrollbar_slider_button_up"		style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_button_up_3"			/>
+	<component type="scrollbar_slider_button_down"		style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_button_down_3"		/>
+	<component type="scrollbar_slider_button_left"		style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_button_left_3"		/>
+	<component type="scrollbar_slider_button_right"		style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_button_right_3"		/>
+	<component type="scrollbar_slider_track_horizontal"	style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_track_horizontal_3"	/>
+	<component type="scrollbar_slider_track_vertical"	style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_track_vertical_3"		/>
+	<component type="scrollbar_slider_bar_horizontal"	style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_lift_horizontal_3"	/>
+	<component type="scrollbar_slider_bar_vertical"		style="3"	renderer="skin"	asset="habbo_skin_scrollbar_3_xml"	layout="scrollbar_lift_vertical_3"		/>
+	
+	<!-- Icon types - TODO: It's a stupid idea to use styles for this!!! -->
+	
+	<component type="icon" style="0" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_0" /></states>
+	</component>
+	<component type="icon" style="1" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_1" /></states>
+	</component>
+	<component type="icon" style="2" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_2" /></states>
+	</component>
+	<component type="icon" style="3" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_3" /></states>
+	</component>
+	<component type="icon" style="4" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_4" /></states>
+	</component>
+	<component type="icon" style="5" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_5" /></states>
+	</component>
+	<component type="icon" style="6" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_6" /></states>
+	</component>
+	<component type="icon" style="7" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_7" /></states>
+	</component>
+	<component type="icon" style="8" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_8" /></states>
+	</component>
+	<component type="icon" style="9" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_9" /></states>
+	</component>
+	<component type="icon" style="10" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon32">
+		<states><state name="default" layout="icon32" template="icon_10" /></states>
+	</component>
+    <component type="icon" style="11" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_11" /></states>
+	</component>
+    <component type="icon" style="12" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_12" /></states>
+	</component>
+    <component type="icon" style="13" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon24">
+		<states><state name="default" layout="icon24" template="icon_13" /></states>
+	</component>
+    <component type="icon" style="14" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon24">
+		<states><state name="default" layout="icon24" template="icon_14" /></states>
+	</component>
+    <component type="icon" style="15" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon32">
+		<states><state name="default" layout="icon32" template="icon_15" /></states>
+	</component>
+    <component type="icon" style="16" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon32">
+		<states><state name="default" layout="icon32" template="icon_16" /></states>
+	</component>
+    <component type="icon" style="17" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon32">
+		<states><state name="default" layout="icon32" template="icon_17" /></states>
+	</component>
+    <component type="icon" style="18" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon32">
+		<states><state name="default" layout="icon32" template="icon_18" /></states>
+	</component>
+    <component type="icon" style="19" renderer="skin" asset="habbo_skin_icon_set_xml" layout="icon16">
+		<states><state name="default" layout="icon16" template="icon_19" /></states>
+	</component>
+</skin>

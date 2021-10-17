@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="avatareditor_head_base" width="400" height="300" version="0.1" uid="3FEC3962-5CEF-E0B6-70FD-9023E3F25D32">
+  <window>
+    <container x="5" y="5" width="400" height="300" params="0" style="0" name="head_content" background="true">
+      <children>
+        <selector x="0" y="0" width="400" height="35" params="17" style="0" name="category_selector">
+          <children>
+            <region x="6" y="0" width="47" height="35" params="17" style="0" name="tab_hair" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_hair" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="head_hair_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+            <region x="58" y="0" width="47" height="35" params="17" style="0" name="tab_hat" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_hat" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="head_hats_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+            <region x="110" y="0" width="47" height="35" params="17" style="0" name="tab_accessories" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_accessories" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="head_accessories_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+            <region x="162" y="0" width="47" height="35" params="17" style="0" name="tab_eyewear" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_eyewear" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="head_eyewear_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+            <region x="214" y="0" width="47" height="35" params="17" style="0" name="tab_masks" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_masks" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="head_face_accessories_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+          </children>
+        </selector>
+        <container x="3" y="35" width="335" height="250" params="16" style="0" name="grid_container"/>
+        <container x="255" y="0" width="160" height="200" params="16" style="0" name="action_container"/>
+      </children>
+    </container>
+  </window>
+</layout>

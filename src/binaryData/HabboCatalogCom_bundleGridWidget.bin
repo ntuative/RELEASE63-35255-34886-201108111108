@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="bundleGrid" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="138" height="157" params="16" style="0" name="bundleGridContainer">
+      <children>
+        <bitmap x="0" y="0" width="138" height="157" params="16" style="0" name="backgroundImage"/>
+        <itemgrid_vertical x="12" y="80" width="122" height="80" params="17" style="0" name="bundleGrid">
+          <variables>            <var key="spacing" value="2" type="int"/>          </variables>        </itemgrid_vertical>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="purchase_confirmation" width="20" height="20" version="0.0">
+  <window>
+    <frame x="51" y="38" width="279" height="230" params="33025" style="0" caption="%24%7Bcatalog.marketplace.confirm_title%7D">
+      <children>
+        <border x="0" y="0" width="267" height="198" params="2192" style="0" caption="Confirm%20purchase">
+          <children>
+            <border x="12" y="12" width="48" height="48" params="16" style="0" caption="Confirm%20purchase" color="0xf1f1f1">
+              <children>
+                <bitmap x="1" y="1" width="46" height="46" params="16" style="0" name="item_image" caption="Confirm%20purchase"/>
+              </children>
+            </border>
+            <text x="69" y="29" width="184" height="17" params="16" style="0" name="item_name" caption="%24%7B001_lorem_ipsum_title%7D">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="11" y="68" width="246" height="26" params="1040" style="0" name="header_text" caption="%24%7B002_lorem_ipsum_content%7D">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="11" y="100" width="246" height="20" params="1040" style="0" name="item_price" caption="%24%7Bcatalog.purchase.confirmation.dialog.costs%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="11" y="120" width="246" height="19" params="1040" style="0" name="item_average_price" caption="%24%7Bcatalog.marketplace.offer_details.average_price%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="11" y="140" width="246" height="19" params="1040" style="0" name="offer_count" caption="%24%7Bcatalog.marketplace.offer_count%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <button x="9" y="165" width="120" height="25" params="132113" style="0" name="buy_button" caption="%24%7Bcatalog.purchase_confirmation.buy%7D" width_min="120" width_max="120"/>
+            <button x="137" y="165" width="120" height="25" params="132113" style="0" name="cancel_button" caption="%24%7Bcatalog.purchase_confirmation.cancel%7D" width_min="120" width_max="120"/>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

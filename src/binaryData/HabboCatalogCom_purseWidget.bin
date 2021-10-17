@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="purseWidget" width="20" height="20" version="0.0">
+  <window>
+    <container x="30" y="290" width="312" height="112" params="16" style="2" name="purseWidget">
+      <children>
+        <border x="0" y="0" width="312" height="112" params="16" style="1" name="purseBorder"/>
+        <text x="15" y="65" width="133" height="10" params="16" style="0" name="purse_info_tickets">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="15658734" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="139" y="65" width="133" height="10" params="16" style="0" name="purse_info_film">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="15658734" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <button x="35" y="45" width="100" height="25" params="393361" style="0" name="vouchers_btn" caption="%24%7Bpurse_voucherbutton%7D" width_max="100"/>
+        <button x="187" y="45" width="100" height="25" params="393361" style="0" name="coins_btn" caption="%24%7Bpurse_buy_coins%7D" width_max="100"/>
+        <text x="39" y="20" width="93" height="10" params="16" style="0" name="bg" caption="%24%7Bpurse_youhave%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="128" y="15" width="65" height="20" params="16" style="0" name="purse_amount">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="15658734" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="190" y="20" width="93" height="10" params="16" style="0" name="bg" caption="%24%7Bpurse_coins%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>

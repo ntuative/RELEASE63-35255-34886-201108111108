@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="start_panel" width="20" height="20" version="0.0">
+  <window>
+    <button x="0" y="0" width="120" height="50" params="131089" style="0" caption="Inappropriate%20name" width_min="120" width_max="120"/>
+  </window>
+</layout>

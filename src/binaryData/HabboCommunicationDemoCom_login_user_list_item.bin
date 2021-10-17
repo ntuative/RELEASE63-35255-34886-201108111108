@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="login_user_list_item" width="20" height="20" version="0.0">
+  <window>
+    <button x="0" y="0" width="150" height="22" params="131089" style="0" caption="username" width_min="150" width_max="150"/>
+  </window>
+</layout>

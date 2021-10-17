@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="marketPlaceWidget" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="320" height="320" params="16" style="0" name="widget_main_container">
+      <children>
+        <itemlist_vertical x="0" y="85" width="300" height="235" params="2064" style="0" name="gift_list">
+          <variables>
+            <var key="spacing" value="1" type="int"/>
+          </variables>
+        </itemlist_vertical>
+        <scrollbar_vertical x="302" y="85" width="18" height="235" params="2065" style="0">
+          <variables>
+            <var key="scrollable" value="gift_list" type="String"/>
+          </variables>
+        </scrollbar_vertical>
+        <text x="0" y="0" width="320" height="35" params="16" style="0" name="info_text">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="0" y="39" width="310" height="16" params="16" style="0" name="past_club_days">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="0" y="59" width="310" height="16" params="16" style="0" name="past_vip_days">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>

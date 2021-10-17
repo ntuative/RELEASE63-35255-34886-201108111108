@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="start_panel" width="20" height="20" version="0.0">
+  <window>
+    <button x="0" y="0" width="182" height="22" params="131089" style="0" caption="Selling%20Habbo%20Account/Furni" width_min="182" width_max="182"/>
+  </window>
+</layout>

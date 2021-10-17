@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="issue_handler_message_list_item" width="20" height="20" version="0.0">
+  <window>
+    <text x="0" y="0" width="242" height="49" params="16" style="0" caption="%24%7B002_lorem_ipsum_content%7D" color="0xffa2d6ea" background="true">
+      <variables>
+        <var key="font_face" value="Volter" type="String"/>
+        <var key="font_size" value="9" type="uint"/>
+        <var key="text_color" value="0x0" type="hex"/>
+        <var key="embed_fonts" value="true" type="Boolean"/>
+        <var key="word_wrap" value="true" type="Boolean"/>
+      </variables>
+    </text>
+  </window>
+</layout>

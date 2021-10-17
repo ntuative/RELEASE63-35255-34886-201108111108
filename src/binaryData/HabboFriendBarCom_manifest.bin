@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<manifest>
+    <component class="com.sulake.bootstrap.HabboFriendBar" version="0.0">
+        <!-- <interface iid="com.sulake.iid.IIDHabboFriendBar" /> -->
+        <assets>
+            <asset mimeType="text/xml" name="bar_xml" />
+            <asset mimeType="text/xml" name="entity_xml" />
+            <asset mimeType="text/xml" name="add_friends_tab_xml" />
+            <asset mimeType="text/xml" name="friend_requests_tab_xml" />
+            <asset mimeType="text/xml" name="friend_request_tab_xml" />
+            <asset mimeType="text/xml" name="toggle_xml" />
+            <asset mimeType="text/xml" name="facebook_piece_xml" />
+            <asset mimeType="text/xml" name="controls_piece_xml" />
+            <asset mimeType="text/xml" name="message_piece_xml" />
+            <asset mimeType="text/xml" name="event_stream_display_xml" />
+
+            <asset mimeType="image/png" name="ach_notification_icon_png" />
+            <asset mimeType="image/png" name="event_notification_icon_png" />
+            <asset mimeType="image/png" name="imnew_notification_icon_png" />
+
+            <asset mimeType="image/png" name="small_ach_notification_icon_png" />
+            <asset mimeType="image/png" name="small_event_notification_icon_png" />
+            <asset mimeType="image/png" name="small_imnew_notification_icon_png" />
+
+            <asset mimeType="image/png" name="stream_welcome_png" />
+            <asset mimeType="image/png" name="stream_empty_png" />
+            <asset mimeType="image/png" name="stream_thumb_png" />
+
+            <asset mimeType="image/png" name="fb_icon_small_png" />
+            <asset mimeType="image/png" name="friends_icon_png" />
+            <asset mimeType="image/png" name="add_friends_icon_png" />
+            <asset mimeType="image/png" name="find_friends_icon_png" />
+            <asset mimeType="image/png" name="plus_friend_icon_png" />
+            <asset mimeType="image/png" name="icon_messenger_notify_1_png" />
+            <asset mimeType="image/png" name="icon_friendlist_png" />
+            <asset mimeType="image/png" name="icon_friendlist_notify_0_png" />
+            <asset mimeType="image/png" name="icon_friendlist_notify_1_png" />
+            <asset mimeType="image/png" name="icon_friendlist_hover_0_png" />
+            <asset mimeType="image/png" name="icon_friendlist_hover_1_png" />
+            <asset mimeType="image/png" name="icon_friendlist_hover_2_png" />
+            <asset mimeType="image/png" name="icon_friendlist_hover_3_png" />
+            <asset mimeType="image/png" name="icon_messenger_png" />
+            <asset mimeType="image/png" name="icon_messenger_notify_0_png" />
+            <asset mimeType="image/png" name="icon_messenger_notify_1_png" />
+
+            <asset mimeType="image/png" name="icon_stream_png" />
+            <asset mimeType="image/png" name="icon_stream_hover_png" />
+            <asset mimeType="image/png" name="icon_stream_new_png" />
+            <asset mimeType="image/png" name="icon_stream_new_hover_png" />
+        </assets>
+    </component>
+</manifest>

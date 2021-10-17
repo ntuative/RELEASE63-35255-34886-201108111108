@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="inventory_furni_base" width="20" height="20" version="0.0">
+  <window>
+    <container x="5" y="5" width="369" height="245" params="0" style="0" name="furniture_content" background="true">
+      <children>
+        <selector x="0" y="0" width="369" height="22" params="17" style="0" name="category_selector">
+          <children>
+            <button_group_left x="0" y="0" width="120" height="22" params="131089" style="0" name="tab_floor" caption="%24%7Binventory.furni.tab.floor%7D" width_min="120" width_max="120"/>
+            <button_group_center x="120" y="0" width="120" height="22" params="131089" style="0" name="tab_wall" caption="%24%7Binventory.furni.tab.wall%7D" width_min="120" width_max="120"/>
+            <button_group_right x="240" y="0" width="120" height="22" params="131089" style="0" name="tab_pets" caption="%24%7Binventory.furni.tab.pets%7D" width_min="120" width_max="120"/>
+          </children>
+        </selector>
+        <container x="3" y="25" width="360" height="215" params="16" style="0" name="loading_container">
+          <children>
+            <bitmap x="0" y="0" width="200" height="215" params="16" style="0" name="download_image"/>
+          </children>
+        </container>
+        <container x="3" y="25" width="360" height="215" params="16" style="0" name="empty_container">
+          <children>
+            <container x="0" y="0" width="360" height="215" params="16" style="0" name="furni_empty" background="true">
+              <children>
+                <bitmap x="6" y="12" width="180" height="180" params="16" style="0" name="image"/>
+                <text x="205" y="10" width="150" height="30" params="16" style="0" name="inventory_empty_title" caption="%24%7Binventory.empty.title%7D" tags="furni_description">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xdd0000" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="205" y="40" width="150" height="130" params="16" style="0" name="inventory_empty_description" caption="%24%7Binventory.empty.desc%7D" tags="furni_description">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <button x="233" y="180" width="87" height="22" params="917521" style="0" name="open_catalog_btn" caption="%24%7Binventory.open.catalog%7D"/>
+              </children>
+            </container>
+          </children>
+        </container>
+        <container x="3" y="25" width="360" height="215" params="16" style="0" name="furni_container">
+          <children>
+            <container x="0" y="0" width="200" height="215" params="16" style="0" name="grid_container"/>
+            <container x="200" y="0" width="160" height="215" params="16" style="0" name="preview_container"/>
+          </children>
+        </container>
+      </children>
+    </container>
+  </window>
+</layout>

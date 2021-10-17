@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="marketPlaceWidget" width="20" height="20" version="0.0">
+  <window>
+    <itemlist x="0" y="0" width="320" height="345" params="16" style="0" name="main_item_list">
+      <children>
+        <selector x="0" y="0" width="320" height="25" params="17" style="0" name="search_selector">
+          <children>
+            <button_group_left x="0" y="0" width="107" height="25" params="131217" style="0" name="search_by_activity" caption="%24%7Bcatalog.marketplace.search_by_activity%7D" width_min="107" width_max="107"/>
+            <button_group_center x="107" y="0" width="106" height="25" params="131217" style="0" name="search_by_value" caption="%24%7Bcatalog.marketplace.search_by_value%7D" width_min="106" width_max="106"/>
+            <button_group_right x="213" y="0" width="107" height="25" params="131217" style="0" name="search_advanced" caption="%24%7Bcatalog.marketplace.search_advanced%7D" width_min="107" width_max="107"/>
+          </children>
+        </selector>
+        <container x="0" y="30" width="320" height="61" params="16" style="0" name="search_container"/>
+        <text x="7" y="96" width="280" height="12" params="16" style="0" name="status_text">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="0" y="113" width="320" height="232" params="16" style="0" name="offer_list_container">
+          <children>
+            <itemlist x="0" y="0" width="300" height="232" params="2064" style="0" name="offer_list">
+              <variables>
+                <var key="spacing" value="1" type="int"/>
+              </variables>
+            </itemlist>
+            <scrollbar_vertical x="302" y="0" width="18" height="232" params="2065" style="0" name="offer_list_scroll">
+              <variables>
+                <var key="scrollable" value="offer_list" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+          </children>
+        </container>
+      </children>
+      <variables>
+        <var key="spacing" value="5" type="int"/>
+      </variables>
+    </itemlist>
+  </window>
+</layout>

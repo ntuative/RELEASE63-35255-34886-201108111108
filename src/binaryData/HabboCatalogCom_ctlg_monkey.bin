@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="ctlg_monkey" width="339" height="415" version="0.1" uid="473B354F-BA5E-2FC8-6F12-048F87D2FC0A">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_monkey">
+      <children>
+        <bitmap x="0" y="0" width="339" height="60" params="16" style="0" name="ctlg_header_img"/>
+        <text x="0" y="70" width="339" height="60" params="16" style="0" name="ctlg_header_text">
+          <variables>
+            <var key="margin_left" value="10" type="int"/>
+            <var key="margin_right" value="10" type="int"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <region x="0" y="115" width="339" height="184" params="17" style="0" treshold="0" name="ctlg_teaserimg_1_region"/>
+        <region x="0" y="305" width="339" height="80" params="17" style="0" treshold="0" name="ctlg_special_img_region"/>
+        <bitmap x="0" y="115" width="339" height="184" params="16" style="0" name="ctlg_teaserimg_1"/>
+        <bitmap x="0" y="305" width="339" height="80" params="16" style="0" name="ctlg_special_img"/>
+      </children>
+    </container>
+  </window>
+</layout>

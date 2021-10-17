@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="grid_purse" width="192" height="56" version="0.1" uid="2169F524-1794-FE2A-4117-BBF9F42335F0">
+  <window>
+    <itemgrid_vertical x="0" y="0" width="192" height="59" params="16" style="0" name="purse_grid" height_min="59" height_max="59">
+      <variables>
+        <var key="spacing" value="1" type="int"/>
+      </variables>
+    </itemgrid_vertical>
+  </window>
+</layout>

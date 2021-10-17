@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="ctlg_marketplace" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_marketplace_own_items" color="0x21ffffff" background="true">
+      <children>
+        <bitmap x="32" y="3" width="286" height="60" params="16" style="0" name="ctlg_header_img"/>
+        <container x="13" y="67" width="339" height="363" params="17" style="0" name="marketPlaceOwnItemsWidget"/>
+      </children>
+    </container>
+  </window>
+</layout>

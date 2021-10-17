@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<layout name="tablet_window_layout_tab_button" width="20" height="45" version="0.0">
+	<window>
+		<container x="0" y="0" width="10" height="45" background="false" tags="_EXCLUDE, _INTERNAL">
+			<params>
+				<param name="use_parent_graphic_context" />
+			</params>
+		</container>
+		<label name="title" x="0" y="0" width="20" height="22" background="false" tags="title, TAB_BUTTON_TITLE, _EXCLUDE, _INTERNAL">
+			<params>
+				<param name="relative_horizontal_scale_center" />
+				<param name="relative_vertical_scale_center" />
+				<param name="use_parent_graphic_context" />
+			</params>
+			<variables>
+				<var key="font_face" value="Volter" />
+				<var key="font_size" value="18" />
+				<var key="text_color" value="0xff000000" type="hex" />
+				<var key="auto_size" value="left" />
+				<var key="margins"><value>
+					<Map>
+						<var key="left"   value="16" type="int" />
+						<var key="top"    value="4"  type="int" />
+						<var key="right"  value="16" type="int" />
+						<var key="bottom" value="8"  type="int" />
+					</Map>
+				</value></var>
+			</variables>
+		</label>
+	</window>
+</layout>

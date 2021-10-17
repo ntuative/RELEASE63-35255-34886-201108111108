@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="open_issues_list_item" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="550" height="24" params="145" style="0" background="true" height_min="24" height_max="24">
+      <children>
+        <container x="0" y="4" width="550" height="16" params="145" style="0" name="texts_container" color="0xeeeeee">
+          <children>
+            <text x="0" y="0" width="40" height="17" params="16" style="0" name="score" caption="xx">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="40" y="0" width="120" height="17" params="16" style="0" name="category" caption="Sharing%20personal%20info">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="160" y="0" width="260" height="19" params="144" style="0" name="target_name" caption="target">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <bitmap x="420" y="0" width="20" height="19" params="80" style="0" name="target_icon"/>
+            <text x="440" y="0" width="50" height="19" params="80" style="0" name="time" caption="mm%3Ass">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <button x="490" y="1" width="60" height="22" params="131153" style="0" name="pick_button" caption="pick" width_min="60" width_max="60"/>
+      </children>
+    </container>
+  </window>
+</layout>

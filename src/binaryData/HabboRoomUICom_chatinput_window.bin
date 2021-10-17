@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="chatinput_window" width="577" height="38" version="0.1" uid="E90C85D2-57C1-5DC9-E8AD-57D1C77D91B2">
+  <window>
+    <container x="18" y="273" width="577" height="38" params="1025" style="0" name="bubblecont" tags="chat_bubble" width_min="90">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.6"/>
+      </filters>
+      <children>
+        <border x="0" y="0" width="340" height="38" params="16" style="8" name="input_border">
+          <children>
+            <input x="10" y="7" width="326" height="24" params="1" style="0" name="chat_input" caption="%24%7Bwidgets.chatinput.default%7D" clipping="false">
+              <variables>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="17" type="uint"/>
+                <var key="text_color" value="0x6f6f6f" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="max_chars" value="100" type="int"/>
+                <var key="italic" value="true" type="Boolean"/>
+                <var key="focus_capturer" value="true" type="Boolean"/>
+              </variables>
+            </input>
+            <text x="10" y="9" width="325" height="23" params="16" style="0" name="block_text" caption="%24%7Bchat.input.alert.flood%7D" visible="false">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="14" type="uint"/>
+                <var key="grid_fit_type" value="subpixel" type="String"/>
+                <var key="text_color" value="0xff0000" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+        <container_button x="345" y="0" width="232" height="38" params="12582929" style="4" name="send_button">
+          <children>
+            <text x="20" y="6" width="193" height="24" params="12582928" style="0" name="send_button_text" caption="widgets.chatinput.say">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="18" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container_button>
+      </children>
+    </container>
+  </window>
+</layout>

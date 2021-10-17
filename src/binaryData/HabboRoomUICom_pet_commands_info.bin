@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="pet_commands_info" width="20" height="20" version="0.0">
+  <window>
+    <frame x="27" y="30" width="263" height="158" params="32769" style="1" caption="%24%7Bwidgets.pet.commands.help.title%7D" tags="pet_commands">
+      <children>
+        <border x="0" y="0" width="250" height="122" params="16" style="1" blend="0">
+          <children>
+            <text x="6" y="3" width="239" height="117" params="16" style="0" name="description" caption="%24%7Bwidgets.pet.commands.description%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ctlg_presents" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_presents">
+      <children>
+        <bitmap x="25" y="13" width="286" height="60" params="16" style="0" name="ctlg_header_img"/>
+        <container x="11" y="86" width="320" height="320" params="16" style="0" name="clubGiftWidget"/>
+      </children>
+    </container>
+  </window>
+</layout>

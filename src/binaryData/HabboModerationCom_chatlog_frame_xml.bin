@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="chatlog" width="399" height="370" version="0.1" uid="205114FC-0C08-5A2B-86CF-135B0DF2B398">
+  <window>
+    <frame x="60" y="4" width="399" height="370" params="98305" style="0" caption="Chatlog" color="0x418db0" width_min="150" height_min="100">
+      <children>
+        <container x="0" y="0" width="397" height="338" params="2192" style="0" name="chat_cont" caption="Chatlog" color="0xff4184b0" background="true">
+          <children>
+            <itemlist x="0" y="0" width="370" height="338" params="2193" style="0" name="chatline_list" caption="Chatlog" color="0xff418db0" background="true"/>
+            <scrollbar_vertical x="370" y="0" width="17" height="338" params="2129" style="0" name="scroller" caption="Chatlog">
+              <variables>
+                <var key="scrollable" value="chatline_list" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

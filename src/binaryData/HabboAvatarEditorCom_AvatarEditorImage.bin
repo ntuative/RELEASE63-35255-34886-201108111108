@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="image" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="0" width="75" height="140" params="17" style="3" color="0x666666">
+      <children>
+        <bitmap x="0" y="0" width="75" height="140" params="16" style="0" name="bitmap" tags="BITMAP" />
+      </children>
+    </border>
+  </window>
+</layout>

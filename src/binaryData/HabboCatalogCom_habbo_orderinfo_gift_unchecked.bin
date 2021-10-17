@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="habbo_orderinfo_dialog" width="20" height="20" version="0.0">
+  <window>
+                <container x="0" y="80" width="280" height="25" params="16" style="0" name="checkBoxContainer">
+                  <children>
+                    <text x="43" y="0" width="141" height="11" params="16" style="0" name="shopping_asagift" caption="%24%7Bshopping_asagift%7D">
+                      <variables>
+                        <var key="font_face" value="Volter" type="String"/>
+                        <var key="font_size" value="9" type="uint"/>
+                        <var key="text_color" value="0x0" type="hex"/>
+                        <var key="embed_fonts" value="true" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <checkbox x="21" y="0" width="20" height="20" params="17" style="0" name="buyAsGift"/>
+                  </children>
+                </container>
+  </window>
+</layout>

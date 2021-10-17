@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="habbo_login_dialog" width="320" height="400" version="0.1" uid="BB1E90FE-EB42-EF15-4020-E4C09DB0B065">
+  <window>
+    <container x="0" y="0" width="320" height="400" params="17" style="0" name="habbo_login_dialog">
+      <children>
+        <border x="0" y="0" width="320" height="400" params="16" style="0"/>
+        <border x="90" y="49" width="200" height="34" params="16" style="0"/>
+        <border x="90" y="88" width="200" height="34" params="16" style="0"/>
+        <text x="20" y="91" width="60" height="20" params="49" style="0" caption="Password%3A">
+          <variables>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="20" y="54" width="60" height="20" params="49" style="0" caption="Name%3A">
+          <variables>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="110" y="180" width="133" height="28" params="49" style="0" name="text002">
+          <variables>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <input x="97" y="50" width="190" height="30" params="33" style="0" name="name_field" background="true">
+          <variables>
+            <var key="font_size" value="18" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="always_show_selection" value="true" type="Boolean"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </input>
+        <password x="97" y="90" width="190" height="30" params="33" style="0" name="pwd_field" background="true">
+          <variables>
+            <var key="font_size" value="18" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="always_show_selection" value="true" type="Boolean"/>
+            <var key="display_as_password" value="true" type="Boolean"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </password>
+        <checkbox x="110" y="156" width="22" height="20" params="49" style="0" name="useTicket" caption="Use%20SSO%20Ticket"/>
+        <text x="127" y="157" width="160" height="20" params="49" style="1" name="caption_useTicket" caption="Use%20SSO%20Ticket">
+          <variables>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <checkbox x="110" y="180" width="22" height="20" params="49" style="0" name="useExistingSession" caption=""/>
+        <text x="127" y="180" width="160" height="20" params="49" style="1" name="caption_useExistingSession" caption="Use%20Existing%20Session">
+          <variables>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <button x="110" y="214" width="110" height="42" params="131121" style="0" name="login_btn" caption="Login" width_min="110" height_min="42"/>
+        <scrollable_itemlist_vertical x="40" y="276" width="240" height="106" params="16" style="0" name="list" color="0x888888"/>
+      </children>
+    </container>
+  </window>
+</layout>

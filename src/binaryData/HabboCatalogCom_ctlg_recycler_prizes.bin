@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="ctlg_recycler_prizes" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="339" height="416" params="17" style="0" name="ctlg_default_3x3">
+      <children>
+        <bitmap x="32" y="3" width="286" height="60" params="16" style="0" name="ctlg_header_img"/>
+        <text x="12" y="73" width="315" height="52" params="16" style="0" name="ctlg_header_text">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="12" y="135" width="128" height="13" params="16" style="0" name="ctlg_selectproduct" caption="%24%7Bcatalog_selectproduct%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="174" y="148" width="158" height="213" params="16" style="0" name="productViewWidget">
+          <children>
+            <bitmap x="0" y="6" width="162" height="162" params="16" style="0" name="ctlg_teaserimg_1"/>
+            <region x="0" y="0" width="162" height="158" params="17" style="0" name="room_canvas_container" color="0xffff000000" background="true" treshold="0">
+              <children>
+                <display_object_wrapper x="0" y="0" width="162" height="158" params="2208" style="0" name="room_canvas"/>
+              </children>
+            </region>
+            <text x="0" y="162" width="162" height="15" params="16" style="0" name="ctlg_product_name">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="-2" y="179" width="162" height="30" params="16" style="0" name="ctlg_description">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <container x="169" y="118" width="142" height="73" params="16" style="0" name="specialInfoWidget">
+          <children>
+            <bitmap x="0" y="0" width="136" height="61" params="16" style="0" name="ctlg_special_img"/>
+            <text x="11" y="16" width="119" height="40" params="3935440" style="0" name="ctlg_special_txt">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <container x="8" y="148" width="332" height="264" params="17" style="0" name="recyclerPrizesWidget">
+          <children>
+            <itemlist_vertical x="10" y="0" width="120" height="264" params="17" style="0" name="itemList"/>
+            <scrollbar_vertical x="139" y="0" width="20" height="264" params="17" style="0" name="itemGridScrollbar">
+              <variables>
+                <var key="scrollable" value="itemList" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+            <container x="174" y="0" width="158" height="207" params="16" style="0" name="productView">
+              <children>
+                <bitmap x="0" y="0" width="162" height="162" params="16" style="0" name="ctlg_teaserimg_1"/>
+                <text x="0" y="156" width="162" height="15" params="16" style="0" name="ctlg_product_name">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="-2" y="173" width="162" height="30" params="16" style="0" name="ctlg_description">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="multiline" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+          </children>
+        </container>
+      </children>
+    </container>
+  </window>
+</layout>

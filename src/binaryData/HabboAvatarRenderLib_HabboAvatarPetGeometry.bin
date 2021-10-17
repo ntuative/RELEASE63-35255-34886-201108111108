@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geometry direction="0" >
+
+	<camera>
+		<x>0</x>
+		<y>0</y>
+		<z>10</z>
+	</camera>
+	
+	<canvas scale="h">
+		<!-- Keep the canvas width in multiples of 4 for now.. -->
+		<geometry id="pet" width="72" height="72" depth="32" dy="0" dx="0"/>
+	</canvas>
+
+	<canvas scale="sh">
+		<geometry id="pet" width="40" height="40" depth="32" dy="0" dx="0"/>
+	</canvas>
+
+	<avatarset id="full">
+		<avatarset id="body" main="1">
+			<bodypart id="torso" />
+			<bodypart id="tail" />
+		</avatarset>
+		<avatarset id="head">
+			<bodypart id="head" />
+		</avatarset>
+	</avatarset>
+	<type id="pet" >
+		<bodypart id="head" x="0" y="0" z="0" radius="2">
+			<item id="phd"  x="0" y="0" z="0" radius="2" nx="0" ny="0" nz="0" double="1" />
+		</bodypart>
+		<bodypart id="torso" x="0" y="0" z="1.3" radius="1" >
+			<item id="pbd" x="0" y="0" z="1.3" radius="1" nx="0" ny="0" nz="0" double="1" />
+		</bodypart>
+		<bodypart id="tail" x="0" y="0" z="2.5" radius="0.5" >
+			<item id="ptl" x="0" y="0" z="2.5" radius="0.5" nx="0" ny="0" nz="0" double="1" />
+		</bodypart>
+	</type>
+	
+</geometry>
+

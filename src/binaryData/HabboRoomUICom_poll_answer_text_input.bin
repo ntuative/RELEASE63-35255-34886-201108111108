@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="poll_answer_text_input" width="382" height="60" version="0.0">
+  <window>
+    <input x="0" y="0" width="382" height="60" params="2177" style="0" name="poll_answer_input">
+      <variables>
+        <var key="font_face" value="Volter" type="String"/>
+        <var key="font_size" value="9" type="uint"/>
+        <var key="text_color" value="0x0" type="hex"/>
+        <var key="always_show_selection" value="true" type="Boolean"/>
+        <var key="border" value="true" type="Boolean"/>
+        <var key="embed_fonts" value="true" type="Boolean"/>
+        <var key="max_chars" value="255" type="int"/>
+        <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+        <var key="multiline" value="true" type="Boolean"/>
+        <var key="word_wrap" value="true" type="Boolean"/>
+        <var key="focus_capturer" value="true" type="Boolean"/>
+      </variables>
+    </input>
+  </window>
+</layout>

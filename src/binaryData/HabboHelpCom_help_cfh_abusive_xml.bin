@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="help_cfh_abusive" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="360" height="174" params="16" style="0">
+      <children>
+        <border x="0" y="0" width="360" height="174" params="2192" style="0">
+          <children>
+            <itemlist_vertical x="0" y="5" width="360" height="174" params="17" style="0">
+              <children>
+                <text x="8" y="0" width="312" height="14" params="16" style="0" caption="%24%7Bhelp.cfh.error.title%7D" width_min="312">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xcc6600" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                    <var key="auto_size" value="left" type="String"/>
+                  </variables>
+                </text>
+                <text x="8" y="14" width="330" height="124" params="16" style="0" caption="%24%7Bhelp.cfh.error.abusive%7D">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <button_thick x="117" y="138" width="126" height="22" params="917713" style="0" name="cfh_ok" caption="%24%7Bgeneric.ok%7D" tags="close"/>
+              </children>
+            </itemlist_vertical>
+          </children>
+        </border>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="avatarinfo" width="140" height="39" version="0.1" uid="216D2AF1-5D9C-D507-48B8-8D8AEAA3905A">
+  <window>
+    <bubble x="0" y="0" width="140" height="39" params="1" style="5" name="border" color="0x03d3d3d">
+      <children>
+        <text x="21" y="3" width="81" height="16" params="208" style="0" name="name" caption="my_name_here">
+          <variables>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_size" value="11" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="text_style" value="u_regular" type="String"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="sharpness" value="80" type="Number"/>
+            <var key="thickness" value="-15" type="Number"/>
+          </variables>
+        </text>
+        <container x="0" y="19" width="123" height="18" params="209" style="0" name="change_name_container" treshold="0">
+          <children>
+            <text x="20" y="0" width="106" height="18" params="16" style="0" caption="%24%7Bwidget.avatar.change_name%7D">
+              <variables>
+                <var key="font_size" value="10" type="uint"/>
+                <var key="text_color" value="0xfac200" type="hex"/>
+                <var key="text_style" value="u_italic" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="80" type="Number"/>
+                <var key="thickness" value="-15" type="Number"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <bitmap x="7" y="1" width="12" height="12" params="16" style="0" name="pen_icon"/>
+          </children>
+        </container>
+      </children>
+    </bubble>
+  </window>
+</layout>

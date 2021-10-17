@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="poll_offer" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="335" height="195" params="32769" style="0" name="poll_offer_frame" caption="${poll_offer_window}">
+      <children>
+        <border x="0" y="0" width="323" height="163" params="2192" style="0">
+          <children>
+            <text x="6" y="6" width="310" height="22" params="144" style="0" name="poll_offer_headline" caption="${poll_offer_title}">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <itemlist_vertical x="8" y="30" width="308" height="80" params="2193" style="0" name="poll_offer_summary_wrapper">
+              <children>
+                <text x="0" y="0" width="308" height="80" params="144" style="0" name="poll_offer_summary" caption="${poll_offer_summary}">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="multiline" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                    <var key="auto_size" value="left" type="String"/>
+                  </variables>
+                </text>
+              </children>
+            </itemlist_vertical>
+            <container x="41" y="122" width="240" height="28" params="1232" style="0">
+              <children>
+                <button x="1" y="3" width="74" height="22" params="131089" style="0" name="poll_offer_button_cancel" caption="${cancel}" width_min="74" width_max="74"/>                <button x="84" y="3" width="74" height="22" params="131089" style="0" name="poll_offer_button_later" caption="${poll_offer_later}" width_min="74" width_max="74"/>                <button_thick x="166" y="0" width="74" height="27" params="131089" style="0" name="poll_offer_button_ok" caption="${ok}" width_min="74" width_max="74"/>
+              </children>
+            </container>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

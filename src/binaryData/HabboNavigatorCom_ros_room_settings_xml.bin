@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="roomsettings" width="218" height="507" version="0.1" uid="EC04E85C-BE5B-0A21-B266-769E2F041CEB">
+    <window>
+        <container x="5" y="4" width="218" height="507" params="17" style="0" name="roomsettings_container" color="0xffff3d3d3d" background="true">
+            <children>
+                <container x="0" y="100" width="218" height="435" params="1" style="0" name="basic_settings_container">
+                    <children>
+                        <text x="0" y="0" width="67" height="13" params="0" style="0" name="room_name_label" caption="%24%7Bnavigator.roomname%7D">
+                            <variables>
+                                <var key="auto_size" value="left" type="String"/>
+                                <var key="text_color" value="0xffffff" type="hex"/>
+                                <var key="text_style" value="bold" type="String"/>
+                                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                            </variables>
+                        </text>
+                        <input x="0" y="13" width="217" height="15" params="1" style="0" name="room_name">
+                            <variables>
+                                <var key="always_show_selection" value="true" type="Boolean"/>
+                                <var key="border" value="true" type="Boolean"/>
+                                <var key="border_color" value="0xffffff" type="hex"/>
+                                <var key="text_color" value="0xffffff" type="hex"/>
+                            </variables>
+                        </input>
+                        <text x="0" y="35" width="70" height="13" params="0" style="0" name="description_label" caption="%24%7Bnavigator.roomsettings.desc%7D">
+                            <variables>
+                                <var key="auto_size" value="left" type="String"/>
+                                <var key="text_color" value="0xffffff" type="hex"/>
+                                <var key="text_style" value="bold" type="String"/>
+                                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                            </variables>
+                        </text>
+                        <input x="0" y="48" width="217" height="35" params="33" style="0" name="description">
+                            <variables>
+                                <var key="always_show_selection" value="true" type="Boolean"/>
+                                <var key="border" value="true" type="Boolean"/>
+                                <var key="border_color" value="0xffffff" type="hex"/>
+                                <var key="text_color" value="0xffffff" type="hex"/>
+                                <var key="word_wrap" value="true" type="Boolean"/>
+                            </variables>
+                        </input>
+                        <container x="0" y="88" width="218" height="108" params="0" style="0" name="tag_category_container" background="true">
+                            <children>
+                                <text x="0" y="0" width="57" height="13" params="0" style="0" name="category_label" caption="%24%7Bnavigator.category%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <dropmenu x="0" y="13" width="218" height="20" params="33" style="1" name="categories"/>
+                                <text x="0" y="40" width="166" height="13" params="0" style="0" name="maxvisitors_label" caption="%24%7Bnavigator.maxvisitors%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <dropmenu x="0" y="53" width="218" height="20" params="33" style="1" name="maxvisitors"/>
+                                <text x="0" y="80" width="31" height="13" params="0" style="0" name="tag_label" caption="%24%7Bnavigator.tags%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <input x="0" y="93" width="107" height="15" params="33" style="0" name="tag1">
+                                    <variables>
+                                        <var key="always_show_selection" value="true" type="Boolean"/>
+                                        <var key="border" value="true" type="Boolean"/>
+                                        <var key="border_color" value="0xffffff" type="hex"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                    </variables>
+                                </input>
+                                <input x="110" y="93" width="107" height="15" params="33" style="0" name="tag2">
+                                    <variables>
+                                        <var key="always_show_selection" value="true" type="Boolean"/>
+                                        <var key="border" value="true" type="Boolean"/>
+                                        <var key="border_color" value="0xffffff" type="hex"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                    </variables>
+                                </input>
+                            </children>
+                        </container>
+                        <container x="0" y="202" width="215" height="75" params="16" style="0" name="doormode_container">
+                            <children>
+                                <text x="0" y="0" width="69" height="13" params="0" style="0" name="doormode_label" caption="%24%7Bnavigator.roomsettings.doormode%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <selector x="5" y="16" width="214" height="60" params="17" style="0" name="doormode">
+                                    <children>
+                                        <radiobutton x="0" y="0" width="20" height="20" params="17" style="1" name="doormode_open"/>
+                                        <radiobutton x="0" y="20" width="20" height="20" params="17" style="1" name="doormode_doorbell"/>
+                                        <radiobutton x="0" y="40" width="20" height="20" params="17" style="1" name="doormode_password"/>
+                                    </children>
+                                </selector>
+                                <text x="26" y="17" width="27" height="13" params="48" style="0" name="doormode_open_label" caption="%24%7Bnavigator.roomsettings.doormode.open%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <text x="25" y="36" width="86" height="13" params="48" style="0" name="doormode_doorbell_label" caption="%24%7Bnavigator.roomsettings.doormode.doorbell%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <text x="25" y="56" width="96" height="13" params="48" style="0" name="doormode_password_label" caption="%24%7Bnavigator.roomsettings.doormode.password%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                            </children>
+                        </container>
+                        <container x="23" y="274" width="195" height="68" params="16" style="0" name="password_container">
+                            <children>
+                                <text x="0" y="0" width="143" height="13" params="16" style="0" name="password_label" caption="%24%7Bnavigator.roomsettings.password%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <password x="1" y="13" width="193" height="15" params="1" style="0" name="password">
+                                    <variables>
+                                        <var key="always_show_selection" value="true" type="Boolean"/>
+                                        <var key="border" value="true" type="Boolean"/>
+                                        <var key="border_color" value="0xffffff" type="hex"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="display_as_password" value="true" type="Boolean"/>
+                                    </variables>
+                                </password>
+                                <text x="0" y="30" width="114" height="13" params="16" style="0" name="password__confirm_label" caption="%24%7Bnavigator.roomsettings.passwordconfirm%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <password x="1" y="43" width="193" height="15" params="1" style="0" name="password_confirm">
+                                    <variables>
+                                        <var key="always_show_selection" value="true" type="Boolean"/>
+                                        <var key="border" value="true" type="Boolean"/>
+                                        <var key="border_color" value="0xffffff" type="hex"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="display_as_password" value="true" type="Boolean"/>
+                                    </variables>
+                                </password>
+                            </children>
+                        </container>
+                    </children>
+                </container>
+
+                <container x="0" y="0" width="218" height="395" params="1" style="0" name="advanced_settings_container">
+                    <children>
+
+                        <container x="0" y="0" width="218" height="22" params="16" style="0" name="thumbnail_container">
+                            <children>
+                                <button x="90" y="0" width="110" height="22" params="131121" style="1" name="edit_thumbnail" caption="%24%7Bnavigator.roomsettings.editthumbnail%7D" width_min="110" width_max="110"/>
+                            </children>
+                        </container>
+
+                        <container x="0" y="30" width="218" height="80" params="16" style="0" name="advanced_container" color="0xffff3d3d3d" background="true">
+                            <children>
+                                <text x="0" y="0" width="54" height="13" params="0" style="0" name="advanced_settings_text" caption="%24%7Bnavigator.roomsettings.advanced_settings%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <checkbox x="0" y="20" width="20" height="20" params="17" style="1" name="allow_pets_checkbox"/>
+                                <text x="20" y="20" width="54" height="13" params="0" style="0" name="allow_pets_text" caption="%24%7Bnavigator.roomsettings.allowpets%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <checkbox x="0" y="40" width="20" height="20" params="17" style="1" name="allow_foodconsume_checkbox"/>
+                                <text x="20" y="40" width="156" height="13" params="0" style="0" name="allow_food_consume_text" caption="%24%7Bnavigator.roomsettings.allowfoodconsume%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <checkbox x="0" y="60" width="20" height="20" params="17" style="1" name="allow_walk_through_checkbox"/>
+                                <text x="20" y="60" width="221" height="13" params="0" style="0" name="walk_through_text" caption="%24%7Bnavigator.roomsettings.allow_walk_through%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                            </children>
+                        </container>
+
+
+                        <container x="0" y="120" width="218" height="90" params="16" style="0" name="vip_container" color="0xffff3d3d3d" background="true">
+                            <children>
+
+                                <text x="0" y="0" width="54" height="13" params="0" style="0" name="vip_settings_text" caption="%24%7Bnavigator.roomsettings.vip_settings%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+
+
+                                <checkbox x="0" y="20" width="20" height="20" params="17" style="1" name="hide_walls_checkbox"/>
+                                <text x="20" y="20" width="174" height="13" params="0" style="0" name="hide_walls_text" caption="%24%7Bnavigator.roomsettings.hide_walls%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+
+                                <dropmenu x="0" y="40" width="218" height="21" params="33" style="1" name="wall_thickness" caption="">
+                                    <variables>
+                                        <!--<var key="tool_tip_caption" value="${navigator.roomsettings.wall_thickness_selection}" type="String"/>-->
+                                        <var key="item_array">
+                                            <value>
+                                                <Array>
+                                                    <var key="0" value="${navigator.roomsettings.wall_thickness.thinnest}" type="String"/>
+                                                    <var key="1" value="${navigator.roomsettings.wall_thickness.thin}" type="String"/>
+                                                    <var key="2" value="${navigator.roomsettings.wall_thickness.normal}" type="String"/>
+                                                    <var key="3" value="${navigator.roomsettings.wall_thickness.thick}" type="String"/>
+                                                </Array>
+                                            </value>
+                                        </var>
+                                    </variables>
+                                </dropmenu>
+
+                                <dropmenu x="0" y="65" width="218" height="21" params="33" style="1" name="floor_thickness" caption="">
+                                    <variables>
+                                        <!--<var key="tool_tip_caption" value="${navigator.roomsettings.floor_thickness_selection}" type="String"/>-->
+                                        <var key="item_array">
+                                            <value>
+                                                <Array>
+                                                    <var key="0" value="${navigator.roomsettings.floor_thickness.thinnest}" type="String"/>
+                                                    <var key="1" value="${navigator.roomsettings.floor_thickness.thin}" type="String"/>
+                                                    <var key="2" value="${navigator.roomsettings.floor_thickness.normal}" type="String"/>
+                                                    <var key="3" value="${navigator.roomsettings.floor_thickness.thick}" type="String"/>
+                                                </Array>
+                                            </value>
+                                        </var>
+                                    </variables>
+                                </dropmenu>
+
+                            </children>
+                        </container>
+
+                        <container x="0" y="230" width="218" height="30" params="16" style="0" name="delete_room_container" color="0xffff3d3d3d" background="true">
+                            <children>
+                                <button x="25" y="5" width="170" height="22" params="131121" style="1" name="delete" caption="%24%7Bnavigator.roomsettings.delete%7D" width_min="170" width_max="170"/>
+                            </children>
+                        </container>
+                        <container x="0" y="260" width="218" height="70" params="16" style="0" name="flat_controllers_container" color="0xffff3d3d3d" background="true">
+                            <children>
+                                <container x="0" y="0" width="218" height="1" params="16" style="0" name="ruler" color="0xffff232323" background="true"/>
+                                <text x="-5" y="5" width="231" height="18" params="786432" style="0" name="flat_ctrls_caption_txt" caption="%24%7Bnavigator.roomsettings.flatctrls.caption%7D">
+                                    <variables>
+                                        <var key="auto_size" value="left" type="String"/>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="text_style" value="bold" type="String"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <text x="0" y="5" width="210" height="24" params="16" style="0" name="flat_ctrls_limit_txt" caption="%24%7Bnavigator.roomsettings.flatctrls.limitinfo%7D">
+                                    <variables>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                        <var key="word_wrap" value="true" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <container x="0" y="20" width="218" height="20" params="17" style="0" name="flat_controller_list"/>
+                                <text x="0" y="20" width="210" height="50" params="16" style="0" name="flat_ctrls_info_txt" caption="%24%7Bnavigator.roomsettings.flatctrls.info%7D">
+                                    <variables>
+                                        <var key="text_color" value="0xffffff" type="hex"/>
+                                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                        <var key="word_wrap" value="true" type="Boolean"/>
+                                    </variables>
+                                </text>
+                                <container x="0" y="50" width="218" height="22" params="1" style="0" name="flat_controllers_footer" color="0xffff3d3d3d" background="true">
+                                    <children>
+                                        <button x="0" y="0" width="102" height="22" params="131121" style="1" name="remove_flat_ctrl" caption="%24%7Bnavigator.remove%7D" width_min="102" width_max="102"/>
+                                        <button x="114" y="0" width="102" height="22" params="131121" style="1" name="remove_all_flat_ctrls" caption="%24%7Bnavigator.roomsettings.removeallflatctrls%7D" width_min="102" width_max="102"/>
+                                    </children>
+                                </container>
+                            </children>
+                        </container>
+
+                    </children>
+                </container>
+                <container x="0" y="425" width="218" height="24" params="16" style="0" name="switch_view_container">
+                    <children>
+                        <container x="0" y="1" width="218" height="1" params="16" style="0" name="ruler" color="0xffff232323" background="true"/>
+                        <text x="60" y="5" width="96" height="13" params="786449" style="0" name="switch_view_text" caption="PH%20XXX%20Settings" color="0xffff3d3d3d" background="true">
+                            <variables>
+                                <var key="auto_size" value="left" type="String"/>
+                                <var key="text_color" value="0xffffff" type="hex"/>
+                                <var key="text_style" value="bold" type="String"/>
+                                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                                <var key="underline" value="true" type="Boolean"/>
+                            </variables>
+                        </text>
+                    </children>
+                </container>
+                <container x="0" y="455" width="218" height="35" params="16" style="0" name="footer_container">
+                    <children>
+                        <button_thick x="0" y="5" width="102" height="22" params="131121" style="1" name="save" caption="%24%7Bnavigator.roomsettings.save%7D" width_min="102" width_max="102"/>
+                        <button x="114" y="5" width="102" height="22" params="131089" style="1" name="cancel" caption="%24%7Bgeneric.cancel%7D" width_min="100" width_max="100"/>
+                    </children>
+                </container>
+            </children>
+        </container>
+    </window>
+</layout>

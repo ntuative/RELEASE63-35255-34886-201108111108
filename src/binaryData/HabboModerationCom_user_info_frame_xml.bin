@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="user_info_frame" width="20" height="20" version="0.0">
+  <window>
+    <frame x="200" y="4" width="292" height="151" params="32769" style="0" caption="User info"/>
+  </window>
+</layout>

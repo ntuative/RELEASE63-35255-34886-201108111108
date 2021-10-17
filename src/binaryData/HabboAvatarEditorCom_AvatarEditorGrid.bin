@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="AvatarEditorGrids" width="350" height="248" version="0.1" uid="2BD5E09C-05F9-E5EB-5608-20BA3C557E86">
+  <window>
+    <container x="0" y="0" width="350" height="248" params="17" style="0" name="item_container">
+      <children>
+        <border x="0" y="0" width="255" height="118" params="17" style="3" color="0x0f1f1f1">
+          <children>
+            <itemgrid_vertical x="10" y="6" width="235" height="105" params="17" style="0" name="part_thumbs" tags="CATEGORYNAME_ITEM_GRID">
+              <variables>
+                <var key="spacing" value="4" type="int"/>
+                <var key="scale_to_fit_items" value="true" type="Boolean"/>
+              </variables>
+            </itemgrid_vertical>
+            <scrollbar_vertical x="238" y="0" width="20" height="118" params="17" style="0">
+              <variables>
+                <var key="scrollable" value="part_thumbs" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+          </children>
+        </border>
+        <border x="0" y="127" width="334" height="120" params="17" style="3" name="palettes" color="0x0f1f1f1">
+          <children>
+            <container x="7" y="2" width="160" height="115" params="17" style="0" name="palette_container0">
+              <children>
+                <itemgrid_vertical x="0" y="20" width="139" height="90" params="145" style="0" name="palette0" tags="CATEGORY_COLOUR_ITEM_GRID">
+                  <variables>
+                    <var key="spacing" value="2" type="int"/>
+                    <var key="scale_to_fit_items" value="true" type="Boolean"/>
+                  </variables>
+                </itemgrid_vertical>
+                <scrollbar_vertical x="139" y="20" width="20" height="90" params="262225" style="0">
+                  <variables>
+                    <var key="scrollable" value="palette0" type="String"/>
+                  </variables>
+                </scrollbar_vertical>
+                <text x="0" y="4" width="150" height="14" params="16" style="0" name="palette_desc_0" caption="%24%7Bavatareditor.palette.1%7D">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+            <container x="169" y="2" width="160" height="115" params="17" style="0" name="palette_container1">
+              <children>
+                <itemgrid_vertical x="0" y="20" width="139" height="90" params="17" style="0" name="palette1" tags="CATEGORY_COLOUR_ITEM_GRID">
+                  <variables>
+                    <var key="spacing" value="2" type="int"/>
+                    <var key="scale_to_fit_items" value="true" type="Boolean"/>
+                  </variables>
+                </itemgrid_vertical>
+                <scrollbar_vertical x="139" y="20" width="20" height="90" params="262225" style="0">
+                  <variables>
+                    <var key="scrollable" value="palette1" type="String"/>
+                  </variables>
+                </scrollbar_vertical>
+                <text x="0" y="4" width="150" height="14" params="16" style="0" name="palette_desc_1" caption="%24%7Bavatareditor.palette.2%7D">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+          </children>
+        </border>
+      </children>
+    </container>
+  </window>
+</layout>

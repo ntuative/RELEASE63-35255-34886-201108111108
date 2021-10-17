@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="pet_command" width="20" height="20" version="0.0">
+  <window>
+    <button x="0" y="0" width="84" height="22" params="131089" style="1" width_min="84" width_max="84"/>               
+  </window>
+</layout>

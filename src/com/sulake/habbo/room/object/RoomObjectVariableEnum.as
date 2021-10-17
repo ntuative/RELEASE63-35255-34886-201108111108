@@ -1,0 +1,104 @@
+﻿package com.sulake.habbo.room.object
+{
+    public class RoomObjectVariableEnum 
+    {
+
+        public static const var_746:String = "is_selected";
+        public static const var_493:String = "object_accurate_z_value";
+        public static const var_526:String = "image_query_scale";
+        public static const var_522:String = "figure";
+        public static const var_747:String = "race";
+        public static const AVATAR_GENDER:String = "gender";
+        public static const var_524:String = "pet_palette_index";
+        public static const var_511:String = "figure_talk";
+        public static const var_512:String = "figure_wave";
+        public static const var_517:String = "figure_dance";
+        public static const var_513:String = "figure_sleep";
+        public static const var_748:String = "figure_blink";
+        public static const var_749:String = "figure_effect";
+        public static const var_515:String = "figure_carry_object";
+        public static const var_516:String = "figure_use_object";
+        public static const var_750:String = "figure_gesture";
+        public static const var_751:String = "figure_posture";
+        public static const var_752:String = "figure_posture_parameter";
+        public static const var_753:String = "std";
+        public static const var_520:String = "figure_sign";
+        public static const var_754:String = "figure_flat_control";
+        public static const var_755:String = "figure_is_admin";
+        public static const var_514:String = "figure_is_typing";
+        public static const var_756:String = "figure_generic_action";
+        public static const AVATAR_EXPERIENCE_TIMESTAMP:String = "figure_experience_timestamp";
+        public static const var_518:String = "figure_gained_experience";
+        public static const var_519:String = "figure_number_value";
+        public static const var_510:String = "head_direction";
+        public static const var_502:String = "furniture_real_room_object";
+        public static const var_499:String = "furniture_color";
+        public static const var_500:String = "furniture_type_id";
+        public static const var_457:String = "furniture_size_x";
+        public static const var_458:String = "furniture_size_y";
+        public static const var_757:String = "furniture_size_z";
+        public static const var_758:String = "furniture_center_x";
+        public static const var_759:String = "furniture_center_y";
+        public static const var_760:String = "furniture_center_z";
+        public static const var_761:String = "furniture_lift_amount";
+        public static const var_762:String = "furniture_allowed_directions";
+        public static const var_525:String = "furniture_data";
+        public static const var_521:String = "furniture_extras";
+        public static const var_763:String = "furniture_itemdata";
+        public static const var_150:String = "furniture_alpha_multiplier";
+        public static const var_503:String = "furniture_expiry_time";
+        public static const var_504:String = "furniture_expirty_timestamp";
+        public static const var_764:String = "furniture_state_update_time";
+        public static const var_506:String = "furniture_automatic_state_index";
+        public static const var_765:String = "furniture_credit_value";
+        public static const var_766:String = "furniture_planetsystem_data";
+        public static const var_767:String = "furniture_fireworks_data";
+        public static const var_507:String = "furniture_uses_plane_mask";
+        public static const var_508:String = "furniture_plane_mask_type";
+        public static const var_501:String = "furniture_ad_url";
+        public static const var_768:String = "furniture_branding_image_status";
+        public static const var_769:String = "furniture_branding_image_url";
+        public static const FURNITURE_BRANDING_CLICK_URL:String = "furniture_branding_url";
+        public static const var_770:String = "furniture_branding_offset_x";
+        public static const var_771:String = "furniture_branding_offset_y";
+        public static const var_772:String = "furniture_branding_offset_z";
+        public static const var_773:String = "furniture_selection_disable";
+        public static const var_774:String = "furniture_clothing_girl";
+        public static const var_775:String = "furniture_clothing_boy";
+        public static const var_776:String = "furniture_is_stickie";
+        public static const var_505:String = "furniture_is_usable";
+        public static const var_777:String = "room_plane_xml";
+        public static const var_778:String = "room_plane_mask_xml";
+        public static const var_148:String = "room_floor_type";
+        public static const var_147:String = "room_wall_type";
+        public static const var_149:String = "room_landscape_type";
+        public static const var_779:String = "room_wall_thickness";
+        public static const var_780:String = "room_floor_thickness";
+        public static const var_781:String = "room_floor_hole_update_time";
+        public static const var_782:String = "room_floor_visibility";
+        public static const var_783:String = "room_wall_visibility";
+        public static const var_784:String = "room_landscape_visibility";
+        public static const var_484:String = "room_door_x";
+        public static const var_485:String = "room_door_y";
+        public static const var_486:String = "room_door_z";
+        public static const var_487:String = "room_door_dir";
+        public static const var_785:String = "room_background_color";
+        public static const var_786:String = "room_colorize_bg_only";
+        public static const var_477:String = "room_random_seed";
+        public static const var_473:String = "room_world_type";
+        public static const var_787:String = "billboard";
+        public static const var_528:String = "room_ad_image_asset";
+        public static const var_788:String = "room_ad_click_url";
+        public static const var_789:String = "room_ad_waiting";
+        public static const var_529:String = "room_ad_warning_image_left";
+        public static const var_530:String = "room_ad_warning_image_right";
+        public static const var_790:String = "room_selected_x";
+        public static const var_791:String = "room_selected_y";
+        public static const var_792:String = "room_selected_z";
+        public static const var_793:String = "room_selected_plane";
+        public static const var_794:String = "room_park_door_status";
+        public static const var_795:String = "room_pool_door_status";
+
+
+    }
+}

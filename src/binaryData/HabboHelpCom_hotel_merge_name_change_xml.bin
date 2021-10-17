@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="name_change" width="20" height="20" version="0.0">
+  <window>
+    <frame x="1" y="1" width="315" height="225" params="32768" style="0" caption="%24%7Bhotel_merge.name_change.title.main%7D" color="0x418db0">
+      <children>
+        <border x="0" y="0" width="303" height="193" params="12582928" style="0" name="main_border">
+          <children>
+            <text x="22" y="22" width="264" height="59" params="16" style="0" caption="%24%7Bhotel_merge.name_change.info.main%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container_button x="14" y="134" width="122" height="46" params="17" style="0" name="change_name_button" caption="name_change_title">
+              <children>
+                <text x="10" y="11" width="102" height="28" params="16" style="0" caption="%24%7Bhotel_merge.name_change.change%7D">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container_button>
+            <container_button x="165" y="134" width="122" height="46" params="17" style="0" name="keep_name_button" caption="name_change_title">
+              <children>
+                <text x="10" y="11" width="102" height="28" params="16" style="0" caption="%24%7Bhotel_merge.name_change.keep%7D">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container_button>
+            <text x="8" y="96" width="289" height="18" params="16" style="0" caption="%24%7Bhotel_merge.name_change.current%7D">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="auto_size" value="center" type="String"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

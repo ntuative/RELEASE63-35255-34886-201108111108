@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="achievement_notification_bonus" width="433" height="260" version="0.1" uid="BDDB0D8C-BC51-8510-B62B-E53D246D1DAF">
+  <window>
+    <frame x="0" y="0" width="433" height="260" params="164097" style="1" caption="%24%7Bnotifications.title.bonus%7D" color="0xff4c4c4c">
+      <children>
+        <container x="0" y="0" width="420" height="226" params="16" style="0" name="achievement_container" caption="%24%7Bnotifications.title.achievement%7D">
+          <children>
+            <border x="0" y="0" width="420" height="226" params="16" style="0" name="achievement_container" caption="%24%7Bnotifications.title.achievement%7D" blend="0">
+              <children>
+                <border x="1" y="0" width="418" height="160" params="16" style="0" name="white_area" caption="%24%7Bnotifications.title.achievement%7D"/>
+                <bitmap x="2" y="1" width="416" height="158" params="16" style="0" name="achievement_bg" caption="%24%7Bnotifications.title.achievement%7D" background="true"/>
+                <text x="29" y="10" width="360" height="23" params="786448" style="0" name="congrats" caption="%24%7Bnotifications.text.achievement.congratulations%7D" width_min="360" width_max="360" height_min="23" height_max="23">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="center" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="16" type="uint"/>
+                    <var key="text_style" value="bold" type="String"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="29" y="36" width="360" height="72" params="786448" style="0" name="bonus_info" caption="%24%7Bnotifications.achievement.bonus_received%7D" color="0x0888888" width_min="360" width_max="360">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="center" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="16" type="uint"/>
+                    <var key="text_color" value="0x888888" type="hex"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="multiline" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="29" y="110" width="360" height="32" params="3932176" style="0" name="bonus_points" caption="0" color="0x0888888" width_min="360" width_max="360" height_min="32" height_max="32">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="center" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="24" type="uint"/>
+                    <var key="text_color" value="0x888888" type="hex"/>
+                    <var key="text_style" value="bold" type="String"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <container_button x="54" y="172" width="308" height="48" params="17" style="0" name="close" caption="%24%7Bnotifications.achievement.bonus_collect%7D">
+                  <children>
+                    <border x="4" y="4" width="300" height="40" params="16" style="3" name="share_button_bg1" caption="%24%7Bnotifications.title.achievement%7D" color="0x06d00"/>
+                    <border x="7" y="7" width="294" height="18" params="16" style="3" name="share_button_bg2" caption="%24%7Bnotifications.title.achievement%7D" color="0x0309d00"/>
+                    <text x="9" y="11" width="290" height="31" params="3935440" style="0" name="share_bonus_text" caption="%24%7Bnotifications.gotbonus.ok%7D">
+                      <variables>
+                        <var key="antialias_type" value="advanced" type="String"/>
+                        <var key="auto_size" value="center" type="String"/>
+                        <var key="font_face" value="Ubuntu" type="String"/>
+                        <var key="font_size" value="18" type="uint"/>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="bold" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="bold" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </container_button>
+              </children>
+            </border>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

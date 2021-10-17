@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="make_marketplace_offer" width="20" height="20" version="0.0">
+  <window>
+    <frame x="113" y="69" width="300" height="330" params="33025" style="0" caption="%24%7Binventory.marketplace.make_offer.title%7D">
+      <children>
+        <border x="0" y="0" width="288" height="298" params="2192" style="0" name="main_border" caption="Marketplace%20offer">
+          <children>
+            <border x="10" y="12" width="70" height="70" params="16" style="0" name="image_border" caption="Marketplace%20offer" color="0xeeeeee">
+              <children>
+                <bitmap x="0" y="0" width="70" height="70" params="16" style="0" name="furni_image" caption="Marketplace%20offer"/>
+              </children>
+            </border>
+            <text x="88" y="13" width="190" height="19" params="16" style="0" name="furni_name" caption="%24%7B001_lorem_ipsum_title%7D">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="88" y="34" width="190" height="49" params="16" style="0" name="furni_desc" caption="%24%7B002_lorem_ipsum_content%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="10" y="87" width="268" height="39" params="16" style="0" name="expiration_info" caption="%24%7Binventory.marketplace.make_offer.expiration_info%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="-89" y="135" width="295" height="13" params="262160" style="0" name="price_request" caption="%24%7Binventory.marketplace.make_offer.price_request%7D">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="auto_size" value="right" type="String"/>
+              </variables>
+            </text>
+            <border x="212" y="129" width="66" height="26" params="16" style="0" name="input_border" caption="Marketplace%20offer">
+              <children>
+                <input x="8" y="6" width="50" height="13" params="1" style="0" name="price_input" caption="" width_min="50" width_max="50">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="always_show_selection" value="true" type="Boolean"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                  </variables>
+                </input>
+              </children>
+            </border>
+            <text x="10" y="159" width="268" height="42" params="16" style="0" name="average_price" caption="%24%7Binventory.marketplace.make_offer.average_price%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <border x="10" y="204" width="268" height="54" params="1040" style="0" name="final_price_border" caption="Marketplace%20offer" color="0xeeeeee">
+              <children>
+                <text x="6" y="4" width="257" height="46" params="16" style="0" name="final_price" caption="%24%7Binventory.marketplace.make_offer.final_price%7D">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </border>
+            <button x="10" y="265" width="130" height="24" params="132113" style="0" name="make_offer_button" caption="%24%7Binventory.marketplace.make_offer.post%7D" width_max="130"/>
+            <button x="149" y="265" width="130" height="24" params="394257" style="0" name="cancel_make_offer_button" caption="%24%7Binventory.marketplace.make_offer.cancel%7D" width_max="130"/>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.bootstrap.HabboSoundManagerFlash10" version="0.0">
+
+		<interface iid="com.sulake.iid.IIDHabboSoundManager" />
+	
+		<assets>
+	
+			<asset mimeType="sound/mp3" name="sound_call_for_help" />
+			<asset mimeType="sound/mp3" name="sound_catalogue_cash" />
+			<asset mimeType="sound/mp3" name="sound_catalogue_pixels" />
+			<asset mimeType="sound/mp3" name="sound_console_message_sent" />
+			<asset mimeType="sound/mp3" name="sound_console_new_message" />
+			<asset mimeType="sound/mp3" name="sound_guide_received_invitation" />
+			<asset mimeType="sound/mp3" name="sound_respect_received" />
+	
+		</assets>
+	
+	</component>
+	
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<layout name="tablet_window_layout_tab_context" width="100" height="100" version="0.0">
+	<window>
+	
+		<tab_content name="content" x="0" y="40" width="100" height="60" tags="_CONTENT, _EXCLUDE, _INTERNAL">
+			<params>
+				<param name="relative_horizontal_scale_strech" />
+				<param name="relative_vertical_scale_strech" />
+				<param name="use_parent_graphic_context" />
+				<param name="input_event_processor" />
+			</params>
+		</tab_content>
+
+		<tab_selector name="selector" x="6" y="0" width="88" height="41" tags="_SELECTOR, _EXCLUDE, _INTERNAL">
+			<params>
+				<param name="relative_horizontal_scale_strech" />
+				<param name="relative_vertical_scale_fixed" />
+				<param name="use_parent_graphic_context" />
+				<param name="input_event_processor" />
+			</params>
+		</tab_selector>
+		
+	</window>
+</layout>

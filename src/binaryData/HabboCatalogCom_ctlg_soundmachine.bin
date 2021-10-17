@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="ctlg_soundmachine" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_soundmachine">
+      <children>
+        <bitmap x="30" y="8" width="286" height="60" params="16" style="0" name="ctlg_header_img"/>
+        <text x="31" y="78" width="309" height="55" params="16" style="0" name="ctlg_header_text">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="16" y="128" width="130" height="15" params="16" style="0" name="ctlg_selectproduct" caption="%24%7Bcatalog_selectproduct%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="8" y="148" width="156" height="265" params="17" style="0" name="itemGridWidget">
+          <children>
+            <itemgrid_vertical x="10" y="0" width="120" height="265" params="17" style="0" name="itemGrid">
+              <variables>
+                <var key="spacing" value="2" type="int"/>
+              </variables>
+            </itemgrid_vertical>
+            <scrollbar_vertical x="139" y="0" width="20" height="265" params="17" style="0" name="itemGridScrollbar" />
+          </children>
+        </container>
+        <container x="169" y="154" width="162" height="212" params="16" style="0" name="songDiskProductViewWidget">
+          <children>
+            <bitmap x="5" y="0" width="162" height="96" params="16" style="0" name="ctlg_teaserimg_1"/>
+            <text x="5" y="97" width="162" height="15" params="16" style="0" name="ctlg_product_name">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="uint"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="5" y="114" width="162" height="30" params="16" style="0" name="ctlg_description" caption="">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="uint"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="5" y="138" width="162" height="30" params="16" style="0" name="ctlg_song_length" caption="">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="uint"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="0" y="156" width="162" height="47" params="16" style="0" name="playPreviewContainer">
+              <children>
+                <border x="0" y="0" width="162" height="47" params="16" style="2" color="0xcccccc"/>
+                <button x="90" y="13" width="66" height="22" params="131089" style="0" name="listen" caption="%24%7Bplay_preview_button%7D" width_max="66" width_min="66"/>
+                <text x="9" y="17" width="85" height="30" params="16" style="0" name="play_preview_text" caption="%24%7Bplay_preview%7D">
+                    <variables>
+                      <var key="font_face" value="Volter" type="String"/>
+                      <var key="font_size" value="9" type="uint"/>
+                      <var key="text_color" value="0" type="uint"/>
+                      <var key="embed_fonts" value="true" type="Boolean"/>
+                      <var key="auto_size" value="center" type="String"/>
+                    </variables>
+                </text>
+              </children>
+            </container>
+          </children>
+        </container>
+        <container x="169" y="118" width="142" height="73" params="16" style="0" name="specialInfoWidget">
+          <children>
+            <bitmap x="0" y="0" width="136" height="61" params="16" style="0" name="ctlg_special_img"/>
+            <text x="10" y="8" width="119" height="40" params="786448" style="0" name="ctlg_special_txt" caption="">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="uint"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <container x="169" y="364" width="162" height="47" params="16" style="0" name="purchaseWidget" />
+      </children>
+    </container>
+  </window>
+</layout>

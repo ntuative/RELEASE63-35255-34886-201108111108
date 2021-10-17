@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="itemGridWidget" width="20" height="20" version="0.0">
+  <window>
+    <container x="8" y="148" width="156" height="264" params="17" style="0" name="itemGridWidget">
+      <children>
+        <itemgrid_vertical x="10" y="0" width="120" height="264" params="17" style="0" name="itemGrid">
+          <variables>
+            <var key="spacing" value="2" type="int"/>
+          </variables>
+        </itemgrid_vertical>
+        <scrollbar_vertical x="139" y="0" width="20" height="264" params="17" style="0" name="itemGridScrollbar"/>
+      </children>
+    </container>
+  </window>
+</layout>

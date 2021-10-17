@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ctlg_pixelsdeals" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_pixelsdeals">
+      <children>
+        <bitmap x="30" y="2" width="286" height="60" params="16" style="0" name="ctlg_header_img"/>
+        <text x="16" y="70" width="309" height="55" params="16" style="0" name="ctlg_header_text">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="16" y="126" width="130" height="15" params="16" style="0" name="ctlg_selectproduct" caption="%24%7Bcatalog_selectproduct%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+	    <container x="169" y="364" width="162" height="47" params="16" style="0" name="purchaseWidget"/>	    <container x="174" y="154" width="158" height="207" params="16" style="0" name="productViewWidget">	      <children>	        <bitmap x="0" y="0" width="162" height="162" params="16" style="0" name="ctlg_teaserimg_1"/>	        <text x="0" y="156" width="162" height="15" params="16" style="0" name="ctlg_product_name">	          <variables>	            <var key="font_face" value="Volter Bold" type="String"/>	            <var key="font_size" value="9" type="uint"/>	            <var key="text_color" value="0" type="uint"/>	            <var key="embed_fonts" value="true" type="Boolean"/>	          </variables>	        </text>	        <text x="-2" y="173" width="162" height="30" params="16" style="0" name="ctlg_description" caption="Product%20description%20will%20be%20visible%20here">	          <variables>	            <var key="font_face" value="Volter" type="String"/>	            <var key="font_size" value="9" type="uint"/>	            <var key="text_color" value="0" type="uint"/>	            <var key="embed_fonts" value="true" type="Boolean"/>	            <var key="multiline" value="true" type="Boolean"/>	            <var key="word_wrap" value="true" type="Boolean"/>	          </variables>	        </text>	      </children>	    </container>	    <container x="8" y="148" width="156" height="264" params="17" style="0" name="itemGridWidget">	      <children>	        <itemgrid_vertical x="10" y="0" width="120" height="264" params="17" style="0" name="itemGrid">	          <variables>	            <var key="spacing" value="2" type="int"/>	          </variables>	        </itemgrid_vertical>	        <scrollbar_vertical x="139" y="0" width="20" height="264" params="17" style="0" name="itemGridScrollbar" />	      </children>	    </container>	  </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="logout" width="192" height="28" version="0.1" uid="8034F476-3E15-9BE6-4214-D692AAF9DD60">
+  <window>
+    <container x="0" y="0" width="192" height="28" params="0" style="2" color="0x00">
+      <children>
+        <border x="0" y="0" width="192" height="28" params="0" style="6" color="0x0676767" blend="0.8">
+          <children>
+            <border x="3" y="3" width="186" height="21" params="16" style="3" color="0x0201e19" blend="0.8"/>
+          </children>
+        </border>
+        <itemlist_horizontal x="5" y="5" width="350" height="20" params="0" style="0" name="list">
+          <children>
+            <region x="0" y="0" width="195" height="19" params="1" style="0" name="roominfo_region" treshold="0" tags="REGION">
+              <children>
+                <bitmap x="0" y="0" width="18" height="19" params="0" style="0" name="roominfo_icon"/>
+                <text x="21" y="0" width="172" height="16" params="4194304" style="0" name="roominfo_text" caption="navigator.roomsettings.roominfo" tags="TEXT">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="11" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="underline" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </region>
+            <region x="198" y="0" width="69" height="18" params="1" style="0" name="help_region" treshold="0" tags="REGION">
+              <children>
+                <text x="0" y="0" width="67" height="16" params="4194304" style="0" name="help_text" caption="toolbar.help" treshold="0" tags="TEXT">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="11" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="underline" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </region>
+            <region x="270" y="0" width="80" height="18" params="1" style="0" name="logout_region" treshold="0" tags="REGION">
+              <children>
+                <text x="0" y="0" width="77" height="16" params="4194304" style="0" name="logout_text" caption="toolbar.logout" treshold="0" tags="TEXT">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="11" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="underline" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </region>
+          </children>
+          <variables>
+            <var key="spacing" value="3" type="int"/>
+            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+            <var key="resize_on_item_update" value="true" type="Boolean"/>
+          </variables>
+        </itemlist_horizontal>
+      </children>
+    </container>
+  </window>
+</layout>

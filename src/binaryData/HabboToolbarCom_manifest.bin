@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.bootstrap.HabboToolbar" version="0.0">
+	
+		<interface iid="com.sulake.iid.IIDHabboToolbar" />
+		
+		<assets>
+
+            <!-- Toolbar -->
+            <asset mimeType="text/xml" name="toolbar_view_with_achievements_xml" />
+            <asset mimeType="text/xml" name="unseen_items_counter_xml" />
+            <asset mimeType="text/xml" name="new_items_label_xml" />
+
+            <asset mimeType="image/png" name="icon_navigator_normal" />
+            <asset mimeType="image/png" name="icon_catalogue_normal" />
+            <asset mimeType="image/png" name="icon_inventory_normal" />
+            <asset mimeType="image/png" name="icon_quests_normal" />
+            <asset mimeType="image/png" name="icon_achievements_normal" />
+
+            <asset mimeType="image/png" name="icon_navigator_hover" />
+            <asset mimeType="image/png" name="icon_catalogue_hover" />
+            <asset mimeType="image/png" name="icon_inventory_hover" />
+            <asset mimeType="image/png" name="icon_quests_hover" />
+            <asset mimeType="image/png" name="icon_achievements_hover" />
+
+            <asset mimeType="text/xml" name="extension_grid_xml" />
+
+            <!-- Extra Tools -->
+            <asset mimeType="text/xml" name="logout_xml" />
+            <asset mimeType="text/xml" name="logout_confirmation_xml" />
+
+			<asset mimeType="image/png" name="roominfo_icon" />
+
+            <!-- Purse -->
+            <asset mimeType="text/xml" name="purse_xml" />
+            <asset mimeType="text/xml" name="purse_indicator_credits_xml" />
+            <asset mimeType="text/xml" name="purse_indicator_pixels_xml" />
+            <asset mimeType="text/xml" name="purse_indicator_shells_xml" />
+            <asset mimeType="text/xml" name="purse_indicator_club_xml" />
+
+            <asset mimeType="image/png" name="icon_credit_0_png" />
+            <asset mimeType="image/png" name="icon_credit_1_png" />
+            <asset mimeType="image/png" name="icon_credit_2_png" />
+            <asset mimeType="image/png" name="icon_credit_3_png" />
+            <asset mimeType="image/png" name="icon_credit_4_png" />
+            <asset mimeType="image/png" name="icon_credit_5_png" />
+            <asset mimeType="image/png" name="icon_credit_6_png" />
+
+            <asset mimeType="image/png" name="icon_pixel_0_png" />
+            <asset mimeType="image/png" name="icon_pixel_1_png" />
+            <asset mimeType="image/png" name="icon_pixel_2_png" />
+            <asset mimeType="image/png" name="icon_pixel_3_png" />
+
+            <asset mimeType="image/png" name="icon_shell_0_png" />
+            <asset mimeType="image/png" name="icon_shell_1_png" />
+            <asset mimeType="image/png" name="icon_shell_2_png" />
+            <asset mimeType="image/png" name="icon_shell_3_png" />
+
+            <!-- Club Status Bar -->
+            <asset mimeType="text/xml" name="club_discount_promotion_xml" />
+            <asset mimeType="image/png" name="extend_hilite_png" />
+
+            <!-- Super saver ads video offer  -->
+            <asset mimeType="text/xml" name="video_offer_promotion_xml" />
+            <asset mimeType="image/png" name="offer_icon_png" />
+		</assets>
+		
+	</component>
+	
+</manifest>

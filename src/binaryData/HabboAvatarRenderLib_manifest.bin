@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.bootstrap.AvatarRenderManager" version="0.0">
+		<interface iid="com.sulake.iid.IIDAvatarRenderManager" />
+		<assets>
+
+            <asset mimeType="text/xml" name="action_offset_lay" />
+            <asset mimeType="text/xml" name="action_offset_swim" />
+            <asset mimeType="text/xml" name="HabboAvatarActions" />
+            <asset mimeType="text/xml" name="HabboAvatarAnimation" />
+            <asset mimeType="text/xml" name="HabboAvatarFigure" />
+            <asset mimeType="text/xml" name="HabboAvatarGeometry" />
+            <asset mimeType="text/xml" name="HabboAvatarPartSets" />
+            <asset mimeType="text/xml" name="HabboAvatarPetActions" />
+            <asset mimeType="text/xml" name="HabboAvatarPetAnimation" />
+            <asset mimeType="text/xml" name="HabboAvatarPetFigure" />
+            <asset mimeType="text/xml" name="HabboAvatarPetGeometry" />
+            <asset mimeType="text/xml" name="HabboAvatarPetPartSets" />
+
+	    	<asset mimeType="image/png" name="user_typing_png" />
+	    	<asset mimeType="image/png" name="user_typing_small_png" />
+	    	<asset mimeType="image/png" name="number_1_png" />
+	    	<asset mimeType="image/png" name="number_2_png" />
+	    	<asset mimeType="image/png" name="number_3_png" />
+	    	<asset mimeType="image/png" name="number_4_png" />
+	    	<asset mimeType="image/png" name="number_5_png" />
+	    	<asset mimeType="image/png" name="number_1_small_png" />
+	    	<asset mimeType="image/png" name="number_2_small_png" />
+	    	<asset mimeType="image/png" name="number_3_small_png" />
+	    	<asset mimeType="image/png" name="number_4_small_png" />
+	    	<asset mimeType="image/png" name="number_5_small_png" />
+            <asset mimeType="image/png" name="pet_experience_bubble_png" />
+
+            <asset mimeType="image/png" name="pet_placeholder_0_png" />
+            <asset mimeType="image/png" name="pet_placeholder_1_png" />
+            <asset mimeType="image/png" name="pet_placeholder_2_png" />
+            <asset mimeType="image/png" name="pet_placeholder_3_png" />
+            <asset mimeType="image/png" name="pet_placeholder_4_png" />
+            <asset mimeType="image/png" name="pet_placeholder_5_png" />
+            <asset mimeType="image/png" name="pet_placeholder_6_png" />
+            <asset mimeType="image/png" name="pet_placeholder_7_png" />
+
+            <asset mimeType="image/png" name="pet_placeholder_s0_png" />
+            <asset mimeType="image/png" name="pet_placeholder_s1_png" />
+            <asset mimeType="image/png" name="pet_placeholder_s2_png" />
+            <asset mimeType="image/png" name="pet_placeholder_s3_png" />
+            <asset mimeType="image/png" name="pet_placeholder_s4_png" />
+            <asset mimeType="image/png" name="pet_placeholder_s5_png" />
+            <asset mimeType="image/png" name="pet_placeholder_s6_png" />
+            <asset mimeType="image/png" name="pet_placeholder_s7_png" />
+
+		</assets>
+	</component>
+	
+</manifest>

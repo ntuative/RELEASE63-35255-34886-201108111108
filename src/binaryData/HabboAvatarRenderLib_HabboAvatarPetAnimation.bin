@@ -1,0 +1,111 @@
+<animationSet>
+
+    <action id="wlk">
+         <part set-type="pbd">
+             <frame number="0"/>
+             <frame number="1"/>
+             <frame number="2"/>
+             <frame number="3"/>
+         </part>
+    </action>
+
+    <action id="wav">
+         <part set-type="ptl">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+	</action>
+	
+    <action id="spk">
+         <part set-type="phd">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+	</action>
+
+	<action id="pla">
+         <part set-type="pbd">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+	</action>
+
+    <action id="jmp">
+         <part set-type="pbd">
+             <frame number="0"/>
+             <frame number="1"/>
+             <frame number="2"/>
+             <frame number="3"/>
+         </part>
+         <part set-type="phd">
+             <frame number="0"/>
+             <frame number="1"/>
+             <frame number="2"/>
+             <frame number="3"/>
+         </part>
+         <part set-type="ptl">
+             <frame number="0"/>
+             <frame number="1"/>
+             <frame number="2"/>
+             <frame number="3"/>
+         </part>
+	</action>
+
+    <action id="eat">
+         <part set-type="phd">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+	</action>
+
+    <action id="drk">
+         <part set-type="phd">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+	</action>
+
+    <action id="snf">
+         <part set-type="phd">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+	</action>
+
+    <action id="bnd">
+         <part set-type="phd">
+             <frame number="0"/>
+             <frame number="1"/>
+             <frame number="2"/>
+             <frame number="3"/>
+         </part>
+         <part set-type="pbd">
+             <frame number="0"/>
+             <frame number="1"/>
+             <frame number="2"/>
+             <frame number="3"/>
+         </part>
+         <part set-type="ptl">
+             <frame number="0"/>
+             <frame number="1"/>
+             <frame number="2"/>
+             <frame number="3"/>
+         </part>
+	</action>
+
+    <action id="scr">
+         <part set-type="phd">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+        <part set-type="pbd">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+         <part set-type="ptl">
+             <frame number="0"/>
+             <frame number="1"/>
+         </part>
+	</action>
+
+</animationSet>

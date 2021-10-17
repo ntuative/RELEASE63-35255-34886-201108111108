@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<offsets avatartype="avatar_type_human">
+	<offset size="h" direction="4" x="-87" y="20" z="-0.9"/>
+	<offset size="h" direction="2" x="21" y="24" z="-0.9"/>
+	<offset size="sh" direction="4" x="-40" y="12" z="-0.9"/>
+	<offset size="sh" direction="2" x="9" y="13" z="-0.9"/>
+</offsets>

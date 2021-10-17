@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="newuser_frame" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="221" height="32" params="180225" style="0" caption="%24%7Bhelp.tutorial.title%7D">
+      <children>
+        <container x="0" y="0" width="390" height="32" params="131088" style="0" caption="%24%7Bhelp.tutorial.title%7D">
+          <children>
+            <itemlist_vertical x="0" y="0" width="390" height="32" params="131089" style="0" name="content_list" caption="%24%7Bhelp.tutorial.title%7D"/>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="strip_club_items_dialog" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="278" height="137" params="32769" style="0" name="_frame" caption="%24%7Bavatareditor.invalidclubitems.title%7D">
+      <children>
+        <border x="0" y="0" width="266" height="105" params="8390800" style="0" name="_border" caption="Border">
+          <children>
+            <text x="27" y="10" width="210" height="50" params="8388624" style="0" name="_strip_description" caption="%24%7Bavatareditor.invalidclubitems.description%7D" tags="DESCRIPTION">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <button_thick x="110" y="76" width="140" height="22" params="132113" style="0" name="strip_button_club_info" caption="%24%7Bavatareditor.invalidclubitems.moreinfo%7D" tags="OK" width_min="50"/>
+            <button x="32" y="76" width="50" height="22" params="918545" style="0" name="strip_button_ok" caption="%24%7Bgeneric.ok%7D" tags="OK" width_min="50"/>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

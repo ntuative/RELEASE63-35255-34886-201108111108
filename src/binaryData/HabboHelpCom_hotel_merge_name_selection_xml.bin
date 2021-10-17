@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="newuser_change_name" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="0" width="303" height="193" params="16" style="0">
+      <children>
+        <text x="10" y="9" width="260" height="24" params="16" style="0" name="static_info_text" caption="%24%7Bhotel_merge.name_change.info.select%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <border x="10" y="40" width="167" height="25" params="16" style="0" name="input_border">
+          <children>
+            <input x="8" y="5" width="154" height="17" params="1" style="0" name="input" background="true">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="max_chars" value="30" type="int"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+              </variables>
+            </input>
+          </children>
+        </border>
+        <button x="182" y="40" width="108" height="25" params="131089" style="0" name="check_name_button" caption="%24%7Bhotel_merge.name_change.check%7D" width_max="108"/>
+        <text x="10" y="71" width="280" height="39" params="16" style="0" name="info_text">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x000000" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="auto_size" value="null" type="String"/>
+          </variables>
+        </text>
+        <container x="10" y="116" width="280" height="31" params="131089" style="0" name="suggestions"/>
+        <button x="10" y="156" width="200" height="25" params="131089" style="0" name="select_name_button" caption="%24%7Bhotel_merge.name_change.pick%7D" width_min="150" width_max="200"/>
+        <button x="221" y="156" width="70" height="25" params="393233" style="0" name="cancel_selection_button" caption="%24%7Bgeneric.cancel%7D" width_min="70" width_max="70"/>
+      </children>
+    </border>
+  </window>
+</layout>

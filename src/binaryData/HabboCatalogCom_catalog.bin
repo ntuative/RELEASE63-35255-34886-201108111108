@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="catalog" width="530" height="481" version="0.1" uid="B1A792BD-71D8-74EB-1C15-E0CB409D5CF0">
+  <window>
+    <container x="0" y="0" width="530" height="481" params="32769" style="0" name="catalog_main_container">
+      <children>
+        <frame x="349" y="24" width="175" height="406" params="33041" style="0" name="navigatorMain" caption="%24%7Bcatalog.title%7D" color="0xff418db0">
+          <children>
+            <container x="4" y="0" width="159" height="338" params="17" style="0" name="navigationContainer" caption="Catalog" color="0xffff000000" background="true">
+              <children>
+                <itemlist_vertical x="0" y="1" width="158" height="336" params="17" style="0" name="navigationList" caption="Catalog" color="0xffffffffff" background="true"/>
+                <scrollbar_vertical x="141" y="1" width="20" height="336" params="17" style="0" name="navigationListScrollbar" caption="navigationListScrollbar">
+                  <variables>
+                    <var key="scrollable" value="navigationList" type="String"/>
+                  </variables>
+                </scrollbar_vertical>
+              </children>
+            </container>
+          </children>
+        </frame>
+        <bitmap x="0" y="0" width="360" height="481" params="273" style="0" name="layoutBackground"/>
+        <container x="6" y="37" width="339" height="416" params="16" style="0" name="layoutContainer"/>
+      </children>
+    </container>
+  </window>
+</layout>

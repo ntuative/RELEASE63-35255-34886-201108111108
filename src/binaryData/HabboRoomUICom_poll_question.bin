@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="poll_question" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="418" height="254" params="32769" style="0" name="poll_question_frame" caption="${poll_question_title}">
+      <children>
+        <border x="0" y="0" width="406" height="222" params="2192" style="0" caption="poll_window">
+          <children>
+            <text x="6" y="6" width="395" height="20" params="144" style="0" name="poll_question_headline" caption="${poll_question_headline}">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="6" y="26" width="395" height="20" params="144" style="0" name="poll_question_number" caption="${poll_question_number}">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <itemlist_vertical x="6" y="56" width="394" height="152" params="2193" style="0" name="poll_content_wrapper" caption="${poll_window}">
+              <children>
+                <text x="0" y="0" width="382" height="13" params="144" style="0" name="poll_question_text">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0x0" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="multiline" value="true" type="Boolean"/>
+                    <var key="word_wrap" value="true" type="Boolean"/>
+                    <var key="auto_size" value="left" type="String"/>
+                  </variables>
+                </text>
+                <container x="0" y="13" width="1" height="10" params="16" style="0" />
+                <container x="0" y="23" width="394" height="60" params="131216" style="0" name="poll_question_answer_container" />
+                <container x="78" y="83" width="237" height="40" params="208" style="0">
+                  <children>
+                    <button x="41" y="17" width="74" height="22" params="393233" style="0" name="poll_question_cancel" caption="${cancel}" width_min="74" width_max="74"/>
+                    <button_thick x="125" y="16" width="74" height="22" params="131089" style="0" name="poll_question_button_ok" caption="${ok}" width_min="74" width_max="74"/>
+                  </children>
+                </container>
+              </children>
+            </itemlist_vertical>
+          </children>
+        </border>
+      </children>
+      <variables>
+        <var key="margin_left" value="6" type="int"/>
+        <var key="margin_top" value="25" type="int"/>
+        <var key="margin_right" value="6" type="int"/>
+        <var key="margin_bottom" value="7" type="int"/>
+      </variables>
+    </frame>
+  </window>
+</layout>

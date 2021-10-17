@@ -1,0 +1,37 @@
+<partSets>
+
+    <partSet>
+         <part set-type="phd"/>
+         <part set-type="pbd"/>
+         <part set-type="ptl"/>
+    </partSet>
+
+    <activePartSet id="figure">
+         <activePart set-type="pbd"/>
+         <activePart set-type="phd"/>
+         <activePart set-type="ptl"/>
+    </activePartSet>
+
+    <activePartSet id="head">
+         <activePart set-type="phd"/>
+    </activePartSet>
+
+    <activePartSet id="body">
+         <activePart set-type="pbd"/>
+         <activePart set-type="ptl"/>
+    </activePartSet>
+
+    <activePartSet id="torso">
+         <activePart set-type="pbd"/>
+    </activePartSet>
+
+    <activePartSet id="tail">
+         <activePart set-type="ptl"/>
+    </activePartSet>
+
+	<activePartSet id="gestures">
+		<activePart set-type="ptl"/>
+		<activePart set-type="phd"/>
+	</activePartSet>
+
+</partSets>

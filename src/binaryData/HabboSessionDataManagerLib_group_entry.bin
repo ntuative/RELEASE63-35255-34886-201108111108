@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="iro_tag" width="262" height="43" version="0.1" uid="624BEDA4-3A62-A201-3CD7-A8E72955296A">
+  <window>
+    <region x="0" y="0" width="262" height="43" params="81" style="0" name="group" color="0x0cc0000" background="true" treshold="0">
+      <children>
+        <background x="0" y="0" width="262" height="43" params="16" style="0" name="bg" color="0xffffffffff" background="true"/>
+        <bitmap x="2" y="2" width="39" height="39" params="16" style="0" name="group_entry_logo"/>
+        <text x="50" y="0" width="134" height="17" params="16" style="0" name="group_name_txt" caption="Masters%20of%20the%20universe">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+          </variables>
+        </text>
+        <region x="240" y="1" width="18" height="16" params="81" style="0" name="clear_favourite" treshold="0">
+          <children>
+            <bitmap x="0" y="0" width="18" height="16" params="16" style="0" name="icon"/>
+          </children>
+          <variables>
+            <var key="tool_tip_caption" value="${group.clearfavourite}" type="String"/>
+          </variables>
+        </region>
+        <region x="240" y="1" width="18" height="16" params="81" style="0" name="make_favourite" treshold="0">
+          <children>
+            <bitmap x="0" y="0" width="18" height="16" params="16" style="0" name="icon"/>
+          </children>
+          <variables>
+            <var key="tool_tip_caption" value="${group.makefavourite}" type="String"/>
+          </variables>
+        </region>
+      </children>
+    </region>
+  </window>
+</layout>

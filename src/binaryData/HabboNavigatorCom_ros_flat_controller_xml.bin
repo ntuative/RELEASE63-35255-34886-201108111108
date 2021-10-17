@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="roc_flat_controller" width="20" height="20" version="0.0">
+  <window>
+    <text x="0" y="0" width="80" height="13" params="17" style="0" name="flat_controller" caption="PH%20AvatarName" color="0xff7a7a7a" background="true">
+      <variables>
+        <var key="font_face" value="Volter" type="String"/>
+        <var key="font_size" value="9" type="uint"/>
+        <var key="text_color" value="0" type="uint"/>
+        <var key="auto_size" value="left" type="String"/>
+        <var key="embed_fonts" value="true" type="Boolean"/>
+      </variables>
+    </text>
+  </window>
+</layout>

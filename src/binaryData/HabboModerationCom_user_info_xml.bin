@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="user_info" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="0" width="280" height="119" params="32769" style="0" name="user_info" background="true">
+      <children>
+        <text x="120" y="45" width="70" height="13" params="16" style="0" name="loading_txt" caption="Loading..." color="0xffffffff" visible="false" background="true">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="5" y="5" width="270" height="108" params="32769" style="0" name="fields" background="true">
+          <children>
+            <background x="0" y="0" width="187" height="13" params="16" style="0" name="shade1" color="0xffa2d6ea" background="true"/>
+            <background x="0" y="26" width="187" height="13" params="16" style="0" name="shade2" color="0xffa2d6ea" background="true"/>
+            <background x="0" y="52" width="187" height="13" params="16" style="0" name="shade2" color="0xffa2d6ea" background="true"/>
+            <background x="0" y="78" width="187" height="13" params="16" style="0" name="shade2" color="0xffa2d6ea" background="true"/>
+            <text x="0" y="0" width="70" height="13" params="16" style="0" caption="Name">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="13" width="70" height="13" params="16" style="0" caption="CFHs">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="26" width="70" height="13" params="16" style="0" caption="Abusive%20CFHs">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="39" width="70" height="13" params="16" style="0" caption="Cautions">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="52" width="70" height="13" params="16" style="0" caption="Bans">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="65" width="70" height="13" params="16" style="0" caption="Registered">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="78" width="70" height="13" params="16" style="0" caption="Last%20Login">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="91" width="70" height="13" params="16" style="0" caption="Online">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="0" width="114" height="13" params="16" style="0" name="name_txt" caption="sulka">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="13" width="70" height="13" params="16" style="0" name="cfh_count_txt" caption="34">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="26" width="70" height="13" params="16" style="0" name="abusive_cfh_count_txt" caption="2">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="39" width="70" height="13" params="16" style="0" name="caution_count_txt" caption="8">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="90" y="39" width="30" height="13" params="17" style="0" name="view_caution_count_txt" caption="view" background="true">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="52" width="70" height="13" params="16" style="0" name="ban_count_txt" caption="3">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="90" y="52" width="30" height="13" params="17" style="0" name="view_ban_count_txt" caption="view" color="0xffa2d6ea" background="true">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="65" width="114" height="13" params="16" style="0" name="registered_txt" caption="2%20years%20ago">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="78" width="114" height="13" params="16" style="0" name="last_login_txt" caption="5%20minutes%20ago">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="91" width="70" height="13" params="16" style="0" name="online_txt" caption="Yes">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="190" y="0" width="80" height="109" params="32769" style="0" name="buttons" background="true">
+              <children>
+                <button x="0" y="0" width="80" height="21" params="131089" style="0" name="chatlog_but" caption="View%20Chatlog" width_max="80"/>
+                <button x="0" y="22" width="80" height="21" params="131089" style="0" name="message_but" caption="Message" width_max="80"/>
+                <button x="0" y="44" width="80" height="21" params="131089" style="0" name="roomvisits_but" caption="Room%20Visits" width_max="80"/>
+                <button x="0" y="88" width="80" height="21" params="131089" style="0" name="modaction_but" caption="Mod%20Action" width_max="80"/>
+                <button x="0" y="66" width="80" height="21" params="131089" style="0" name="habboinfotool_but" caption="Habbo%20Info" width_min="80" width_max="80"/>
+              </children>
+            </container>
+          </children>
+        </container>
+      </children>
+    </border>
+  </window>
+</layout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="purse_indicator_pixels" width="95" height="27" version="0.1" uid="D87CD19F-1CBC-9474-A69E-BBC9772CA9D0">
+    <window>
+        <border x="0" y="0" width="95" height="29" params="17" style="6" name="outer_border" color="0xffabc6d7" clipping="false" treshold="0">
+            <children>
+                <text x="5" y="5" width="61" height="21" params="262160" style="0" name="pixels_shadow" caption="0">
+                    <variables>
+                        <var key="antialias_type" value="advanced" type="String"/>
+                        <var key="auto_size" value="right" type="String"/>
+                        <var key="font_face" value="Ubuntu" type="String"/>
+                        <var key="font_size" value="14" type="uint"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="bold" value="true" type="Boolean"/>
+                        <var key="kerning" value="true" type="Boolean"/>
+                    </variables>
+                </text>
+                <text x="4" y="4" width="61" height="21" params="262160" style="0" name="pixels" caption="0">
+                    <variables>
+                        <var key="antialias_type" value="advanced" type="String"/>
+                        <var key="auto_size" value="right" type="String"/>
+                        <var key="font_face" value="Ubuntu" type="String"/>
+                        <var key="font_size" value="14" type="uint"/>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="bold" value="true" type="Boolean"/>
+                        <var key="kerning" value="true" type="Boolean"/>
+                    </variables>
+                </text>
+                <bitmap x="66" y="3" width="22" height="22" params="22" style="0" name="pixel_icon" tags="ICON">
+                    <variables>
+                        <var key="bitmap_asset_name" value="pixel_icon" type="String"/>
+                    </variables>
+                </bitmap>
+            </children>
+        </border>
+    </window>
+</layout>

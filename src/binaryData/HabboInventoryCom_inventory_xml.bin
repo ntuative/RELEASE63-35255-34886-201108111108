@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="inventory" width="390" height="300" version="0.1" uid="3274029E-A012-3B63-C445-D46B43ED2066">
+  <window>
+    <frame x="59" y="17" width="390" height="300" params="32769" style="0" name="inventoryBase" caption="%24%7Binventory.title%7D" color="0xff418db0">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <tab_context x="0" y="0" width="378" height="269" params="0" style="0" name="contentArea" caption="Inventory" background="true">
+          <children>
+            <tab_container_button x="0" y="0" width="121" height="100" params="131089" style="0" name="furni" caption="%24%7Binventory.furni%7D">
+              <children>
+                <label x="32" y="4" width="50" height="13" params="786448" style="0" caption="%24%7Binventory.furni%7D"/>
+              </children>
+            </tab_container_button>
+            <tab_container_button x="121" y="0" width="123" height="22" params="131089" style="0" name="badges" caption="%24%7Binventory.badges%7D">
+              <children>
+                <label x="38" y="4" width="39" height="13" params="786448" style="0" caption="%24%7Binventory.badges%7D"/>
+              </children>
+            </tab_container_button>
+          </children>
+        </tab_context>
+        <container x="0" y="275" width="378" height="1" params="16" style="0" name="subContentArea" caption="%24%7Binventory.title%7D" visible="false"/>
+      </children>
+    </frame>
+  </window>
+</layout>

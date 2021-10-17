@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="achievement_notification" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="271" height="270" params="33025" style="1" caption="%24%7Bnotifications.title.club_promo%7D" color="0x4c4c4c">
+      <children>
+        <icon x="89" y="9" width="100" height="54" params="16" style="17" name="club_icon"/>
+        <text x="12" y="63" width="234" height="43" params="16" style="0" name="info_text" caption="%24%7Bnotifications.text.club_promo%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+
+
+        <text x="50" y="110" width="234" height="15" params="16" style="0" name="info_text" caption="%24%7Bnotifications.text.club_promo.regularprice%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+
+
+        <text x="50" y="133" width="234" height="15" params="16" style="0" name="info_text" caption="%24%7Bnotifications.text.club_promo.discount%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+
+        <text x="50" y="158" width="234" height="15" params="16" style="0" name="info_text" caption="%24%7Bnotifications.text.club_promo.yourprice%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+
+        <text x="160" y="110" width="40" height="15" params="16" style="0" name="regular_price_text" caption="aaa">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+
+
+        <text x="160" y="133" width="40" height="15" params="16" style="0" name="discount_text" caption="bbb">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+
+        <text x="160" y="158" width="40" height="15" params="16" style="0" name="your_price_text" caption="ccc">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+
+        <icon x="180" y="107" width="32" height="32" params="16" style="10" name="credit_icon"/>
+        <icon x="180" y="130" width="32" height="32" params="16" style="10" name="credit_icon"/>
+        <icon x="180" y="155" width="32" height="32" params="16" style="10" name="credit_icon"/>
+
+        <background x="50" y="153" width="155" height="1" params="17" style="0" name="canvas" color="0xFFffffff" background="true"/>
+
+        <text x="12" y="181" width="234" height="15" params="786449" style="0" background="true" color="0xFF4b4b4b" name="benefits_text" caption="%24%7Bnotifications.text.club_promo.benefits%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="underline" value="true" type="Boolean"/>  
+          </variables>
+        </text>
+
+        <button x="4" y="211" width="203" height="24" params="132113" style="0" name="open_catalog_button" caption="%24%7Bnotifications.button.open_club_promo_page%7D"/>
+        <button x="203" y="211" width="51" height="24" params="394321" style="0" name="cancel_button" caption="%24%7Bcancel%7D"/>
+
+      </children>
+    </frame>
+  </window>
+</layout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="issue_browser" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="535" height="273" params="98305" style="0" caption="Issue%20browser">
+      <children>
+        <tab_context x="3" y="5" width="516" height="204" params="12585104" style="0" name="tab_context" caption="Issue%20browser">
+          <children>
+            <tab_button x="0" y="0" width="81" height="24" params="131089" style="0" name="open_issues" caption="Open%20Issues"/>
+            <tab_button x="81" y="0" width="68" height="24" params="131089" style="0" name="my_issues" caption="My%20issues"/>
+            <tab_button x="149" y="0" width="88" height="24" params="131089" style="0" name="picked_issues" caption="Picked%20Issues"/>
+          </children>
+        </tab_context>
+        <button x="4" y="215" width="175" height="22" params="394257" style="0" name="auto_pick" caption="Give%20me%20the%20next%20priority%20issue"/>
+      </children>
+    </frame>
+  </window>
+</layout>

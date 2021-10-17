@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.bootstrap.RoomObjectVisualizationFactory" version="0.0">
+		<interface iid="com.sulake.iid.IIDRoomObjectVisualizationFactory" />
+        <assets>
+            <asset mimeType="image/png" name="pet_experience_bubble_png" />
+        </assets>
+	</component>
+	
+</manifest>

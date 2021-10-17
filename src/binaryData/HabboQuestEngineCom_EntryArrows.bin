@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="EntryArrows" width="30" height="30" version="0.1" uid="7BA59423-4493-46CC-4AA1-439917542F53">
+  <window>
+    <container name="entry_arrows_cont" x="0" y="0" width="15" height="25" params="16" style="0">
+      <children>
+        <bitmap x="0" y="0" width="15" height="25" params="2192" style="0" name="arrow_0"/>
+        <bitmap x="0" y="0" width="15" height="25" params="3280" style="0" name="arrow_1"/>
+      </children>
+    </container>
+  </window>
+</layout>

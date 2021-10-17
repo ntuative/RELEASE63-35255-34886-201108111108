@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="habbo_profiler_dialog_2" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="470" height="182" params="98305" style="0" caption="Profiler" color="0x418db0">
+      <children>
+        <border x="0" y="0" width="458" height="150" params="2192" style="0" caption="Profiler">
+          <children>
+            <text x="6" y="2" width="330" height="14" params="144" style="0" name="header" caption="..." tags="header">
+              <variables>
+                <var key="font_face" value="Courier New" type="String"/>
+                <var key="font_size" value="10" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="4" y="20" width="450" height="135" params="2193" style="0" caption="Profiler">
+              <children>
+                <itemlist x="0" y="0" width="430" height="100" params="2193" style="0" name="list" caption="Profiler"/>
+                <scrollbar_vertical x="433" y="0" width="20" height="100" params="2129" style="0" caption="Profiler">
+                  <variables>
+                    <var key="scrollable" value="list" type="String"/>
+                  </variables>
+                </scrollbar_vertical>
+                <label x="16" y="100" width="436" height="36" params="1168" style="0" name="footer" caption="Info%20text" tags="footer">
+                  <variables>
+                    <var key="font_face" value="Courier New" type="String"/>
+                    <var key="font_size" value="10" type="uint"/>
+                  </variables>
+                </label>
+                <checkbox x="0" y="103" width="15" height="15" params="1041" style="0" name="footer_enable_toggle" caption="Profiler"/>
+              </children>
+            </container>
+            <button x="421" y="124" width="31" height="22" params="132177" style="0" name="button_gc" caption="GC">
+              <variables>
+                <var key="tool_tip_caption" value="Forces garbage collection mark/sweep" type="String"/>
+              </variables>
+            </button>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

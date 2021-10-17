@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="Achievement" width="67" height="67" version="0.1" uid="D4B85D8F-2471-3FB4-BC1C-C50958623D28">
+  <window>
+    <container x="0" y="0" width="62" height="60" params="16" style="0" name="achievement_container" color="0x0c9c9c9">
+      <children>
+        <bitmap x="0" y="0" width="62" height="60" params="16" style="0" name="bg_selected_bitmap"/>
+        <bitmap x="0" y="0" width="62" height="60" params="17" style="0" name="bg_unselected_bitmap"/>
+        <bitmap x="11" y="10" width="40" height="40" params="16" style="0" name="achievement_pic_bitmap"/>
+        <region x="0" y="0" width="62" height="60" params="17" style="0" name="bg_region" treshold="0"/>
+      </children>
+    </container>
+  </window>
+</layout>

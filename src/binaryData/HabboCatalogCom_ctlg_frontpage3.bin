@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ctlg_frontpage3" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_frontpage3">
+      <children>
+        <border x="8" y="365" width="325" height="50" params="16" style="2" name="bgBorder" color="0x6699cc"/>
+        <border x="8" y="222" width="325" height="136" params="16" style="2" name="bgBorder" color="0xcccccc"/>
+        <bitmap x="0" y="8" width="339" height="37" params="16" style="0" name="ctlg_header_img"/>
+        <bitmap x="20" y="60" width="300" height="154" params="16" style="0" name="ctlg_special_img" tags="TOP_STORY"/>
+        <text x="44" y="116" width="213" height="14" params="16" style="0" name="ctlg_txt1">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="44" y="130" width="165" height="30" params="16" style="0" name="ctlg_txt2">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="44" y="164" width="173" height="21" params="16" style="0" name="ctlg_txt3">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="italic" value="true" type="Boolean"/>
+            <var key="underline" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="26" y="232" width="280" height="14" params="16" style="0" name="ctlg_txt4" color="0xffff00">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="26" y="246" width="280" height="83" params="16" style="0" name="ctlg_txt5" color="0xffff00">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="25" y="370" width="272" height="20" params="16" style="0" name="ctlg_txt6">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="26" y="330" width="280" height="20" params="16" style="0" name="ctlg_txt7">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>            <var key="font_size" value="9" type="uint"/>            <var key="text_color" value="0x0" type="hex"/>            <var key="embed_fonts" value="true" type="Boolean"/>            <var key="italic" value="true" type="Boolean"/>            <var key="underline" value="true" type="Boolean"/>          </variables>
+        </text>
+        <container x="24" y="362" width="292" height="50" params="16" style="0" name="redeemItemCodeWidget">
+          <children>
+            <border x="0" y="25" width="216" height="20" params="16" style="0"/>
+            <button x="222" y="25" width="68" height="21" params="393361" style="0" name="redeem" caption="%24%7Bredeem%7D" width_max="100"/>
+            <input x="10" y="30" width="196" height="10" params="1" style="0" name="voucher_code">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+              </variables>
+            </input>
+          </children>
+        </container>
+        <bitmap x="15" y="55" width="313" height="164" params="16" style="0" name="front_page_border" tags="STATIC_IMAGE"/>
+        <bitmap x="261" y="204" width="64" height="64" params="16" style="0" name="frontpage_promotion"/>
+      </children>
+    </container>
+  </window>
+</layout>

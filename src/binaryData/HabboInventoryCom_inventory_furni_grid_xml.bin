@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="inventory_furni_grid" width="200" height="215" version="0.1" uid="0F61947E-D80F-DDC6-BDEB-E3B59E002109">
+  <window>
+    <container x="0" y="0" width="200" height="215" params="17" style="0" name="item_container">
+      <children>
+        <itemgrid_vertical x="0" y="0" width="180" height="215" params="17" style="0" name="item_grid" tags="FURNI_ITEM_GRID">
+          <variables>
+            <var key="spacing" value="2" type="int"/>
+            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+          </variables>
+        </itemgrid_vertical>
+        <scrollbar_vertical x="180" y="0" width="20" height="215" params="17" style="0">
+          <variables>
+            <var key="scrollable" value="item_grid" type="String"/>
+          </variables>
+        </scrollbar_vertical>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="catalog" width="530" height="481" version="0.1" uid="280F0A67-02D8-78D3-3D1F-75436CC589EA">
+  <window>
+    <container x="0" y="0" width="530" height="481" params="32769" style="0" name="catalog_main_container">
+      <children>
+        <frame x="349" y="24" width="175" height="427" params="33041" style="0" name="navigatorMain" caption="%24%7Bcatalog.title%7D" color="0xff418db0">
+          <children>
+            <container x="4" y="0" width="159" height="310" params="17" style="0" name="navigationContainer" caption="Catalog" color="0xffff000000" background="true">
+              <children>
+                <itemlist x="0" y="1" width="158" height="307" params="17" style="0" name="navigationList" caption="Catalog" color="0xffffffffff" background="true"/>
+                <scrollbar_vertical x="141" y="1" width="20" height="307" params="17" style="0" name="navigationListScrollbar" caption="navigationListScrollbar">
+                  <variables>
+                    <var key="scrollable" value="navigationList" type="String"/>
+                  </variables>
+                </scrollbar_vertical>
+              </children>
+            </container>
+            <region x="20" y="314" width="128" height="24" params="17" style="2" name="clubContainer" treshold="0">
+              <children>
+                <border x="0" y="0" width="128" height="24" params="1048592" style="2" name="background" caption="Catalog" color="0x027556a">
+                  <children>
+                    <text x="27" y="6" width="94" height="14" params="16" style="0" name="clubText" caption="%24%7Bcatalog.purse.clubdays%7D">
+                      <variables>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="underline" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <icon x="7" y="7" width="20" height="20" params="16" style="11" name="clubIcon" caption="Catalog"/>
+                  </children>
+                </border>
+              </children>
+            </region>
+            <region x="20" y="342" width="128" height="24" params="17" style="2" name="creditsContainer" treshold="0">
+              <children>
+                <border x="0" y="0" width="128" height="24" params="1048592" style="2" name="background" caption="Catalog" color="0x027556a">
+                  <children>
+                    <bitmap x="5" y="2" width="20" height="20" params="3148816" style="0" name="creditsIcon" caption="Catalog"/>
+                    <text x="27" y="6" width="94" height="14" params="16" style="0" name="creditsText" caption="%24%7Bcatalog.purse.creditbalance%7D">
+                      <variables>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="underline" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </border>
+              </children>
+            </region>
+            <region x="20" y="370" width="128" height="24" params="17" style="2" name="pixelsContainer" treshold="0">
+              <children>
+                <border x="0" y="0" width="128" height="24" params="1048592" style="2" name="background" caption="Catalog" color="0x027556a">
+                  <children>
+                    <bitmap x="5" y="2" width="20" height="20" params="3148816" style="0" name="pixelsIcon" caption="%24%7Bcredits%7D"/>
+                    <text x="27" y="6" width="94" height="14" params="16" style="0" name="pixelsText" caption="%24%7Bcatalog.purse.pixelbalance%7D">
+                      <variables>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="underline" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                  </children>
+                </border>
+              </children>
+            </region>
+          </children>
+        </frame>
+        <bitmap x="0" y="0" width="360" height="481" params="273" style="0" name="layoutBackground"/>
+        <container x="6" y="37" width="339" height="416" params="16" style="0" name="layoutContainer"/>
+      </children>
+    </container>
+  </window>
+</layout>

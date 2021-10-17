@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="thumbnail" width="50" height="50" version="0.1" uid="6F0D18C0-1A09-BFFA-874A-810A8820E346">
+  <window>
+    <region x="0" y="0" width="50" height="50" params="17" style="3" treshold="0">
+      <children>
+        <border x="0" y="0" width="50" height="50" params="16" style="3" color="0x0cccccc" tags="BG_COLOR">
+          <children>
+            <bitmap x="0" y="0" width="50" height="50" params="16" style="0" name="bitmap" tags="BITMAP" width_min="50" width_max="50"/>
+            <icon x="27" y="37" width="20" height="10" params="16" style="11" tags="CLUB_ICON"/>
+          </children>
+        </border>
+      </children>
+    </region>
+  </window>
+</layout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="issue_handler" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="410" height="485" params="98305" style="0" caption="Issue%20handling" width_min="410" width_max="410" height_min="385">
+      <children>
+        <container x="285" y="0" width="110" height="324" params="16" style="0" name="buttons" caption="Issue%20handling">
+          <children>
+            <button x="0" y="0" width="110" height="22" params="131089" style="0" name="close_useless" caption="Close%20as%20useless" width_min="110" width_max="110"/>
+            <button x="0" y="25" width="110" height="22" params="131089" style="0" name="close_abusive" caption="Close%20as%20abusive" width_min="110" width_max="110"/>
+            <button x="0" y="50" width="110" height="22" params="131089" style="0" name="close_resolved" caption="Close%20as%20resolved" width_min="110" width_max="110"/>
+            <button x="0" y="75" width="110" height="22" params="131089" style="0" name="release" caption="Release" width_min="110" width_max="110"/>
+            <button x="0" y="175" width="110" height="22" params="131089" style="0" name="move_to_player_support" caption="To%20player%20support" width_min="110" width_max="110"/>
+            <button x="0" y="200" width="110" height="22" params="131089" style="0" name="show_chatlog" caption="Chatlog" width_min="110" width_max="110"/>
+            <checkbox x="0" y="100" width="17" height="17" params="17" style="0" name="handle_next_checkbox" caption="Issue%20handling"/>
+            <text x="18" y="100" width="92" height="45" params="16" style="0" name="handle_next_text" caption="Open%20next%20issue%20automatically%20when%20this%20one%20is%20closed.">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <itemlist x="0" y="0" width="279" height="452" params="2193" style="0" name="issue_cont" caption="Issue%20handling" background="true">
+          <children>
+            <container x="0" y="0" width="280" height="13" params="16" style="0" name="issues_header" caption="Issue%20handling" background="true">
+              <children>
+                <text x="0" y="0" width="56" height="13" params="786449" style="0" caption="Reporter">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="80" y="0" width="57" height="13" params="786449" style="0" caption="Category">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="140" y="0" width="56" height="13" params="786449" style="0" caption="From">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="230" y="0" width="31" height="13" params="786449" style="0" caption="Open">
+                  <variables>
+                    <var key="font_face" value="Volter Bold" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+            <scrollable_itemlist_vertical x="0" y="16" width="280" height="70" params="17" style="0" name="issues_item_list" caption="Issue%20handling" color="0xffffffff" background="true"/>
+            <text x="95" y="89" width="100" height="13" params="786448" style="0" caption="Caller%20User%20Info">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="0" y="105" width="280" height="119" params="16" style="0" name="caller_user_info" caption="Issue%20handling"/>
+            <text x="106" y="227" width="70" height="13" params="786448" style="0" caption="Messages">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <scrollable_itemlist_vertical x="0" y="243" width="280" height="70" params="17" style="0" name="msg_item_list" caption="Issue%20handling" color="0xffffffff" background="true"/>
+            <text x="80" y="316" width="120" height="13" params="786449" style="0" name="reported_user_info_caption" caption="Reported%20User%20Info">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="0" y="332" width="280" height="119" params="16" style="0" name="reported_user_info" caption="Issue%20handling"/>
+          </children>
+          <variables>
+            <var key="spacing" value="3" type="int"/>
+          </variables>
+        </itemlist>
+      </children>
+    </frame>
+  </window>
+</layout>

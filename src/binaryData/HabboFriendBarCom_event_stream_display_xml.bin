@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="even_stream_display" width="260" height="400" version="0.1" uid="6F7F158D-E723-6AED-0767-AD9543399129">
+  <window>
+    <bubble x="0" y="0" width="260" height="400" params="32769" style="0" color="0x058544d">
+      <filters>
+        <DropShadowFilter distance="3" alpha="0.2"/>
+      </filters>
+      <children>
+        <border x="2" y="2" width="216" height="21" params="401" style="3" color="0x02d2b26"/>
+        <closebutton x="222" y="2" width="20" height="20" params="81" style="3" name="close" background="true" treshold="0"/>
+        <itemlist_horizontal x="57" y="3" width="129" height="20" params="786640" style="0" name="header">
+          <children>
+            <text x="0" y="1" width="126" height="17" params="16" style="0" name="title" caption="%24%7Bfriendbar.stream.title%7D">
+              <variables>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="text_style" value="u_frame_title" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="80" type="Number"/>
+                <var key="thickness" value="-15" type="Number"/>
+              </variables>
+            </text>
+            <badge x="129" y="0" width="18" height="20" params="131088" style="0" name="badge" caption="0" color="0xffda0000" visible="false"/>
+            <null x="129" y="0" width="0" height="0" params="0" style="0"/>
+          </children>
+          <variables>
+            <var key="spacing" value="3" type="int"/>
+            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+            <var key="resize_on_item_update" value="true" type="Boolean"/>
+            <var key="scroll_step_h" value="0" type="Number"/>
+            <var key="scroll_step_v" value="0" type="Number"/>
+          </variables>
+        </itemlist_horizontal>
+        <container x="6" y="28" width="235" height="344" params="2192" style="0" name="page_content">
+          <children>
+            <itemlist_vertical x="0" y="1" width="217" height="320" params="2192" style="0" name="list">
+              <children>
+                <background x="0" y="0" width="232" height="75" params="17" style="0" name="item" color="0xffffe9e9e1" background="true">
+                  <children>
+                    <bitmap x="6" y="9" width="40" height="50" params="16" style="0" name="canvas">
+                      <variables>
+                        <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                      </variables>
+                    </bitmap>
+                    <text x="46" y="5" width="168" height="16" params="144" style="0" name="title" caption="%24%7B001_lorem_ipsum_title%7D">
+                      <variables>
+                        <var key="font_size" value="11" type="uint"/>
+                        <var key="text_style" value="u_bold" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="sharpness" value="80" type="Number"/>
+                        <var key="thickness" value="-15" type="Number"/>
+                      </variables>
+                    </text>
+                    <text x="46" y="18" width="168" height="16" params="8388752" style="0" name="message" caption="empty" width_max="168">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="font_size" value="11" type="uint"/>
+                        <var key="text_style" value="u_regular" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="sharpness" value="80" type="Number"/>
+                        <var key="thickness" value="-15" type="Number"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <region x="46" y="35" width="67" height="16" params="148497" style="0" name="link" treshold="0">
+                      <children>
+                        <text x="0" y="0" width="67" height="16" params="16" style="0" name="text" caption="%24%7B001_lorem_ipsum_title%7D" treshold="0">
+                          <variables>
+                            <var key="auto_size" value="left" type="String"/>
+                            <var key="font_size" value="11" type="uint"/>
+                            <var key="text_color" value="0x77b6" type="hex"/>
+                            <var key="text_style" value="u_regular" type="String"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                            <var key="sharpness" value="80" type="Number"/>
+                            <var key="thickness" value="-15" type="Number"/>
+                            <var key="underline" value="true" type="Boolean"/>
+                          </variables>
+                        </text>
+                      </children>
+                    </region>
+                    <text x="46" y="55" width="101" height="14" params="1168" style="0" name="time" caption="%24%7B001_lorem_ipsum_title%7D">
+                      <variables>
+                        <var key="font_size" value="9" type="uint"/>
+                        <var key="text_color" value="0x4a4842" type="hex"/>
+                        <var key="text_style" value="u_small" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="sharpness" value="80" type="Number"/>
+                        <var key="thickness" value="-15" type="Number"/>
+                      </variables>
+                    </text>
+                    <region x="141" y="52" width="70" height="19" params="1105" style="0" name="like" treshold="0">
+                      <children>
+                        <border x="0" y="0" width="70" height="19" params="2192" style="3" name="border" blend="0.5"/>
+                        <bitmap x="10" y="2" width="13" height="15" params="16" style="0" name="icon"/>
+                        <text x="24" y="2" width="10" height="15" params="16" style="0" name="label" caption="0">
+                          <variables>
+                            <var key="auto_size" value="left" type="String"/>
+                            <var key="text_color" value="0x87cf" type="hex"/>
+                            <var key="text_style" value="u_small" type="String"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                            <var key="sharpness" value="80" type="Number"/>
+                            <var key="thickness" value="-15" type="Number"/>
+                            <var key="underline" value="true" type="Boolean"/>
+                          </variables>
+                        </text>
+                      </children>
+                    </region>
+                  </children>
+                </background>
+              </children>
+            </itemlist_vertical>
+            <scrollbar_vertical x="217" y="-1" width="17" height="324" params="2129" style="0" name="scroll">
+              <variables>
+                <var key="scrollable" value="list" type="String"/>
+              </variables>
+            </scrollbar_vertical>
+            <region x="5" y="329" width="131" height="16" params="1197137" style="0" name="disable_stream" treshold="0">
+              <children>
+                <text x="0" y="0" width="131" height="16" params="16" style="0" name="text" caption="%24%7Bfriendbar.stream.disable%7D">
+                  <variables>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_size" value="11" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="text_style" value="u_regular" type="String"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="sharpness" value="80" type="Number"/>
+                    <var key="thickness" value="-15" type="Number"/>
+                    <var key="underline" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </region>
+          </children>
+        </container>
+        <container x="6" y="28" width="232" height="344" params="2192" style="0" name="page_welcome" visible="false">
+          <children>
+            <container x="6" y="0" width="220" height="290" params="2192" style="0" name="page_welcome_texts">
+              <children>
+                <itemlist_vertical x="0" y="10" width="221" height="287" params="131088" style="0" name="welcome_list">
+                  <children>
+                    <text x="0" y="0" width="220" height="17" params="12582928" style="0" name="text" caption="%24%7Bfriendbar.stream.welcome.title%7D" width_min="220" width_max="220">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="u_bold" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="sharpness" value="80" type="Number"/>
+                        <var key="thickness" value="-15" type="Number"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <text x="0" y="17" width="220" height="17" params="8388624" style="0" name="text" caption="%24%7Bfriendbar.stream.welcome%7D" width_min="220" width_max="220">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="u_regular" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="sharpness" value="80" type="Number"/>
+                        <var key="thickness" value="-15" type="Number"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <container x="0" y="34" width="220" height="20" params="8519697" style="0" height_min="20" height_max="20"/>
+                    <text x="0" y="54" width="220" height="17" params="12582928" style="0" name="text" caption="%24%7Bfriendbar.stream.sharing.title%7D" width_min="220" width_max="220">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="u_bold" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="sharpness" value="80" type="Number"/>
+                        <var key="thickness" value="-15" type="Number"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <text x="0" y="71" width="220" height="17" params="8388624" style="0" name="text" caption="%24%7Bfriendbar.stream.sharing%7D" width_min="220" width_max="220" height_min="0">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="u_regular" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="sharpness" value="80" type="Number"/>
+                        <var key="thickness" value="-15" type="Number"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <container x="0" y="88" width="220" height="20" params="8519697" style="0" height_min="20" height_max="20"/>
+                    <region x="0" y="108" width="197" height="17" params="147473" style="0" name="see_more" treshold="0">
+                      <children>
+                        <text x="0" y="0" width="197" height="17" params="16" style="0" name="link" caption="%24%7Bfriendbar.stream.settings.see.more%7D" treshold="0">
+                          <variables>
+                            <var key="auto_size" value="left" type="String"/>
+                            <var key="text_color" value="0xafafff" type="hex"/>
+                            <var key="text_style" value="u_regular" type="String"/>
+                            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                            <var key="sharpness" value="80" type="Number"/>
+                            <var key="thickness" value="-15" type="Number"/>
+                            <var key="underline" value="true" type="Boolean"/>
+                          </variables>
+                        </text>
+                      </children>
+                    </region>
+                    <container x="0" y="125" width="220" height="20" params="8519697" style="0" height_min="20" height_max="20"/>
+                    <bitmap x="42" y="145" width="139" height="139" params="16" style="0" name="image">
+                      <variables>
+                        <var key="bitmap_asset_name" value="stream_welcome_png" type="String"/>
+                      </variables>
+                    </bitmap>
+                  </children>
+                </itemlist_vertical>
+              </children>
+            </container>
+            <container_button x="42" y="292" width="150" height="36" params="1180689" style="3" name="activate_stream" color="0x0aa00" width_min="150" width_max="150">
+              <children>
+                <text x="0" y="4" width="150" height="24" params="12582928" style="0" name="activate_stream_text" caption="%24%7Bfriendbar.stream.activate%7D" width_max="150">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="center" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="18" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container_button>
+          </children>
+        </container>
+        <container x="6" y="28" width="232" height="343" params="2192" style="0" name="page_empty" visible="false">
+          <children>
+            <container x="6" y="0" width="214" height="194" params="2192" style="0" name="page_empty_texts">
+              <children>
+                <itemlist_vertical x="0" y="10" width="216" height="164" params="131088" style="0" name="welcome_list">
+                  <children>
+                    <text x="0" y="0" width="220" height="17" params="12582928" style="0" name="text" caption="%24%7Bfriendbar.stream.empty.title%7D" width_min="220" width_max="220">
+                      <variables>
+                        <var key="auto_size" value="left" type="String"/>
+                        <var key="text_color" value="0xffffff" type="hex"/>
+                        <var key="text_style" value="u_bold" type="String"/>
+                        <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="sharpness" value="80" type="Number"/>
+                        <var key="thickness" value="-15" type="Number"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                      </variables>
+                    </text>
+                    <container x="0" y="17" width="10" height="20" params="16" style="0"/>
+                    <bitmap x="45" y="37" width="121" height="121" params="16" style="0" name="image">
+                      <variables>
+                        <var key="bitmap_asset_name" value="stream_empty_png" type="String"/>
+                      </variables>
+                    </bitmap>
+                  </children>
+                </itemlist_vertical>
+              </children>
+            </container>
+          </children>
+        </container>
+      </children>
+    </bubble>
+  </window>
+</layout>

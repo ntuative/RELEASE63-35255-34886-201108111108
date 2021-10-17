@@ -1,0 +1,15 @@
+{
+	"type": "app",
+	"config": "flex",
+	"mainClass": "Habbo",
+	"compilerOptions": {
+		"source-path": [
+			"src/"
+		],
+		"output": "bin/Habbo.swf",
+		"optimize": false
+	}
+	// "additionalOptions":[
+	// 	"-default-background-color #000000"
+	// ]
+}

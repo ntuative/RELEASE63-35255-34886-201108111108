@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="habbo_profiler_task" width="430" height="38" version="0.1" uid="4992CFA9-0C45-597E-689A-932490753697">
+  <window>
+    <border x="0" y="0" width="430" height="38" params="16" style="0" background="true">
+      <children>
+        <input x="2" y="2" width="349" height="14" params="1073741953" style="0" name="text" caption="Foo">
+          <variables>
+            <var key="font_face" value="Courier New" type="String"/>
+            <var key="font_size" value="10" type="uint"/>
+            <var key="grid_fit_type" value="none" type="String"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="editable" value="false" type="Boolean"/>
+            <var key="selectable" value="false" type="Boolean"/>
+          </variables>
+        </input>
+        <input x="2" y="20" width="340" height="14" params="1073741825" style="0" name="caption" caption="Bar">
+          <variables>
+            <var key="font_face" value="Courier New" type="String"/>
+            <var key="font_size" value="10" type="uint"/>
+            <var key="grid_fit_type" value="none" type="String"/>
+            <var key="text_color" value="0x555555" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="editable" value="false" type="Boolean"/>
+            <var key="selectable" value="false" type="Boolean"/>
+          </variables>
+        </input>
+        <bitmap x="354" y="3" width="66" height="33" params="1073741904" style="0" name="canvas"/>
+      </children>
+    </border>
+  </window>
+</layout>

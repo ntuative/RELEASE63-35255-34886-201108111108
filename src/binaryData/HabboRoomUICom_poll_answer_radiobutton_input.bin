@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="poll_answer_radiobutton_input" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="372" height="125" params="131217" style="0" name="poll_answer_content">
+      <children>
+        <selector x="0" y="0" width="372" height="125" params="131217" style="0" name="poll_aswer_selector">
+          <children>
+            <itemlist x="0" y="0" width="372" height="125" params="131217" style="0" name="poll_answer_itemlist">
+              <children>
+                <container x="0" y="0" width="372" height="20" params="131216" style="0" name="poll_answer_entity">
+                  <children>
+                    <radiobutton x="0" y="0" width="19" height="20" params="17" style="0" name="poll_answer_entity_radiobutton" tags="POLL_SELECTABLE_ITEM"/>
+                    <text x="18" y="2" width="348" height="20" params="144" style="0" name="poll_answer_entity_text" caption="Lorem%20Ipsum...">
+                      <variables>
+                        <var key="font_face" value="Volter" type="String"/>
+                        <var key="font_size" value="9" type="uint"/>
+                        <var key="text_color" value="0x0" type="hex"/>
+                        <var key="embed_fonts" value="true" type="Boolean"/>
+                        <var key="multiline" value="true" type="Boolean"/>
+                        <var key="word_wrap" value="true" type="Boolean"/>
+                        <var key="auto_size" value="left" type="String"/>
+                      </variables>
+                    </text>
+                  </children>
+                </container>
+              </children>
+            </itemlist>
+          </children>
+        </selector>
+      </children>
+    </container>
+  </window>
+</layout>

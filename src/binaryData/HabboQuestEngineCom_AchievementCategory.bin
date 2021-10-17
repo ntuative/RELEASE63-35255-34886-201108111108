@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="AchievementCategory" width="110" height="103" version="0.1" uid="DD6803A2-5142-8326-2375-E951782153FD">
+  <window>
+    <container x="0" y="0" width="112" height="105" params="16" style="0" name="achievement_category_container">
+      <children>
+        <bitmap x="0" y="0" width="112" height="105" params="3089" style="0" name="category_bg_act"/>
+        <bitmap x="0" y="0" width="112" height="105" params="3089" style="0" name="category_bg_act_hover"/>
+        <bitmap x="0" y="0" width="110" height="103" params="3088" style="0" name="category_bg_inact"/>
+
+        <container x="1" y="1" width="111" height="104" params="16" style="0" name="hover_container">
+         <children>
+        <text x="21" y="7" width="65" height="17" params="208" style="0" name="header_txt" caption="Decoration">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <bitmap x="14" y="27" width="84" height="72" params="16" style="0" name="category_pic_bitmap"/>
+        <text x="39" y="75" width="30" height="18" params="208" style="0" name="completion_txt" caption="1/10">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="13" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+          </variables>
+        </text>
+          </children>
+        </container>
+        <region x="0" y="0" width="110" height="103" params="17" style="0" name="category_region" treshold="0"/>
+      </children>
+    </container>
+  </window>
+</layout>

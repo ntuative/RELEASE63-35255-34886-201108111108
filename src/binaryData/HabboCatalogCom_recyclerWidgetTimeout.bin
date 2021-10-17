@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="recyclerWidget" width="20" height="20" version="0.0">  <window>    <container x="0" y="170" width="339" height="245" params="17" style="0" name="recyclerContent">      <children>      </children>    </container>  </window></layout>

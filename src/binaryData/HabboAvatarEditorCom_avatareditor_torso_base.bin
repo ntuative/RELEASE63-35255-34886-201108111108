@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="avatareditor_torso_base" width="370" height="300" version="0.1" uid="E170E1C3-7973-9C56-6C66-904F550F7717">
+  <window>
+    <container x="5" y="5" width="370" height="300" params="0" style="0" name="torso_content" background="true">
+      <children>
+        <selector x="0" y="0" width="200" height="35" params="17" style="0" name="category_selector">
+          <children>
+            <region x="6" y="0" width="47" height="35" params="17" style="0" name="tab_shirt" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_shirt" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="top_shirt_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+            <region x="58" y="0" width="47" height="35" params="17" style="0" name="tab_prints" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_prints" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="top_prints_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+            <region x="110" y="0" width="47" height="35" params="17" style="0" name="tab_jacket" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_jacket" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="top_jacket_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+            <region x="162" y="0" width="47" height="35" params="17" style="0" name="tab_accessories" treshold="0">
+              <children>
+                <bitmap x="0" y="0" width="47" height="35" params="16" style="0" name="tab_accessories" tags="bitmap">
+                  <variables>
+                    <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                    <var key="bitmap_asset_name" value="top_accessories_on" type="String"/>
+                  </variables>
+                </bitmap>
+              </children>
+            </region>
+          </children>
+        </selector>
+        <container x="3" y="35" width="335" height="250" params="16" style="0" name="grid_container"/>
+        <container x="255" y="0" width="160" height="200" params="16" style="0" name="action_container"/>
+      </children>
+    </container>
+  </window>
+</layout>

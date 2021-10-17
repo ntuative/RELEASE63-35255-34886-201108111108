@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="help_frame" width="372" height="32" version="0.1" uid="46312422-F9FB-692F-32B4-24D999D6F33C">
+  <window>
+    <frame x="0" y="0" width="372" height="32" params="3309569" style="0" caption="%24%7Bhelp.window.title%7D" color="0xff418db0">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <container x="0" y="0" width="360" height="32" params="131088" style="0" caption="%24%7Bhelp.window.title%7D">
+          <children>
+            <itemlist_vertical x="0" y="0" width="360" height="32" params="131089" style="0" name="content_list" caption="%24%7Bhelp.window.title%7D"/>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

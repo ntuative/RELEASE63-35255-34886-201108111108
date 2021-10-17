@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<skin name="icon_set_skin" version="0.0">
+
+	<!-- shared variables -->
+	
+	<variables>
+		<variable key="asset" value="habbo_icons_png" type="String" />
+	</variables>
+	
+	<!-- template defines regions in bitmap asset -->
+	
+	<templates>
+	
+		<!-- Simple arrow down -->
+		<template name="icon_0" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="0" y="0"  width="9" height="10" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Simple arrow up -->
+		<template name="icon_1" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="10" y="0"  width="9" height="10" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Simple arrow left -->
+		<template name="icon_2" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="20" y="0"  width="10" height="9" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Simple arrow right -->
+		<template name="icon_3" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="31" y="0"  width="10" height="9" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Triangle arrow left -->
+		<template name="icon_4" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="42" y="0"  width="5" height="10" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Triangle arrow right -->
+		<template name="icon_5" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="48" y="0"  width="5" height="10" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Triangle arrow up -->
+		<template name="icon_6" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="54" y="0"  width="10" height="5" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Triangle arrow down -->
+		<template name="icon_7" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="54" y="6"  width="10" height="5" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Symbol Accept -->
+		<template name="icon_8" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="65" y="0"  width="16" height="13" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Symbol Decline -->
+		<template name="icon_9" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="82" y="0"  width="13" height="13" /></region></entity>
+			</entities>
+		</template>
+		
+		<!-- Coin -->
+		<template name="icon_10" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="0" y="49"  width="27" height="24" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- Club icon small-->
+		<template name="icon_11" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="96" y="0"  width="16" height="10" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- VIP icon small-->
+		<template name="icon_12" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="113" y="0"  width="19" height="10" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- Club icon square-->
+		<template name="icon_13" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="0" y="16"  width="16" height="16" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- VIP icon square-->
+		<template name="icon_14" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="17" y="16"  width="16" height="16" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- Club icon square big-->
+		<template name="icon_15" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="32" y="49"  width="37" height="37" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- VIP icon square big -->
+		<template name="icon_16" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="70" y="49"  width="37" height="37" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- Club icon gigantic-->
+		<template name="icon_17" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="108" y="49"  width="68" height="41" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- VIP icon gigantic -->
+		<template name="icon_18" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="177" y="49"  width="85" height="41" /></region></entity>
+			</entities>
+		</template>
+
+        <!-- Pixel icon -->
+        <template name="icon_19" asset="$asset">
+			<entities>
+				<entity name="icon" type="bitmap"><region><Rectangle x="34" y="16"  width="23" height="26" /></region></entity>
+			</entities>
+		</template>
+
+	</templates>
+	
+	<!-- markup for layout drawer -->
+	
+	<layouts>
+		<layout name="icon10" transparent="true">
+			<entities>
+				<entity name="icon" id="0">
+					<region><Rectangle x="0" y="0" width="27" height="24" /></region>
+					<scale horizontal="fixed" vertical="fixed" />
+				</entity>
+			</entities>
+		</layout>
+		<layout name="icon16" transparent="true">
+			<entities>
+				<entity name="icon" id="0">
+					<region><Rectangle x="0" y="0" width="16" height="16" /></region>
+					<scale horizontal="fixed" vertical="fixed" />
+				</entity>
+			</entities>
+		</layout>
+		<layout name="icon19" transparent="true">
+			<entities>
+				<entity name="icon" id="0">
+					<region><Rectangle x="0" y="0" width="23" height="26" /></region>
+					<scale horizontal="fixed" vertical="fixed" />
+				</entity>
+			</entities>
+		</layout>
+		<layout name="icon24" transparent="true">
+			<entities>
+				<entity name="icon" id="0">
+					<region><Rectangle x="0" y="0" width="24" height="24" /></region>
+					<scale horizontal="fixed" vertical="fixed" />
+				</entity>
+			</entities>
+		</layout>
+		<layout name="icon32" transparent="true">
+			<entities>
+				<entity name="icon" id="0">
+					<region><Rectangle x="0" y="0" width="32" height="32" /></region>
+					<scale horizontal="fixed" vertical="fixed" />
+				</entity>
+			</entities>
+		</layout>
+	</layouts>
+</skin>

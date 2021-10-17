@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="Quest" width="362" height="114" version="0.1" uid="1B5AF0FE-62B3-4E16-7623-728AF2F31471">
+  <window>
+    <border x="0" y="0" width="362" height="114" params="16" style="0" name="campaign_completed_container" color="0x0c9c9c9">
+      <children>
+        <text x="40" y="41" width="230" height="33" params="144" style="0" name="completed_txt" caption="%24%7Bquests.list.completed%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <bitmap x="278" y="25" width="53" height="57" params="16" style="0" name="completed_pic_bitmap"/>
+      </children>
+    </border>
+  </window>
+</layout>

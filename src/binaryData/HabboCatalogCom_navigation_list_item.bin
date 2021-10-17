@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="navigation_list_item" width="20" height="20" version="0.0">
+  <window>
+    <region x="0" y="0" width="158" height="21" params="131217" style="0" name="container" color="0xff000000" background="true">
+      <children>
+        <background x="0" y="0" width="158" height="20" params="16" style="0" name="background" color="0xffffffff" background="true" tags="SELECTION_COLOR"/>
+        <background x="0" y="0" width="22" height="20" params="16" style="0" name="iconBackground" color="0xffeeeeee" background="true" tags="ICON_COLOR">
+          <children>
+            <bitmap x="0" y="0" width="22" height="20" params="16" style="0" name="iconBackgroundBitmap"/>
+          </children>
+        </background>
+        <bitmap x="0" y="0" width="20" height="20" params="16" style="0" name="icon" tags="ICON_IMAGE"/>
+        <text x="26" y="4" width="4" height="4" params="176" style="0" name="item_title" tags="ITEM_TITLE">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="spacing" value="0" type="Number"/>
+          </variables>
+        </text>
+        <icon x="122" y="5" width="15" height="15" params="16" style="5" name="drop_button" color="0x0" tags="DOWNBTN"/>
+      </children>
+    </region>
+  </window>
+</layout>

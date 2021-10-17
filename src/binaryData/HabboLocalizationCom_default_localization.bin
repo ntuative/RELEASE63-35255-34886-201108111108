@@ -1,0 +1,922 @@
+# This file is used as a temporary storage space for localization-keys and default (english) texts 
+# for the flash client. These will be moved to Housekeeping as soon as a tool for the new client is available.
+default.localization.init=Default localization inition successful.
+
+# Glaze Editor Lorem Ipsum's
+001_lorem_ipsum_title=Lorem Ipsum
+002_lorem_ipsum_content=Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# Info
+info.comingsoon.caption=The feature is not yet available!
+info.comingsoon.text=Coming Soon!
+info.client.version=Version: %version%
+
+widgets.chatinput.say=Say
+
+# friendlist
+
+friendlist.alert.title=Notice!
+friendlist.weblinkinfo=Link opened to web page
+friendlist.settings=Settings
+friendlist.search.nofriendsfound=No friends found
+friendlist.search.noothersfound=No others found
+friendlist.search.friendscaption=Friends (%cnt%)  :
+friendlist.search.otherscaption=Other Habbos (%cnt%) :
+friendlist.friendrequestsent.title=Notice!
+friendlist.friendrequestsent.text=%user_name% has been sent your Friend Request. (S)he will be added into your Friends List if (s)he accepts it.
+friendlist.invite.title=Invitation
+friendlist.invite.send=Send
+friendlist.invite.summary=Inviting %count% people to this room.
+friendlist.invite.note=Make sure you can be followed.
+friendlist.invite.emptyalert.title=Notice!
+friendlist.invite.emptyalert.text=Write Your invitation and click send.
+friendlist.tab.friendrequests=Friend Requests
+friendlist.friends.offlinecaption=Offline Friends
+friendlist.listfull.title=Notice!
+friendlist.listfull.text=Your friendlist if full! You cannot add any new friends. The maximum limit for your friendlist is %mylimit% Habbos. The members of Habbo Club can have up to %clublimit% friends in their list.
+friendlist.followerror.offline=Your friend is offline.
+friendlist.followerror.hotelview=Your friend is on the hotel view.
+friendlist.followerror.prevented=Your friend has prevented others from following him/her.
+friendlist.followerror.notfriend=The user you tried to follow is not your friend anymore.
+friendlist.requests.norequests=No friend requests
+friendlist.requests.dismissall=Dismiss all
+friendlist.requests.acceptall=Accept all
+friendlist.request.accepted=Accepted!
+friendlist.request.declined=Declined!
+friendlist.request.failed=Failed!
+friendlist.tip.inbox=Minimail inbox
+friendlist.tip.preferences=Edit categories
+friendlist.tip.im=Instant Message
+friendlist.tip.follow=Follow to a room
+friendlist.tip.compose=Write minimail
+friendlist.tip.home=User's home
+friendlist.tip.invite=Invite friends
+friendlist.tip.remove=Remove friend
+friendlist.tip.searchstr=Enter search query
+friendlist.tip.mail=Send minimail
+friendlist.tip.addfriend=Send friend request
+friendlist.tip.tab.1=Your friends
+friendlist.tip.tab.2=Open friend requests
+friendlist.tip.tab.3=Search for avatars
+friendlist.tip.accept=Accept this friend request
+friendlist.tip.decline=Decline this friend request
+friendlist.tip.acceptall=Accept all friend requests
+friendlist.tip.declineall=Decline all friend requests
+friendlist.removefriendconfirm.title=Confirm remove
+friendlist.removefriendconfirm.userlist=Remove friends: %user_names%?
+friendlist.avatarpopup.online=Online
+friendlist.avatarpopup.lastaccess=Last visit: %last_access%
+friendlist.friends=Friends
+friendlist.tip.search=Search users
+friendlist.error.friendlistownlimit=Cannot send friend request, your friendlist is full!
+friendlist.error.friendlistlimitofrequester=Cannot send friend request, your friends frienlist is full!
+friendlist.error.friend_requests_disabled=Cannot send friend request, friend is not accepting new friends.
+friendlist.error.requestnotfound=Cannot send friend request, friend request was not found!
+
+#infostand
+infostand.button.whisper=Whisper
+infostand.button.friend=Ask to be a friend
+infostand.button.respect=Give respect (%count%)
+infostand.button.trade=Trade
+infostand.button.trade.tooltip.rights=You don't have trading enabled!
+infostand.button.trade.tooltip.shutdown=Trading is disabled due to shutdown.
+infostand.button.trade.tooltip.tradingroom=This room is not a trading room!
+infostand.button.ignore=Ignore
+infostand.button.unignore=Listen
+infostand.button.kick=Kick
+infostand.button.ban=Ban
+infostand.button.giverights=Give rights
+infostand.button.removerights=Remove rights
+infostand.button.move=Move
+infostand.button.rotate=Rotate
+infostand.button.pickup=Pick up
+infostand.button.train=Train
+infostand.text.xp=Monthly XP: %xp%
+infostand.text.handitem=Carrying: %item%
+infostand.pet.text.level=Level
+infostand.pet.text.experience=Experience
+infostand.pet.text.energy=Energy
+infostand.pet.text.nutrition=Nutrition
+
+#Pet commands view
+widgets.pet.commands.title=Pet commands
+widgets.pet.commands.info.link=Pet commands help
+widgets.pet.commands.help.title=Pet commands help
+widgets.pet.commands.description=Each pet has a level from 1 to 20. Every pet command gives the pet a bit of experience but makes the pet tired (reduces energy). Reaching higher levels will give your pet more commands and increase the likelihood the pet obeys you. Feeding the pet will also make your pet obey you better, and makes regaining energy much faster.
+
+
+pet.command.0=Free
+pet.command.1=Sit
+pet.command.2=Lie down
+pet.command.3=Come here
+pet.command.4=Beg
+pet.command.5=Play dead
+pet.command.6=Stay
+pet.command.7=Follow
+pet.command.8=Stand
+pet.command.9=Jump
+pet.command.10=Seek
+pet.command.11=Play
+pet.command.12=Silent
+pet.command.13=Nest
+pet.command.14=Drink
+pet.command.15=Follow Left
+pet.command.16=Follor Right
+pet.command.17=Play Football
+pet.command.18=Go To
+
+widgets.memenu.effects.active.timeleft=%time_left%
+widgets.memenu.effects.activate=Activate Effect
+
+#avatareditor
+avatareditor.title=Change Your Looks
+avatareditor.save=Change clothes
+avatareditor.cancel=Cancel
+avatareditor.generic.boy=Boy
+avatareditor.generic.girl=Girl
+avatareditor.wardrobe.title=My Wardrobe
+avatareditor.wardrobe.choose=Click to choose
+avatareditor.wardrobe.store=Click to store
+avatareditor.hotlooks.title=Hot Looks from the Hotel
+avatareditor.hotlooks.choose=Click to choose
+avatareditor.hotlooks.more=More Looks
+avatar.editor.character.update.url=http://%predefined%/profile/characterupdate
+avatareditor.habboclub.title=Habbo Club Required
+avatareditor.habboclub.info=Habbo Club is required in order to be able to use the wardrobe.  
+avatareditor.habboclub.link=Get Habbo Club Membership
+avatareditor.invalidclubitems.title=Invalid items selected
+avatareditor.invalidclubitems.description=You have fitted on club clothes or colors that you cannot select without belonging to that club level. Those items are first removed.
+avatareditor.invalidclubitems.moreinfo=Join the club
+avatareditor.palette.1=Color 1
+avatareditor.palette.2=Color 2
+avatareditor.try.club.clothes=Try club clothes
+avatareditor.try.club.clothes.description=Try on club clothing.
+avatareditor.try.club.clothes.more=You can now try on club clothes. Join Habbo Club to use them in the hotel.
+
+#inventory
+
+inventory.title=Inventory
+inventory.furni=Furniture
+inventory.furni.placetoroom=Place to room
+inventory.furni.tab.floor=Floor
+inventory.furni.tab.wall=Wall
+inventory.furni.item.wallpaper.name=Wallpaper
+inventory.furni.item.wallpaper.desc=Set this to the current room
+inventory.furni.item.floor.name=Floor
+inventory.furni.item.floor.desc=Set this to the current room
+inventory.furni.item.landscape.name=Landscape
+inventory.furni.item.landscape.desc=Set this to the current room
+inventory.furni.item.song_disk_author="%name%" by %author%
+inventory.furni.preview.not_tradeable=None of these items are tradeable
+inventory.furni.preview.tradeable_amount=You have this many items that can be traded
+inventory.furni.preview.not_recyclable=None of these items are recyclable
+inventory.furni.preview.recyclable_amount=You have this many items that can be recycled
+inventory.badges=Badges
+inventory.badges.wearbadge=Wear badge
+inventory.badges.clearbadge=Clear badge
+inventory.badges.savebadges=Save settings
+inventory.badges.inactivebadges=My badges
+inventory.badges.activebadges=Wearing
+inventory.badges.defaultdescription=Here are your badges. Select the ones that you want to wear and then save the selection.
+inventory.effects=Effects
+inventory.effects.defaultdescription=No effect is selected. Buy effects from the catalogue and activate them here. Then you can select which one to use from the Me Menu.
+inventory.effects.active=This effect is activated. Time left %timeleft%/%duration%. You have %itemcount% pieces of these.
+inventory.effects.inactive=This effect is not yet activated. One item last for %duration%, once activated. You have %itemcount% pieces of these.
+inventory.achievements=Achievements
+inventory.purse.creditbalance=Credits: %balance%
+inventory.purse.pixelbalance=Pixels: %balance%
+inventory.purse.clubdays=Habbo Club: %months%m %days%d
+inventory.trading.accept=Accept trade
+inventory.trading.confirm=Confirm
+inventory.trading.modify=Modify trade
+inventory.trading.countdown=Please wait... %counter%
+inventory.trading.offer=Offer
+inventory.trading.other=Other
+inventory.trading.isoffering=is offering
+inventory.trading.you=You
+inventory.trading.areoffering=are offering
+inventory.trading.info.add=Add items to box.
+inventory.trading.info.confirm=These are the final offers. Please confirm the trade.
+inventory.trading.info.waiting=Waiting for other user to confirm the trade.
+inventory.trading.info.closed=Other user cancelled the trade.
+inventory.trading.info.already_open=You are trading with someone and you cannot start a new trade.
+inventory.trading.warning.own_account_disabled=This account does not have trading in use. You can receive items from other users but cannot give them anything. Check your trading settings and make sure your email-address is activated.
+inventory.trading.warning.others_account_disabled=This user does not have trading in use. You can give him/her items but he can't give you anything in return.
+inventory.trading.warning.both_accounts_disabled=Trading is not in use for either of you, check your trading settings.
+inventory.trading.warning.other_not_offering=The other Habbo has not put anything into trade. This might be a scamming attempt!
+inventory.trading.notification.title=Trading Notification
+inventory.trading.minimized.trade_in_progress=TRADE IN PROGRESS
+inventory.trading.minimized.continue_trade=Continue
+
+# instantmessenger
+
+messenger.title=Chat
+messenger.info=Choose a friend from Your online friend list and send an instant message or an invite.
+messenger.moderationinfo=Sharing your password or personal details online is dangerous. The moderators might monitor these conversations for your safety.
+messenger.notification.online=Your friend came online.
+messenger.notification.offline=Your friend went offline.
+messenger.invitation=Your friend sent you an invitation:
+messenger.error.busy=Your friend is busy.
+messenger.error.sendermuted=Your message was not sent because you are muted.
+messenger.error.offline=Your friend is not online.
+messenger.error.notfriend=Receiver is not your friend anymore.
+messenger.error.receivermuted=Your friend is muted and cannot reply.
+messenger.followfriend.tooltip=Go to room your friend is currently in
+messenger.minimail.tooltip=Send minimail to your friend
+
+# navigator
+
+navigator.title=Navigator
+navigator.loading=Loading...
+navigator.roomownercaption=Owner:
+navigator.ratingcaption=Rating:
+navigator.removefavourite=Remove Favourite
+navigator.editroom=Edit Room
+navigator.back=Back
+navigator.frontpage=Front page
+navigator.alllatestevents=Show all
+navigator.tab.1=Everyone
+navigator.tab.2=Me
+navigator.tab.3=Friends
+navigator.tab.4=Search
+navigator.tab.events=Events
+navigator.tab.rooms=Rooms
+navigator.tab.me=Me
+navigator.tab.special=Special
+navigator.tab.search=Search
+navigator.favouritedeleted=Favourite %room_name% deleted!
+navigator.undofavouritedeletion=Undo
+navigator.favouritesfull.title=Cannot Add Favourite
+navigator.favouritesfull.body=Your favourite list is full. You must remove some favourite rooms before adding more.
+navigator.cannonaddfavourite.full=Your favourite list is full.
+navigator.cannonaddfavourite.exists=This room is already in your favourites.
+navigator.favourite.tooltip=This room is in your favourites list. Click here to remove the room from the list.
+navigator.makefavourite.tooltip=Click here to add this room to your favourites list.
+navigator.textsearchresults=Found %room_count% rooms	
+navigator.search.tags=...or select tag below
+navigator.search.info=Type your searchwords here...
+navigator.tagsearchresults=Found %room_count% rooms matching %tag_name%
+navigator.moreroomscaption=Want more rooms?
+navigator.createroom=Create Room	      	    
+navigator.navisel.alllatestevents=Show all
+navigator.navisel.myrooms=Rooms owned by me
+navigator.navisel.myfavourites=My favourite rooms
+navigator.navisel.visitedrooms=Room I've recently visited
+navigator.navisel.myfriendsrooms=Rooms owned by my friends
+navigator.navisel.wherearemyfriends=Rooms where my friends are
+navigator.navisel.popularrooms=Rooms with most visitors
+navigator.navisel.highestscore=Rooms with highest ratings
+navigator.navisel.mainattractions=Main attractions
+navigator.frontpage.officialrooms=Official Habbo Rooms
+navigator.frontpage.staticsearch.1=Popular Rooms
+navigator.frontpage.staticsearch.4=Where are my friends?
+navigator.frontpage.staticsearch.5=My Rooms
+navigator.frontpage.staticsearch.6=Favourite Rooms
+navigator.frontpage.staticsearch.8=Text Search
+navigator.frontpage.staticsearch.9=Tag Search
+navigator.createroom.error=Cannot create room
+navigator.createroom.limitreached=You are not allowed to own more than %limit% rooms. 
+navigator.createroom.title=Room creation
+navigator.createroom.roomnameinfo=Type the new room name here
+navigator.createroom.chooselayoutcaption=Choose room layout
+navigator.createroom.create=Create room
+navigator.createroom.chooselayout=Choose
+navigator.createroom.tilesize=tiles
+navigator.createroom.nameerr=Room name is mandatory!
+navigator.createroom.hcpromo.text=You get more room options if you join the Habbo Club.
+navigator.createroom.hcpromo.link=Click here to read more >>
+navigator.noroomsfound=No rooms found
+navigator.notagsfound=No popular tags found
+navigator.eventsettings.edit=Edit
+navigator.eventsettings.end=End
+navigator.eventsettings.editcaption=Edit event
+navigator.eventsettings.name=Event name
+navigator.eventsettings.desc=Event description
+navigator.eventsettings.nameerr=Event name is mandatory
+navigator.eventsettings.descerr=Event description is mandatory
+navigator.cannotcreateevent.title=Cannot Create Event!
+navigator.cannotcreateevent.error.1=You must be in a room to start an event.
+navigator.cannotcreateevent.error.2=Only room owner can create events.
+navigator.cannotcreateevent.error.3=The door of the room must be open to create an event. You can change the door mode in room settings.
+navigator.cannotcreateevent.error.4=Room event feature is currently disabled.
+navigator.cannotcreateevent.error.5=Room already has an event.
+navigator.cannotcreateevent.error.6=You already have an ongoing event in some other room.
+navigator.info.password=Password in required when entering this room.
+navigator.info.doorbell=Room door is locked. Owner may open the door from inside.
+navigator.info.tradingallowed=Trading is allowed in this room.
+navigator.roominfo.addtofavourites=Add to favorites
+navigator.roominfo.removefromfavourites=Remove from favorites
+navigator.roominfo.makehome=Make home room
+navigator.roominfo.clearhome=Clear home room
+navigator.roominfo.makehome.tooltip=Set this room as your Home Room. You automatically enter your Home Room when you enter Habbo.
+navigator.roominfo.clearhome.tooltip=This room is your Home Room. Click here to remove your Home Room setting.
+navigator.roominfo.editevent=Edit Event
+navigator.roominfo.sethomeroom=Home
+navigator.roomsettings.basiccaption=Basic Room Settings
+navigator.roomsettings.advancedcaption=Advanced Room Settings
+navigator.roomsettings.desc=Description
+navigator.roomsettings.doormode=Leave door
+navigator.roomsettings.doormode.open=Open
+navigator.roomsettings.doormode.doorbell=Closed (doorbell)
+navigator.roomsettings.doormode.password=Closed (password)
+navigator.roomsettings.password=Password for the room:
+navigator.roomsettings.passwordconfirm=Re-type password:
+navigator.roomsettings.save=Save settings
+navigator.roomsettings.editthumbnail=Edit thumbnail
+navigator.roomsettings.unacceptablewords=Unacceptable words!
+navigator.roomsettings.nonuserchoosabletag=Reserved for staff use.
+navigator.roomsettings.roomnameismandatory=Room name is mandatory.
+navigator.roomsettings.invalidconfirm=This must match password.
+navigator.roomsettings.passwordismandatory=Password is mandatory.
+navigator.roomsettings.flatctrls.caption=%cnt% users have rights to this room
+navigator.roomsettings.flatctrls.limitinfo=Showing first %cnt% users, most recently added users first.
+navigator.roomsettings.flatctrls.info=Choose users from the above list and then click Remove to take away their rights to this room. Click on Remove All to remove rights from all users.
+navigator.roomsettings.removeallflatctrls=Remove All
+navigator.roomsettings.deleteroom.confirm.message=Are you sure you want to delete %room_name%?
+navigator.roomsettings.deleteroom.confirm.title=Confirm room deletion
+navigator.roomsettings.delete=Delete this room
+navigator.roomsettings.tobasicsettings=<< Basic Settings
+navigator.roomsettings.toadvancedsettings=Advanced Settings >>
+navigator.roomsettings.allowpets=Allow pets
+navigator.roomsettings.allowfoodconsume=Allow others' pets to eat food
+navigator.error.nosuchflat.title=Could not delete flat
+navigator.error.nosuchflat.message=Could not delete the flat, since it doesn't exist or you are not the owner.
+navigator.thumbeditor.bgtab=Background
+navigator.thumbeditor.objtab=Objects
+navigator.thumbeditor.toptab=Top layer
+navigator.thumbeditor.prevobj=Prev
+navigator.thumbeditor.nextobj=Next
+navigator.thumbeditor.selectpos=Define place:
+navigator.thumbeditor.save=Save
+navigator.thumbeditor.caption=Edit Room Thumbnail
+navigator.thumbeditor.caption.bg=Select Background Image
+navigator.thumbeditor.caption.top=Select Top Layer Image
+navigator.thumbeditor.caption.obj=Select Image
+navigator.password.title=Password
+navigator.password.info=This room is locked with a password. Trying the password will cause you to leave the current room.
+navigator.password.enter=Enter password
+navigator.password.button.try=Try password
+navigator.password.retryinfo=Wrong password. Please retry, or cancel entering the room.
+navigator.doorbell.title=Doorbell
+navigator.doorbell.info=This room is locked. You need to ring the doorbell to enter. Ringing the doorbell will cause you to leave the current room.
+navigator.doorbell.waiting=The doorbell is ringing, waiting for someone to open the door...
+navigator.doorbell.no.answer=No answer.
+navigator.doorbell.button.ring=Ring doorbell
+navigator.doorbell.button.cancel.entering=Cancel entering the room
+navigator.remove=Remove
+navigator.category=Category
+navigator.maxvisitors=Maximum amount of visitors
+navigator.createevent=Create event
+navigator.roomname=Room name
+navigator.roomsettings=Room settings
+navigator.tags=Tags
+navigator.create=Create
+navigator.clearsearchresults=Clear results 
+navigator.rateroom=Rate this room
+navigator.roomrating=Rating:
+navigator.usercounttooltip.populartag=The total number of users in rooms that have this tag
+navigator.usercounttooltip.staticsearch=The total number of users in rooms that match this search
+navigator.usercounttooltip.users=How many users are currently in this room
+navigator.usercounttooltip.friends=How many friends are currently in this room
+navigator.ownedbystaff=Habbo staff
+navigator.guestroomfull.title=Cannot enter room!
+navigator.guestroomfull.text=Sorry, the room you tried to enter is full.
+navigator.tohotelview.tooltip=Exit current room.
+navigator.roomctg=Category:
+navigator.eventstartedat=Started at:
+navigator.banned.title=Cannot enter room!
+navigator.banned.text=You have been banned from this room!
+navigator.embed.caption=Embed this room
+navigator.embed.copytoclipboard=Copy to clipboard
+navigator.embed.info=Click the button below to copy HTML code onto your clipboard, which allows you to embed this room to a web page.
+navigator.embed.src=<iframe width="800" height="500" src="http://export.%predefined%/embed/%embedCode%/%roomType%/%roomId%" style="border: 0; margin: 0; padding: 0; overflow: hidden;" frameborder="0" scrolling="no" scrollbar="no"></iframe>
+
+
+# tinywindows
+
+widgets.chatinput.mode.speak=:speak
+widgets.chatinput.mode.whisper=:tell
+widgets.chatinput.mode.shout=:shout
+widgets.chatinput.default=Click here to chat...
+widgets.furniture.credit.redeem.value=This bag or bar contains %value% credits, you can redeem it now.
+widgets.doorbell.title=Doorbell
+widgets.doorbell.info=Following users are ringing the doorbell.
+
+widgets.chatbubble.respect=%username% was respected!
+
+widget.memenu.effects=Effects
+widget.memenu.myrooms=My Rooms
+widget.memenu.myclothes=My Clothes
+widget.memenu.badges=Badges
+widget.memenu.dance=Dance
+widget.memenu.wave=Wave
+widget.memenu.activeeffects=Active Effects
+widget.memenu.back=Back
+widget.memenu.moreeffects=Buy Effects
+widget.memenu.editavatar=Edit Avatar
+widget.memenu.settings=Settings
+widget.memenu.settings.title=Modify your settings
+widget.memenu.settings.volume=Adjust the volume of sounds
+widget.memenu.dance.stop=Stop Dancing
+widget.memenu.dance1=Hab-Hop
+widget.memenu.dance2=Pogo Mogo
+widget.memenu.dance3=Duck Funk
+widget.memenu.dance4=The Rollie
+widget.memenu.dance.clubinfo=Habbo Club members have more dance moves!
+widget.memenu.clothes.info=This is available for Habbo Club members only.
+widget.memenu.clothes.add=Add outfits to your wardrobe in the account settings first!
+widget.memenu.effects.info=You don't have any active effects.
+widget.memenu.hc.join=Join HC!
+widget.memenu.hc=HC %days%d
+widget.memenu.hc.long=HC %days%d %months%m
+
+widget.furni.present.title=Present
+widget.furni.present.open=Open the present
+widget.furni.present.hc=You got a subscription to Habbo Club!
+widget.furni.ecotronbox.title=Ecotron box
+widget.furni.ecotronbox.open=Open
+widget.furni.trophy.title=Trophy
+
+widget.poll.title=Poll
+widget.chooser.furni.title=Furni
+widget.chooser.user.title=Chooser
+
+# notifications
+
+notifications.broadcast.title=Hotel message
+notifications.text.pixels=%change% pixels received, amount now %count%.
+notifications.text.achievement=You reached level %level% on %badge%. Check out your new badge.
+notifications.text.buyfurni=You bought %furni_name%.
+notifications.text.receivedcredits=You received %count% credits.
+notifications.text.respect.1=You got some respect.
+notifications.text.respect.2=You have %count% respects.
+notifications.text.friend.online=%user_name% is now online.
+notifications.text.friend.offline=%user_name% is now offline.
+notifications.text.friend.online.realname=%user_name% (%real_name%) is now online!
+notifications.text.friend.offline.realname=%user_name% (%real_name%) went offline.
+notifications.text.clubdays=You have %days% days of Habbo Club remaining.
+notifications.text.clubdays.long=You have %days% days and %months% months of Habbo Club remaining.
+notifications.text.purchase.ok=You successfully purchased a %productName%!
+notifications.text.recycle.ok=Recycling complete! You received a package with mystery content...
+
+# help
+
+help.cfh.input.text=If you are experiencing a situation which is making you feel uncomfortable or unsafe, please give details below and a member of community staff will reply as soon as possible.
+help.cfh.button.send=Send call for help
+help.cfh.button.delete=Delete pending calls for help
+help.cfh.sent.title=Thanks for your call!
+help.cfh.sent.text=A member of community staff will investigate the situation and take appropriate action. Please check Service Updates on the FAQs for known technical problems.
+help.cfh.error.title=Your call for help was not sent!
+help.cfh.error.pending=Your previous call for help has not been answered yet. To make a new one you must delete the old message.
+help.cfh.error.nomsg=You must write a description of what is wrong before sending a call for help.
+help.cfh.error.msgtooshort=The description you've written is too short. Please describe the issue in more detailed manner.
+help.cfh.reply.title=Your call has been responded to as follows:
+help.cfh.pick.topic=Choose a topic for your call that best matches your problem:
+
+
+help.cfh.closed.useless=Please note that the Call for Help system is for reporting genuine abuse issues or account queries. We ask that you don't use it rashly.
+help.cfh.closed.abusive=Please do not abuse the Call for Help system. Misuse may lead to penalties against your account.
+help.cfh.closed.resolved=Thank you, your issue has now been resolved. 
+
+help.cfh.topicwithharasser.101=%name% is being sexually explicit
+help.cfh.topicwithharasser.102=%name% is sharing phone numbers or home address
+help.cfh.topicwithharasser.103=%name% is scamming
+help.cfh.topicwithharasser.104=%name% is bullying or being abusive
+help.cfh.topicwithharasser.105=%name% is blocking or being disruptive
+help.cfh.topicwithharasser.106=Other Problem
+
+help.cfh.topic.101=Someone is being sexually explicit
+help.cfh.topic.102=Sharing is sharing phone numbers or home address
+help.cfh.topic.103=Someone is scamming
+help.cfh.topic.104=Someone is bullying or being abusive
+help.cfh.topic.105=Someone is blocking disruptive
+help.cfh.topic.106=Other Problem
+
+help.window.title=Habbo help
+help.mainpage.topics.title=Known issues, read these first:
+help.info.cfh=Click here if you want to report a help request
+help.button.cfh=Call for help
+help.button.faq=Browse all topics >>
+help.button.habboway=Habbo Way: How to play Habbo according to the Habbo Way >>
+help.button.habboway.url=http://%predefined%/groups/HabboWay
+help.faq.browse.topics=Click a topic to view questions:
+help.button.faq.categorylist=Go back to list of categories
+help.button.faq.topiclist=Go back to list of topics
+help.button.faq.next.entry=View the next issue:
+help.faq.title.urgent=Current issues
+help.faq.title.normal=FAQ Topics
+help.faq.title.searchresults=Search results
+
+help.faq.search.default=Type in keywords to search
+help.faq.categories.text=Browse FAQ by category:
+help.button.call.guide.bot=Call guide bot
+help.call.for.guide.bot=A guide bot can be called to help answer any questions you may have.
+
+# help/reporting users tool
+
+help.info.report.user=Click here if someone is criticising the party politics
+help.button.report.user=Report another user
+
+report.user.error.nolist=No users found to report. You can send a normal help request instead!
+report.user.list.entry=%name% in room %room%
+
+report.user.pick.topic=You can report a user you have seen in the game. If you complain about players for no reason and do it just to tease others you might get banned yourself!
+
+# third party new user tutorial interface
+
+help.tutorial.title=Welcome to Habbo!
+help.tutorial.info=Welcome to Habbo Hotel! Here are some tasks to help you get started.
+help.tutorial.button.changelooks=Change Looks
+help.tutorial.button.changename=Change Name
+help.tutorial.button.guidebot=Call a guide bot
+help.tutorial.button.nameok=Use name %name%
+help.tutorial.name.input=Type your new Habbo name here...
+help.tutorial.name.info=Your name can contain lowercase and uppercase letters, numbers and characters - =?!@:.
+help.tutorial.name.taken=Habbo name %name% seems to be taken. Here are some other suggestions:
+help.tutorial.name.invalid=Name %name% is not valid for an username!
+help.tutorial.name.short=Name too short! Must be between x and y characters long!
+help.tutorial.name.long=Name too long! Must be between x and y characters long!
+help.tutorial.name.changed=Your Habbo name is now changed to %name%!
+help.tutorial.name.available=Habbo name %name% is free, so get it now!
+help.tutorial.name.wait_while_checking=Please wait while we're checking the name. This might take a few seconds.
+help.tutorial.clothes.info=You can change your avatar looks by using our clothes editor! Follow the highlighted links to get there...
+help.tutorial.guidebot.info=A guide bot should now appear to you room. Feel free to ask the robot any questions you might have!
+help.tutorial.clickme=CLICK HERE!
+
+# moderation
+
+mod.alert.title=Message from Habbo Staff
+mod.alert.link=More information >>
+mod.ban.title=You are banned!
+mod.chatdisclaimer=Discussions in Habbo rooms may be monitored for moderation purposes
+
+# room errors
+
+error.title=Error!
+
+room.error.cant_trade_stuff=You cannot place this in someone else's room!
+room.error.cant_set_item=You cannot place this item here.
+room.error.cant_set_not_owner=You don't have rights to put furniture in here!
+room.error.max_furniture=This room has the maximum amount of Furni.
+room.error.max_pets=Too many pets in the room!
+room.error.max_queuetiles=You can't fit more Habbo Rollers in this room!
+room.error.max_soundfurni=You can only place one sound furni per room
+room.error.max_stickies=Only 50 stickies per room are allowed!
+room.error.kicked=You were kicked out from the room.
+room.error.guide.not.available=All guide bots are in use at this time. Please try again later!
+room.error.guide.already.exists=A guide bot already exists in your room!
+room.error.pets.respectfailed=You can scratch other users pets once your account is %required_age% days old. Your account is now %avatar_age% days old.
+
+room.confirm.pick_all=Do you really want to pick all furniture in the room?
+
+# catalogue
+catalog.title=Catalog
+catalog.chooseproduct=Choose Product
+catalog.choosecolour=Choose Colour
+catalog.purse.creditbalance=Credits: %balance% >>
+catalog.purse.pixelbalance=Pixels: %balance% >>
+catalog.purse.clubdays=Habbo Club: %months%m %days%d >>
+catalog.purse.club.join=Join HC >>
+catalog.purchase.confirmation.dialog.title=Order Info
+catalog.purchase.confirmation.dialog.costs=%offer_name% costs %price%.
+catalog.purchase.confirmation.dialog.amount=You have %amount%.
+catalog.purchase.confirmation.dialog.remaining=You will have %remaining% in your Purse after purchasing this.
+catalog.purchase.confirmation.dialog.price.credits=%credits% credit(s)
+catalog.purchase.confirmation.dialog.price.credits+pixels=%credits% credit(s) + %pixels% pixels
+catalog.purchase.confirmation.dialog.price.pixels=%pixels% pixels
+catalog.purchase.confirmation.dialog.price.none=nothing
+catalog.purchase.price.credits=%credits% credit(s)
+catalog.purchase.price.credits+pixels=%credits% credit(s) + %pixels% pixels
+catalog.purchase.price.pixels=%pixels% pixels
+catalog.purchase.price.none=nothing
+catalog.purchase.confirmation.dialog.buyasgift.checkbox=This is a gift for:
+catalog.purchase.confirmation.dialog.buyasgift.greetings.info=Type your greetings here (don't forget to put your name!):
+catalog.alert.published.title=Catalog was published!
+catalog.alert.published.description=Catalog was published! Catalog data became invalid and you'll have to reopen it.
+catalog.alert.purchaseerror.title=Purchase Error!
+catalog.alert.purchaseerror.description=Purchase Error!
+catalog.alert.purchasenotallowed.title=Purchase Not Allowed!
+catalog.alert.purchasenotallowed.hc.description=In order to buy this item you must be a Habbo Club member!
+catalog.alert.purchasenotallowed.unknown.description=Unknown Error
+catalog.alert.notenough.title=Not Enough Credits!
+catalog.alert.notenough.pixels.title=Not Enough Pixels!
+catalog.alert.notenough.credits.description=You don´t have enough Credits for this. Click 'ok' to see different ways of getting credits.
+catalog.alert.notenough.pixels.description=You don't have enough pixels.
+catalog.alert.notenough.creditsandpixels.description=You don't have enough credits and pixels. Click 'ok' to see different ways of getting credits.
+catalog.alert.external.link.title=External Link
+catalog.alert.external.link.desc=External link was clicked, it will open in a new page.
+catalog.voucher.empty.title=Voucher code missing
+catalog.voucher.empty.desc=You didn't seem to enter a voucher code
+catalog.alert.voucherredeem.error.title=Error processing voucher
+catalog.alert.voucherredeem.error.description=We could not process your voucher code. Please retry and check the spelling extra carefully.
+catalog.alert.voucherredeem.error.description.0=The code you entered is not valid, please check it and try again.
+catalog.alert.voucherredeem.error.description.1=Technical error! Cannot redeem voucher.
+catalog.alert.voucherredeem.error.description.3=This voucher must be redeemed in Habbo Web.
+catalog.alert.voucherredeem.ok.title=Voucher processed
+catalog.alert.voucherredeem.ok.description=Voucher process succeeded! Credit balance updated.
+catalog.alert.voucherredeem.ok.description.furni=Voucher process succeeded! You got the following furniture: %productName%, %productDescription%
+catalog.alert.petname.bobba=Name contained illegal words!
+catalog.alert.petname.chars=Name contained illegal characters!
+catalog.alert.petname.length=Pet name too long!
+catalog.alert.petname.empty=Enter a name for your pet!
+catalog.page.specialeffects=Special Effects
+catalog.redeem.dialog.title=Credit Exchange
+catalog.redeem.dialog.button.exchange=Exchange
+catelog.redeem.dialog.readmore.description=Read more about coin sets >>
+catalog.recycler.button.recycle=Recycle
+catalog.page.snowflakes=Ice Furni
+
+#marketplace
+catalog.marketplace.offer.price_public_item=Price: from %price% credits
+catalog.marketplace.offer.price_own_item=Price: %price% credits
+catalog.marketplace.offer.sold=This item is sold
+catalog.marketplace.offer.expired=This item was not sold
+catalog.marketplace.offer.time_left=Time left: %time%
+catalog.marketplace.offer.hours=hours
+catalog.marketplace.offer.minutes=minutes
+catalog.marketplace.offer.pick=Take back
+catalog.marketplace.offer.redeem=Redeem sold items
+catalog.marketplace.search_name=Search by name...
+catalog.marketplace.search_price=List items by minimum price
+catalog.marketplace.operation_failed.topic=Problem with offer
+catalog.marketplace.cancel_failed=Cancelling an offer failed
+catalog.marketplace.confirm_title=Confirm
+catalog.marketplace.confirm_header=Confirm purchase
+catalog.marketplace.confirm_price=Price: %price% coins
+catalog.marketplace.confirm_higher_title=Price changed
+catalog.marketplace.confirm_higher_header=Someone already bough that! It is now available at a new price.
+catalog.marketplace.not_available_title=Purchase error
+catalog.marketplace.not_available_header=All the items of that type were sold already.
+catalog.marketplace.searching=Searching...
+catalog.marketplace.no_items=No items found
+catalog.marketplace.items_found=Found %count% items
+catalog.marketplace.items_shown=Showing the first %count% items
+
+#recycler
+recycler.alert.non.recyclable=This furniture is not recyclable!
+recycler.alert.trading=Recycling cannot begin while you are trading. Please close the safe trading box before recycling.
+recycler.alert.timeout=You have to wait %minutes% minutes and %seconds% seconds before you can recycle again.
+recycler.alert.privateroom=You have to be in a private room to recycle!
+recycler.info.ready=Drag 5 items to the boxes below and click recycle. Recyclable items display recyclable tag in your inventory.  Check out the prizes and the instructions for recycling before you recycle.
+recycler.info.closed=Recycler is closed at the moment. Please check back later to recycle your Furniture.
+recycler.info.finished=Recycling is complete. You have made a great environmentally friendly decision. All the recycled items you receive have been made from old items which helps to save natural resources and reduce pollution.
+
+recycler.prizes.category.1=Common
+recycler.prizes.category.2=Uncommon
+recycler.prizes.category.3=Arcane
+recycler.prizes.category.4=Phenomenal
+recycler.prizes.category.5=Urban Legend
+
+recycler.prizes.odds.1=You can always get one of these if all else fails.
+recycler.prizes.odds.2=You have %odds% chance to get one of these.
+recycler.prizes.odds.3=%odds% chances to get one of these.
+recycler.prizes.odds.4=%odds% chances to get this one. Good luck!
+recycler.prizes.odds.5=Dream on... you have only %odds% chance to get this.
+
+#sounds
+soundmachine.flash9.alert.title=Old Flash version
+soundmachine.flash9.alert.content=To be able to hear Trax songs, you need to update to latest Flash player version
+soundmachine.flash9.link.title=Update latest Flash player
+soundmachine.notification.playing=Now playing %songname% by %songauthor%
+
+# generickeys
+
+generic.ok=Ok
+generic.back=Back
+generic.cancel=Cancel
+generic.search=Search
+generic.close=Close
+generic.alert.title=Notice!
+
+# Connection
+connection.error.id.title=Error
+connection.error.id.desc=Sorry, received error: %id%
+connection.login.error.-3.desc=Username or password failed.
+connection.login.error.-400.desc=Version check failed
+connection.login.title=Login
+connection.login.name=Name
+connection.login.password=Password
+connection.login.useTicket=Use SSO Ticket
+connection.login.login=Login
+connection.server.error.id.title=Server Error
+connection.server.error.desc=Sorry, received server error: %errorCode%
+
+# System availability
+opening.hours.title=Hotel Maintenance
+opening.hours.closed=The Hotel has been closed and will be open to the public again at %h%:%m%.
+opening.hours.shutdown=The Hotel will shut down in %m% minutes. To avoid confusion, purchasing of furniture, Habbo Club and game tickets will be disabled during that time, as well as playing Games and furniture trading. Thank you for visiting and welcome back tomorrow! 
+opening.hours.disconnected=We're sorry but you have been disconnected from the hotel. The Hotel will open again at %h%:%m%. We look forward to welcoming you back!
+
+# Toolbar
+toolbar.icon.tooltip.settings=Settings
+toolbar.icon.tooltip.help=Help
+toolbar.icon.tooltip.navigator=Navigator
+toolbar.icon.tooltip.friendlist=Friend list
+toolbar.icon.tooltip.friendlist.fr=Somebody has sent you a friend request!
+toolbar.icon.tooltip.catalogue=Catalogue
+toolbar.icon.tooltip.inventory=Inventory
+toolbar.icon.tooltip.messenger=Messenger
+toolbar.icon.tooltip.zoom=Zoom
+toolbar.icon.tooltip.roominfo=Room info
+toolbar.icon.tooltip.memenu=Me menu
+toolbar.icon.tooltip.exitroom.home=Go to your home room
+toolbar.icon.tooltip.exitroom.hotelview=Go to the hotel view
+toolbar.icon.tooltip.sounds=Toggle sounds on/off
+
+# Chat
+chat.input.alert.flood=You're typing too fast, don't flood the room! - %time% seconds remaining
+chat.history.drag.tooltip=Drag this to display chat history
+chat.history.drag.tooltip=Drag this to display chat history
+
+# Advertisement
+ads.interstitial.tooltip=This is an advertisement. Clicking it will open another web page.
+ads.roomad.tooltip=This is an advertisement. Clicking it will open another web page.
+
+# Group
+group.window.title=Habbo Groups
+group.homepage=Groups' homepage >>>
+group.privileges=Privileges: %privileges%
+group.room.link=Group's room: %room_name% >>>
+group.owner=Owner
+group.admin=Administrator
+group.member=Member
+
+#Room loading
+room.loading=Please wait while loading the room.
+room.queue.position=Your position in the queue: %position%
+room.queue.position.hc=Your position in the HC queue: %position%
+room.queue.title=Room queue
+room.queue.link=Habbo Club members bypass the queue! Read more >>
+room.queue.button.exit=Exit queue
+room.queue.error.title=Cannot enter room!
+room.queue.error.e1=This room is currently available only to Habbos participating to the event.
+room.queue.error.c=This room is for Habbo Club members only. In order to enter, you need to subscribe to Habbo Club.
+
+# Pets
+
+pet.age=Age: %age%
+
+pet.hunger=Hunger:
+pet.hunger.0=Empty
+pet.hunger.1=Hungry
+pet.hunger.2=Rumbling
+pet.hunger.3 peckish
+pet.hunger.4=Satisfied
+pet.hunger.5=Full
+pet.hunger.6=Stuffed
+
+pet.thirst=Thirst:
+pet.thirst.0=Gasping
+pet.thirst.1=parched
+pet.thirst.2=Thirsty
+pet.thirst.3=Not thirsty 
+
+pet.mood=Happiness:
+pet.mood.0=Miserable
+pet.mood.1=Depressed
+pet.mood.2=Blue
+pet.mood.3=Contented
+pet.mood.4=Happy
+pet.mood.5=Joyful
+pet.mood.6=Ecstatic
+
+pet.nature=Nature:
+pet.enrg.0=Tired
+pet.enrg.1=Slow
+pet.enrg.2=Sluggish
+pet.enrg.3=Lazy		
+pet.enrg.4=Relaxed
+pet.enrg.5=Rabied
+pet.enrg.6=Active
+pet.enrg.7=Energetic
+pet.enrg.8=Lively
+pet.enrg.9=Tireless
+pet.enrg.10=Mad
+pet.enrg.11=Nutcase
+pet.frnd.0=Hostile
+pet.frnd.1=Angry
+pet.frnd.2=Suspicious
+pet.frnd.3=Cool
+pet.frnd.4=Calm
+pet.frnd.5=Friendly
+pet.frnd.6=Warm
+pet.frnd.7=Affectionate
+pet.frnd.8=Loving
+pet.frnd.9=Loyal
+pet.frnd.10=Adoring
+pet.frnd.11=Devoted
+
+pet.race.0.000=Yappy Yorkie
+pet.race.0.001=Habbo Husky
+pet.race.0.002=Joe Cocker Spaniel
+pet.race.0.003=Rescue Bernard
+pet.race.0.004=Droopy of Pawford
+pet.race.0.005=Paws Forethought
+pet.race.0.006=Stripy Setter
+pet.race.0.007=Slobber Don
+pet.race.0.008=Springy Spaniel
+pet.race.0.009=Hound of Hull
+pet.race.0.010=Furry McScottie
+pet.race.0.011=Lappy Lassie
+pet.race.0.012=Tawny Bleugh
+pet.race.0.013=Mangy Mutt
+pet.race.0.014=Whiffy Woofy
+pet.race.0.015=Pixie Poodle
+pet.race.0.016=Murmurin' Minimastiff
+pet.race.0.017=Speckled Sheepdog
+pet.race.0.018=Bushy Woofer
+pet.race.0.019=Tiny Terrier
+pet.race.0.020=Patchy Pup
+pet.race.0.021=Loyal Labrador
+pet.race.0.022=Schnitzel Snatcher
+pet.race.0.023=Dotty Dalmatian
+pet.race.0.024=Black-eyed Boxer
+pet.race.1.000=Sleepy Siamese
+pet.race.1.001=Purr-Sian
+pet.race.1.002=Lesser Spotted Longhair
+pet.race.1.003=Hidden Clause
+pet.race.1.004=Soft-Toed Sneaker
+pet.race.1.005=Cat Astroflea
+pet.race.1.006=Titchy Tiger
+pet.race.1.007=Burmese Buddy
+pet.race.1.008=Mad Mouser
+pet.race.1.009=Scaredy Kat
+pet.race.1.010=Wannabe Wildcat
+pet.race.1.011=Egyptian Angora
+pet.race.1.012=Freckled Feral
+pet.race.1.013=Felis Catus Allergicus
+pet.race.1.014=Bushy Bobtail
+pet.race.1.015=Haughty House Pet
+pet.race.1.016=Curiousity - The Return!
+pet.race.1.017=Furry Friend
+pet.race.1.018=Trusting Tabby
+pet.race.1.019=Bobcat Wailer
+pet.race.1.020=Caterwaul Kitty
+pet.race.1.021=Fabulous Feline
+pet.race.1.022=Matted Moggy
+pet.race.1.023=Indoor Alley Cat
+pet.race.1.024=Cat Burglar
+pet.race.2.000=Endangered Albino
+pet.race.2.001=Krazy Krokodilos
+pet.race.2.002=Nile Dile
+pet.race.2.003=Silly Sobek
+pet.race.2.004=Dirty Dundee
+pet.race.2.005=Galled Gator
+pet.race.2.006=Confused Croc
+pet.race.2.007=Pretty Pui Pui
+pet.race.2.008=Indifferent
+pet.race.2.009=Swampy Siamese
+pet.race.2.010=Giggly Go-go
+pet.race.2.011=Petty Petsuchos
+
+pet.race.3.000=Livingston's nightmare
+pet.race.3.001=Working scottie
+pet.race.3.002=Carlisle Ratter
+pet.race.3.003=Dee Mice killer
+pet.race.3.004=Holy Island Rabbit lover
+pet.race.3.005=Doon Squirrel hunter
+pet.race.3.006=Lucy's Fred
+pet.race.3.007=Eastenders Betty
+pet.race.3.008=Neighbours Audrey
+pet.race.3.009=Royal Arsenal's best friend
+pet.race.3.010=M's United pet
+pet.race.3.011=Northwests Loch Ness
+
+pet.race.4.000=Brown Bear
+pet.race.4.001=Polar Bear
+pet.race.4.002=Great Bear
+pet.race.4.003=Sunny Bear
+
+pet.race.5.000=Roman Boar
+pet.race.5.001=Tasmanian Boar
+pet.race.5.002=Baby Boar
+pet.race.5.003=Freyjas Boar
+pet.race.5.004=Transylvanians Boar
+pet.race.5.005=Forest Boar
+pet.race.5.006=Frozen Boar
+pet.race.5.007=Devils Country Boar
+pet.race.5.008=Navy Boar
+pet.race.5.009=Arctic Boar
+pet.race.5.010=Sand Boar
+pet.race.5.011=Fruit Boar
+
+# Park infobus.
+
+hubu.dialog.title=Hubu - info
+hubu.info.title=Hubu hubu hubu!
+hubu.info=Hubu-tietobussissa voit keskustella tärkeistä nuorten elämään kuuluvista asioista; harrastuksista, koulusta, netin käytöstä, päihteistä ja päihteettömyydestä ja monesta muusta aiheesta.\nSisään bussiin pääsee jonottamalla bussin ollessa auki. Aukioloajat ilmoitetaan EOPH:n ryhmäsivun foorumilla ja sivulla www.hubu.fi  sivun vasemmassa laidassa kohdassa ”Hubu auki”.\nTervetuloa!
+hubu.info.link1=EOPH:n ryhmäsivun foorumille
+hubu.info.link2=www.hubu.fi
+hubu.info.url1=http://www.habbo.fi/groups/eoph/discussions
+hubu.info.url2=http://www.hubu.fi/
+
+# Questing
+quest.accept=Accept Quest
+quest.accepted=Quest accepted
+quest.completed=Quest completed
+quest.expired=Quest expired
+quest.preview=Quest preview
+quest.available=Quest available until: (%day%, %month%, %year%, %12h%, %24h%, %minute%)
+quest.help.title=How to complete quests?
+quest.help.short=Find out in the faq
+quest.help.description=1. First\n2. Second\n3. Third\n 4. Fourth\n5. Fifth\n\n\netc 

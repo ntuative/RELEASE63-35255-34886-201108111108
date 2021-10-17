@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="palette_item" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="27" height="22" params="17" style="0" name="color_container" color="0xffffffff" background="true">
+      <children>
+        <bitmap x="0" y="0" width="27" height="22" params="16" style="0" name="color"/>
+        <bitmap x="0" y="0" width="27" height="22" params="16" style="0" name="border"/>
+        <bitmap x="0" y="0" width="27" height="22" params="16" style="0" name="selection" visible="false"/>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="bar" width="240" height="48" version="0.1" uid="E46A6973-413D-5D82-6EAD-8F731754461B">
+  <window>
+    <container x="0" y="0" width="240" height="48" params="1" style="0" name="border" clipping="false" treshold="0">
+      <children>
+        <border x="0" y="0" width="240" height="48" params="2176" style="6" color="0x0403c35" blend="0.7"/>
+        <region x="8" y="3" width="42" height="42" params="17" style="0" name="friendlist" visible="false" treshold="0">
+          <children>
+            <bitmap x="0" y="0" width="42" height="42" params="0" style="0" name="icon">
+              <variables>
+                <var key="bitmap_asset_name" value="friendlist" type="String"/>
+              </variables>
+            </bitmap>
+          </children>
+        </region>
+        <region x="50" y="5" width="42" height="42" params="17" style="0" name="messenger" treshold="0">
+          <children>
+            <bitmap x="0" y="0" width="42" height="42" params="0" style="0" name="icon">
+              <variables>
+                <var key="bitmap_asset_name" value="messenger" type="String"/>
+              </variables>
+            </bitmap>
+          </children>
+        </region>
+        <container x="96" y="5" width="48" height="38" params="145" style="0" name="container" clipping="false">
+          <children>
+            <container x="0" y="0" width="48" height="38" params="208" style="0" name="wrapper" color="0xffff00ff" clipping="false">
+              <children>
+                <itemlist_horizontal x="24" y="0" width="0" height="38" params="4194320" style="0" name="list" color="0xffffff00" clipping="false">
+                  <variables>
+                    <var key="spacing" value="3" type="int"/>
+                    <var key="scale_to_fit_items" value="true" type="Boolean"/>
+                    <var key="resize_on_item_update" value="true" type="Boolean"/>
+                  </variables>
+                </itemlist_horizontal>
+                <container_button x="0" y="7" width="24" height="24" params="1" style="3" name="button_left_page" tags="arrow%2Cleft">
+                  <children>
+                    <icon x="7" y="7" width="10" height="10" params="16" style="2" color="0x0333333"/>
+                  </children>
+                </container_button>
+                <container_button x="24" y="7" width="24" height="24" params="65" style="3" name="button_right_page" tags="arrow%2Cright">
+                  <children>
+                    <icon x="7" y="7" width="10" height="10" params="16" style="3" color="0x0333333"/>
+                  </children>
+                </container_button>
+              </children>
+            </container>
+          </children>
+        </container>
+        <region x="74" y="17" width="123" height="16" params="409665" style="0" name="link_friendlist" color="0x1111000000" background="true">
+          <children>
+            <text x="0" y="0" width="123" height="16" params="16" style="0" name="label_friendlist" caption="%24%7Bfriendbar.link.friendlist%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="11" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <background x="203" y="12" width="1" height="24" params="64" style="0" name="divider" color="0xffffffffff" blend="0.1" background="true"/>
+        <region x="195" y="6" width="48" height="38" params="81" style="0" name="stream" visible="false" treshold="0">
+          <children>
+            <bitmap x="0" y="0" width="48" height="38" params="0" style="0" name="icon">
+              <variables>
+                <var key="bitmap_asset_name" value="stream" type="String"/>
+              </variables>
+            </bitmap>
+          </children>
+        </region>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="inventory_trading_minimized" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="378" height="68" params="16" style="0">
+      <children>
+        <border x="0" y="0" width="378" height="68" params="17" style="2" color="0x27556a"/>
+        <button_thick x="7" y="40" width="165" height="22" params="131089" style="0" name="button_continue" caption="%24%7Binventory.trading.minimized.continue_trade%7D">
+          <variables/>
+        </button_thick>
+        <button x="225" y="40" width="140" height="22" params="393233" style="0" name="button_cancel" caption="%24%7Bgeneric.cancel%7D">
+          <variables/>
+        </button>
+        <text x="8" y="8" width="361" height="24" params="786448" style="0" name="help_text" caption="%24%7Binventory.trading.minimized.trade_in_progress%7D" tags="HELP_TEXT">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="18" type="uint"/>
+            <var key="text_color" value="16777215" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>

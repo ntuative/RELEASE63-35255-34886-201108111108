@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="traxPreviewWidget" width="20" height="20" version="0.0">
+  <window>
+    <container x="10" y="364" width="150" height="47" params="16" style="0" name="traxPreviewWidget">
+      <children>
+        <border x="0" y="0" width="150" height="47" params="16" style="2" color="0xcccccc"/>
+        <button x="79" y="13" width="66" height="22" params="131089" style="0" name="listen" caption="%24%7Bplay_preview_button%7D" width_min="66" width_max="66"/>
+        <text x="9" y="17" width="85" height="30" params="16" style="0" name="play_preview_text" caption="%24%7Bplay_preview%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="uint"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="habbo_login_dialog" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="320" height="400" params="17" style="0" name="habbo_login_dialog">
+      <children>
+        <border x="0" y="0" width="320" height="400" params="16" style="0"/>
+        <border x="90" y="49" width="200" height="34" params="16" style="0"/>
+        <border x="90" y="88" width="200" height="34" params="16" style="0"/>
+        <text x="20" y="91" width="60" height="20" params="49" style="0" caption="Password%3A">
+          <variables>
+            <!--
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="18" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            -->
+          </variables>
+        </text>
+        <text x="20" y="54" width="60" height="20" params="49" style="0" caption="Name%3A">
+          <variables>
+            <!--
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="18" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            -->
+          </variables>
+        </text>
+        <text x="110" y="180" width="133" height="28" params="49" style="0" name="text002">
+          <variables>
+            <!--
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            -->
+          </variables>
+        </text>
+        <input x="97" y="50" width="190" height="30" params="33" style="0" name="name_field" background="true">
+          <variables>
+			<var key="font_size" value="18" type="uint"/>
+            <!--
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="always_show_selection" value="true" type="Boolean"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+            -->
+          </variables>
+        </input>
+        <password x="97" y="90" width="190" height="30" params="33" style="0" name="pwd_field" background="true">
+          <variables>
+			<var key="font_size" value="18" type="uint"/>
+            <!--
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="always_show_selection" value="true" type="Boolean"/>
+            <var key="display_as_password" value="true" type="Boolean"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+            -->
+          </variables>
+        </password>
+        <button x="110" y="214" width="110" height="42" params="131121" style="0" name="login_btn" caption="Login" width_min="110" height_min="42"/>
+        <scrollable_itemlist_vertical x="67" y="276" width="192" height="106" params="16" style="0" name="list" color="0x888888"/>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="habbo_window_alert" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="-1" width="278" height="137" params="32769" style="0" name="_alert_frame" caption="Alert">
+      <children>
+        <border x="0" y="0" width="266" height="105" params="8390800" style="0" name="_alert_border" caption="Alert">
+          <children>
+            <text x="27" y="10" width="210" height="50" params="8388624" style="0" name="_alert_summary" caption="Alert" tags="DESCRIPTION">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <itemlist_horizontal x="45" y="77" width="175" height="22" params="787664" style="0" name="_alert_button_list" caption="Alert" color="0xffff33" height_min="22">
+              <children>
+                <button_thick x="0" y="0" width="50" height="22" params="131089" style="0" name="_alert_button_ok" caption="Ok" width_min="50"/>
+                <button x="62" y="0" width="51" height="22" params="131089" style="0" name="_alert_button_cancel" caption="Cancel" width_min="50"/>
+                <button x="125" y="0" width="50" height="22" params="131089" style="0" name="_alert_button_custom" caption="Alert" width_min="50"/>
+              </children>
+              <variables>
+                <var key="spacing" value="12" type="int"/>
+                <var key="scale_to_fit_items" value="true" type="Boolean"/>
+                <var key="resize_on_item_update" value="true" type="Boolean"/>
+              </variables>
+            </itemlist_horizontal>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

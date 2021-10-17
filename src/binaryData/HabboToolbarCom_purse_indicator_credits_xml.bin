@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="purse_indicator_credits" width="95" height="29" version="0.1" uid="5D7E5C4A-78F2-B1DC-7CF2-D6573A95242E">
+  <window>
+    <border x="0" y="0" width="95" height="29" params="17" style="6" name="outer_border" color="0xffe4c57d" clipping="false" treshold="0">
+      <children>
+        <text x="5" y="5" width="61" height="19" params="262160" style="0" name="credits_shadow" caption="0">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="right" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="14" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+            <var key="kerning" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="4" y="4" width="61" height="19" params="262160" style="0" name="credits" caption="0">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="right" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="14" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+            <var key="kerning" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <bitmap x="66" y="4" width="22" height="22" params="22" style="0" name="credit_icon" tags="ICON">
+          <variables>
+            <var key="bitmap_asset_name" value="coin_icon" type="String"/>
+          </variables>
+        </bitmap>
+      </children>
+    </border>
+  </window>
+</layout>

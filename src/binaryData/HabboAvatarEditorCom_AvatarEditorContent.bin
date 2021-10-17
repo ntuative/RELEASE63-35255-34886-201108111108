@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="avatarEditorContent" width="371" height="385" version="0.1" uid="09B1C3A4-5945-24F0-9F0A-641DC2CADA3A">
+  <window>
+    <container x="0" y="0" width="371" height="385" params="4358161" style="1" name="avatarEditorContent" clipping="false">
+      <children>
+        <container x="10" y="5" width="350" height="345" params="16" style="0" name="tabbedView">
+          <children>
+            <selector_list x="10" y="0" width="350" height="46" params="17" style="0" name="mainTabs">
+              <children>
+                <tab_container_button x="0" y="0" width="52" height="46" params="17" style="0" name="generic" color="0x0666666">
+                  <children>
+                    <bitmap x="0" y="0" width="52" height="42" params="16" style="0" name="bitmap" tags="BITMAP"/>
+                  </children>
+                </tab_container_button>
+                <tab_container_button x="52" y="0" width="52" height="46" params="17" style="0" name="head" color="0x0666666">
+                  <children>
+                    <bitmap x="0" y="0" width="52" height="42" params="16" style="0" name="bitmap" tags="BITMAP"/>
+                  </children>
+                </tab_container_button>
+                <tab_container_button x="104" y="0" width="52" height="46" params="17" style="2" name="torso" color="0x0666666">
+                  <children>
+                    <bitmap x="0" y="0" width="52" height="42" params="16" style="0" name="bitmap" tags="BITMAP"/>
+                  </children>
+                </tab_container_button>
+                <tab_container_button x="156" y="0" width="52" height="46" params="17" style="2" name="legs" color="0x0666666">
+                  <children>
+                    <bitmap x="0" y="0" width="52" height="42" params="16" style="0" name="bitmap" tags="BITMAP"/>
+                  </children>
+                </tab_container_button>
+                <tab_container_button x="208" y="0" width="52" height="46" params="17" style="2" name="hotlooks" color="0x0666666">
+                  <children>
+                    <bitmap x="0" y="0" width="52" height="42" params="16" style="0" name="bitmap" tags="BITMAP"/>
+                  </children>
+                </tab_container_button>
+              </children>
+            </selector_list>
+            <border x="0" y="42" width="350" height="300" params="17" style="3" name="contentArea" color="0x0666666"/>
+          </children>
+        </container>
+        <container x="275" y="70" width="75" height="140" params="16" style="0" name="figureContainer"/>
+        <button x="16" y="355" width="100" height="22" params="131089" style="1" name="cancel" caption="%24%7Bgeneric.close%7D" width_min="100"/>
+        <button x="250" y="355" width="100" height="22" params="131089" style="1" name="save" caption="%24%7Bavatareditor.save%7D" width_min="100"/>
+        <container_button x="306" y="5" width="55" height="36" params="17" style="0" name="wardrobe" color="0x04c4c4c">
+          <children>
+            <bitmap x="0" y="0" width="55" height="36" params="16" style="0" name="wardrobe_icon" tags="BITMAP"/>
+          </children>
+        </container_button>
+        <container x="360" y="0" width="0" height="380" params="4194320" style="0" name="sideContainer"/>
+      </children>
+    </container>
+  </window>
+</layout>

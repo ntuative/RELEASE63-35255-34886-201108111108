@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="color_chooser_cell" width="20" height="20" version="0.0">
+  <window>
+    <region x="0" y="0" width="25" height="21" params="17" style="1" name="color_chooser_cell" treshold="0">
+      <children>
+        <bitmap x="0" y="0" width="25" height="21" params="16" style="0" name="border" tags="BG_BORDER"/>
+        <bitmap x="0" y="0" width="25" height="21" params="16" style="0" name="color" tags="COLOR_IMAGE"/>
+        <bitmap x="0" y="0" width="25" height="21" params="16" style="0" name="chosen" tags="COLOR_CHOSEN"/>
+        <icon x="5" y="11" width="20" height="10" params="262160" style="0" name="club_icon" tags="CLUB_ICON"/>
+      </children>
+    </region>
+  </window>
+</layout>

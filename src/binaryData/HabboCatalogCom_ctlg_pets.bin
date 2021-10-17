@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="ctlg_pets" width="339" height="415" version="0.1" uid="EDA3297E-9C82-6428-6BE9-0043496E4CE6">
+  <window>
+    <container x="0" y="0" width="339" height="415" params="17" style="0" name="ctlg_pets">
+      <children>
+        <bitmap x="30" y="13" width="286" height="60" params="16" style="0" name="ctlg_header_img"/>
+        <text x="167" y="386" width="78" height="13" params="16" style="0" name="ctlg_price_1">
+          <variables>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="multiline" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="14" y="45" width="300" height="347" params="16" style="0" name="petsWidget" color="0x0eeeeee">
+          <children>
+            <bitmap x="0" y="0" width="133" height="127" params="16" style="0" name="ctlg_teaserimg_1"/>
+            <text x="129" y="36" width="176" height="154" params="16" style="0" name="ctlg_header_text">
+              <variables>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="70" y="160" width="150" height="20" params="16" style="0" name="ctlg_text_1">
+              <variables>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <border x="50" y="180" width="200" height="33" params="16" style="2" color="0x0cccccc"/>
+            <input x="70" y="188" width="150" height="31" params="1" style="0" name="name_input_text">
+              <variables>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="max_chars" value="15" type="int"/>
+              </variables>
+            </input>
+            <text x="139" y="230" width="170" height="20" params="16" style="0" name="ctlg_text_3">
+              <variables>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="11" y="215" width="140" height="20" params="16" style="0" name="ctlg_text_2">
+              <variables>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <dropmenu x="139" y="247" width="150" height="21" params="17" style="0" name="type_drop_menu" width_max="150"/>
+            <container x="11" y="232" width="115" height="100" params="17" style="0" name="colourGridWidget">
+              <children>
+                <itemgrid_vertical x="0" y="0" width="95" height="100" params="17" style="0" name="colourGrid">
+                  <variables>
+                    <var key="spacing" value="2" type="int"/>
+                    <var key="scale_to_fit_items" value="true" type="Boolean"/>
+                  </variables>
+                </itemgrid_vertical>
+                <scrollbar_vertical x="95" y="1" width="20" height="100" params="17" style="0" name="colourGridScrollbar">
+                  <variables>
+                    <var key="scrollable" value="colourGrid" type="String"/>
+                  </variables>
+                </scrollbar_vertical>
+              </children>
+            </container>
+            <container x="133" y="284" width="162" height="47" params="16" style="0" name="purchaseWidget"/>
+          </children>
+        </container>
+        <container x="14" y="45" width="310" height="365" params="16" style="0" name="newPetsWidget" color="0x0eeeeee">
+          <children>
+            <bitmap x="87" y="56" width="133" height="127" params="16" style="0" name="ctlg_teaserimg_1"/>
+            <text x="30" y="30" width="240" height="50" params="16" style="0" name="ctlg_header_text">
+              <variables>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="10" y="162" width="280" height="22" params="16" style="0" name="pet_breed_text" caption="Breed%20text">
+              <variables>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="text_style" value="bold" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="12" y="186" width="150" height="20" params="16" style="0" name="ctlg_text_3">
+              <variables>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="25" y="203" width="280" height="60" params="17" style="0" name="colourGridWidget">
+              <children>
+                <itemgrid_vertical x="0" y="0" width="280" height="60" params="17" style="0" name="colourGrid">
+                  <variables>
+                    <var key="spacing" value="2" type="int"/>
+                    <var key="scale_to_fit_items" value="true" type="Boolean"/>
+                  </variables>
+                </itemgrid_vertical>
+              </children>
+            </container>
+            <text x="12" y="258" width="170" height="20" params="16" style="0" name="ctlg_text_2">
+              <variables>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+            <border x="60" y="275" width="200" height="33" params="16" style="2" color="0x0cccccc"/>
+            <input x="80" y="283" width="150" height="31" params="1" style="0" name="name_input_text">
+              <variables>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="max_chars" value="16" type="int"/>
+              </variables>
+            </input>
+            <container x="143" y="317" width="162" height="47" params="16" style="0" name="purchaseWidget"/>
+          </children>
+        </container>
+
+      </children>
+    </container>
+  </window>
+</layout>

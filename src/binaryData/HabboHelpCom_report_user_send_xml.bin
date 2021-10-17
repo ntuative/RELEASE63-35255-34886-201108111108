@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="help_send_cfh" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="0" width="360" height="100" params="131088" style="0">
+      <children>
+        <itemlist_vertical x="0" y="0" width="360" height="100" params="131089" style="0">
+          <children>
+            <container x="8" y="0" width="344" height="5" params="16" style="0" name="spacing"/>
+            <text x="8" y="5" width="312" height="16" params="16" style="0" name="caption_text" caption="%24%7Bhelp.cfh.input.text%7D" width_min="312">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xcc6600" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+              </variables>
+            </text>
+            <container x="8" y="48" width="344" height="5" params="16" style="0" name="spacing"/>
+            <input x="8" y="53" width="344" height="100" params="1" style="0" name="input" caption="">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="border" value="true" type="Boolean"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="max_chars" value="500" type="int"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </input>
+            <container x="8" y="153" width="344" height="5" params="16" style="0" name="spacing"/>
+            <container x="0" y="158" width="360" height="22" params="16" style="0">
+              <children>
+                <button_thick x="7" y="0" width="159" height="22" params="131089" style="0" name="send" caption="%24%7Bhelp.cfh.button.send%7D" width_min="159" width_max="159"/>
+                <button x="194" y="0" width="159" height="22" params="393233" style="0" name="cancel" caption="%24%7Bgeneric.cancel%7D" width_min="159" width_max="159"/>
+              </children>
+            </container>
+            <container x="8" y="180" width="344" height="5" params="16" style="0" name="spacing"/>
+          </children>
+        </itemlist_vertical>
+      </children>
+    </border>
+  </window>
+</layout>

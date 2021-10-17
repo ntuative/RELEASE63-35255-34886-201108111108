@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="room_desktop_layout" width="1106" height="641" version="0.1" uid="4EDCF9D9-2829-28BE-0BDA-DAF2EBE62FE6">
+  <window>
+    <container x="0" y="0" width="1106" height="641" params="2192" style="0" name="room_desktop_layout" tags="room_desktop_layout_container">
+      <children>
+        <container x="0" y="0" width="1106" height="641" params="2192" style="0" name="container_0" tags="room_view"/>
+        <container x="0" y="0" width="1106" height="641" params="2192" style="0" name="background_widgets"/>
+        <container x="0" y="0" width="960" height="300" params="131088" style="0" name="container_1" tags="room_widget_chat"/>
+        <container x="901" y="331" width="200" height="300" params="1442896" style="0" name="container_2" tags="room_widget_infostand"/>
+        <container x="266" y="571" width="840" height="70" params="1442896" style="0" name="container_3" tags="room_widget_toolbar"/>
+        <container x="-500" y="370" width="170" height="260" params="1180688" style="0" name="container_4" tags="room_widget_me_menu"/>
+        <container x="100" y="0" width="300" height="300" params="131088" style="0" name="container_5" tags="room_widget_doorbell"/>
+      </children>
+    </container>
+  </window>
+</layout>

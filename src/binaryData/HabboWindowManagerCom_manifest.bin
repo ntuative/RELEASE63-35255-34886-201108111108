@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.bootstrap.HabboWindowManagerComponent" version="0.0">
+	
+		<interface iid="com.sulake.iid.IIDHabboWindowManager" />
+		<interface iid="com.sulake.iid.IIDCoreWindowManager" />
+		
+		<assets>
+		<asset mimeType="text/xml" name="scroll_bitmap_test_xml" />
+		
+			<asset mimeType="text/xml" name="habbo_element_description_xml" />
+			
+			<!-- Layout descriptions -->
+
+            <asset mimeType="text/xml" name="habbo_window_layout_badge_xml" />
+            <asset mimeType="text/xml" name="habbo_window_layout_bubble_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_thick_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_black_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_thick_black_xml" />
+            <asset mimeType="text/xml" name="habbo_window_layout_button_shiny_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_shiny_thick_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_shiny_large_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_shiny_large_5_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_shiny_black_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_button_shiny_thick_black_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_frame_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_frame_3_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_scaler_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_scaler_3_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_scrollbar_horizontal_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_scrollbar_vertical_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_scrollable_itemlist_vertical_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_simple_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_alert_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_header_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_header_black_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_header_3_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_tab_button_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_tab_button_3_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_tab_button_black_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_tab_context_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_tab_context_3_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_tooltip_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_dropmenu_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_dropmenu_black_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_dropmenu_item_xml" />
+			<asset mimeType="text/xml" name="habbo_window_layout_dropmenu_item_black_xml" />
+
+            <!-- Tablet layout descriptions -->
+
+            <asset mimeType="text/xml" name="tablet_window_layout_button_xml" />
+			<asset mimeType="text/xml" name="tablet_window_layout_button_thick_xml" />
+            <asset mimeType="text/xml" name="tablet_window_layout_tab_context_xml" />
+            <asset mimeType="text/xml" name="tablet_window_layout_tab_button_xml" />
+            <asset mimeType="text/xml" name="tablet_window_layout_dropmenu_xml" />
+            <asset mimeType="text/xml" name="tablet_window_layout_dropmenu_item_xml" />
+
+			<!-- Skin descriptions -->
+			
+			<asset mimeType="text/xml" name="habbo_skin_text_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_frame_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_frame_3_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_border_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_border_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_border_colorless_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_border_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_border_slot_xml" />
+            <asset mimeType="text/xml" name="habbo_skin_border_4_xml" />
+            <asset mimeType="text/xml" name="habbo_skin_border_5_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_border_6_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_border_7_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_border_8_xml" />
+            <asset mimeType="text/xml" name="habbo_skin_bubble_xml" />
+            <asset mimeType="text/xml" name="habbo_skin_bubble_pointer_up_xml" />
+            <asset mimeType="text/xml" name="habbo_skin_bubble_pointer_right_xml" />
+            <asset mimeType="text/xml" name="habbo_skin_bubble_pointer_down_xml" />
+            <asset mimeType="text/xml" name="habbo_skin_bubble_pointer_left_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_checkbox_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_checkbox_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_checkbox_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_close_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_close_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_close_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_close_3_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_default_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_shiny_default_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_default_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_shiny_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_default_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_radio_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_radio_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_radio_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_tab_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_tab_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_tab_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_tab_3_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_thick_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_shiny_thick_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_shiny_large_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_thick_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_shiny_thick_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_thick_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_left_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_center_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_right_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_left_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_center_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_right_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_left_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_center_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_button_group_right_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_scaler_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_scaler_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_scaler_white_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_scaler_3_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_scrollbar_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_scrollbar_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_scrollbar_3_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_header_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_header_3_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_icon_set_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_dropmenu_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_dropmenu_black_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_tab_context_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_tab_content_3_xml" />
+			<asset mimeType="text/xml" name="habbo_skin_tooltip_xml" />
+
+			<!-- Style sheets -->
+
+            <asset mimeType="text/plain" name="text_styles_css" />
+
+			<!-- Graphic assets -->
+			
+			<asset mimeType="image/png" name="habbo_bitmap_skin_png" />
+			<asset mimeType="image/png" name="habbo_bitmap_skin2_png" />
+			
+			<asset mimeType="image/png" name="habbo_cursor_link_png" />
+			<asset mimeType="image/png" name="habbo_cursor_drag_png" />
+			<asset mimeType="image/png" name="habbo_icons_png" />
+			<asset mimeType="text/xml" name="habbo_window_alert_xml" />
+			<asset mimeType="text/xml" name="habbo_window_alert_link_xml" />
+			<asset mimeType="text/xml" name="habbo_window_confirm_xml" />
+			<asset mimeType="text/xml" name="habbo_crasher_dialog_xml" />
+
+            <!-- Font assets -->
+
+            <asset mimeType="application/x-font-truetype" name="volter" />
+			<asset mimeType="application/x-font-truetype" name="volterb" />
+
+            <asset mimeType="application/x-font-truetype" name="ubuntu_regular" />
+            <asset mimeType="application/x-font-truetype" name="ubuntu_bold" />
+            <asset mimeType="application/x-font-truetype" name="ubuntu_italic" />
+            <asset mimeType="application/x-font-truetype" name="ubuntu_bold_italic" />
+
+            <!-- Some dialogs used for testing -->
+
+			<asset mimeType="text/xml" name="asset_viewer_frame_xml" />
+			<asset mimeType="text/xml" name="asset_viewer_entity_xml" />
+			<asset mimeType="text/xml" name="asset_viewer_list_view_xml" />
+            <asset mimeType="text/xml" name="list_tester_xml" />
+            <asset mimeType="text/xml" name="list_tester_item_xml" />
+		</assets>
+
+	</component>
+</manifest>

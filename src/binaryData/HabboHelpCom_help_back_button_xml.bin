@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="help_back_button" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="360" height="24" params="17" style="0" name="back_container" tags="back">
+      <children>
+        <border x="0" y="5" width="360" height="19" params="131088" style="2" name="back_border" color="0x54a7c9" tags="back">
+          <children>
+            <bitmap x="329" y="0" width="19" height="19" params="1048597" style="0" name="back_image" tags="back%2Cback_image"/>
+            <text x="298" y="2" width="26" height="13" params="262165" style="0" name="back_text" caption="%24%7Bgeneric.back%7D" color="0x54a7c9" background="true" tags="back">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="auto_size" value="right" type="String"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+      </children>
+    </container>
+  </window>
+</layout>

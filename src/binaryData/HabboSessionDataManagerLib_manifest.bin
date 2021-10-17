@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.bootstrap.SessionDataManager" version="0.0">
+		<interface iid="com.sulake.iid.IIDSessionDataManager" />
+		<assets>
+			<asset mimeType="text/xml" name="group_info" />
+            <asset mimeType="text/xml" name="group_entry" />
+			<asset mimeType="image/png" name="loading_icon" />
+            <asset mimeType="image/png" name="make_favourite" />
+            <asset mimeType="image/png" name="clear_favourite" />
+		</assets>
+	</component>
+	
+</manifest>

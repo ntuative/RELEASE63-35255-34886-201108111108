@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="start_panel" width="20" height="20" version="0.0">
+  <window>
+    <frame x="60" y="4" width="383" height="235" params="32769" style="0" caption="Mod%20action%20on%3A">
+      <children>
+        <container x="0" y="0" width="370" height="127" params="8388608" style="0" name="categorization_cont" caption="Mod%20action%20on%3A" background="true">
+          <children>
+            <text x="0" y="4" width="200" height="13" params="16" style="0" name="categorization_caption_txt" caption="Categorization%3A">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="0" y="23" width="370" height="50" params="0" style="0" name="offence_categories_cont" caption="Mod%20action%20on%3A" background="true"/>
+            <container x="0" y="23" width="370" height="50" params="0" style="0" name="offences_cont" caption="Mod%20action%20on%3A" background="true"/>
+            <container x="0" y="0" width="370" height="21" params="0" style="0" name="offence_category" caption="Mod%20action%20on%3A" background="true">
+              <children>
+                <text x="96" y="4" width="210" height="13" params="16" style="0" name="offence_txt" caption="The%20selected%20offence">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+            <button x="308" y="0" width="60" height="21" params="131089" style="0" name="change_categorization_but" caption="Back" width_min="60" width_max="60"/>
+          </children>
+        </container>
+        <input x="0" y="133" width="370" height="45" params="1025" style="0" name="message_input" caption="Write%20here%20a%20message%20that%20is%20shown%20to%20the%20user" color="0xffffffff" background="true">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="always_show_selection" value="true" type="Boolean"/>
+            <var key="border" value="true" type="Boolean"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </input>
+        <container x="0" y="183" width="370" height="21" params="1024" style="0" name="buttons" caption="Mod%20action%20on%3A" background="true">
+          <children>
+            <button x="0" y="0" width="89" height="21" params="131089" style="0" name="send_caution_but" caption="Send%20caution" width_min="89" width_max="89"/>
+            <button x="94" y="0" width="89" height="21" params="131089" style="0" name="kick_but" caption="Kick" width_min="89" width_max="89"/>
+            <dropmenu x="188" y="0" width="89" height="21" params="1" style="0" name="banLengthSelect" caption="Ban%20length" width_min="89" width_max="89"/>
+            <button x="281" y="0" width="89" height="21" params="131089" style="0" name="ban_but" caption="Ban" width_min="89" width_max="89"/>
+          </children>
+        </container>
+      </children>
+    </frame>
+  </window>
+</layout>

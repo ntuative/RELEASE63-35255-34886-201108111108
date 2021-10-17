@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="message" width="121" height="37" version="0.1" uid="48F2AF94-A4BB-E772-AFE3-8E0F28C0DF78">
+  <window>
+    <container x="0" y="0" width="121" height="37" params="144" style="0" name="message" color="0xffff4c5832" background="true" tags="notification">
+      <children>
+        <bitmap x="1" y="1" width="17" height="17" params="16" style="0" name="icon">
+          <variables>
+            <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+          </variables>
+        </bitmap>
+        <itemlist x="0" y="0" width="121" height="31" params="8388752" style="0" name="items">
+          <children>
+            <text x="18" y="0" width="102" height="16" params="16" style="0" name="title" caption="Title">
+              <variables>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_size" value="11" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="text_style" value="u_italic" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="80" type="Number"/>
+                <var key="thickness" value="-15" type="Number"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="2" y="15" width="121" height="16" params="8388624" style="0" name="message" caption="Message">
+              <variables>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="font_size" value="11" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="text_style" value="u_bold" type="String"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="sharpness" value="80" type="Number"/>
+                <var key="thickness" value="-15" type="Number"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+          <variables>
+            <var key="spacing" value="-1" type="int"/>
+            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+            <var key="resize_on_item_update" value="true" type="Boolean"/>
+          </variables>
+        </itemlist>
+      </children>
+    </container>
+  </window>
+</layout>

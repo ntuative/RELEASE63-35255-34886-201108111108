@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="wardrobe_slot" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="0" width="56" height="56" params="16" style="3" color="0x3d3d3d">
+      <children>
+        <border x="29" y="3" width="24" height="50" params="16" style="3" color="0x666666"/>
+        <container_button x="3" y="3" width="23" height="24" params="17" style="0" name="set_button" color="0xd0d0d0">
+          <children>
+            <icon x="9" y="7" width="12" height="15" params="16" style="5" color="0x333333"/>
+          </children>
+        </container_button>
+        <container_button x="3" y="29" width="23" height="24" params="17" style="0" name="get_button" color="0xd0d0d0">
+          <children>
+            <icon x="8" y="7" width="12" height="15" params="16" style="4" color="0x333333"/>
+          </children>
+        </container_button>
+        <border x="30" y="4" width="22" height="48" params="16" style="3" color="0x666666">
+          <children>
+            <bitmap x="0" y="0" width="22" height="48" params="16" style="0" name="image"/>
+          </children>
+        </border>
+      </children>
+    </border>
+  </window>
+</layout>

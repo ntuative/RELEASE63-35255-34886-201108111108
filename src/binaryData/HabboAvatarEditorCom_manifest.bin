@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.bootstrap.HabboAvatarEditorManager" version="0.0">
+		<interface iid="com.sulake.iid.IIDHabboAvatarEditor" />
+		<assets>
+
+            <asset mimeType="text/xml" name="AvatarEditor" />
+            <asset mimeType="text/xml" name="AvatarEditorFrame" />
+            <asset mimeType="text/xml" name="AvatarEditorContent" />
+            <asset mimeType="text/xml" name="AvatarEditorGrid" />
+            <asset mimeType="text/xml" name="AvatarEditorImage" />
+            <asset mimeType="text/xml" name="AvatarEditorThumb" />
+            <asset mimeType="text/xml" name="ViewConfiguration" />
+            <asset mimeType="text/xml" name="StripClubItemsInfo" />
+            <asset mimeType="text/xml" name="color_chooser_cell" />
+            <asset mimeType="text/xml" name="avatareditor_generic_base" />
+            <asset mimeType="text/xml" name="avatareditor_head_base" />
+            <asset mimeType="text/xml" name="avatareditor_legs_base" />
+            <asset mimeType="text/xml" name="avatareditor_club_promo_try" />
+            <asset mimeType="text/xml" name="avatareditor_club_promo_buy" />
+            <asset mimeType="text/xml" name="avatareditor_torso_base" />
+            <asset mimeType="text/xml" name="Outfit" />
+            <asset mimeType="text/xml" name="Selector" />
+            <asset mimeType="text/xml" name="avatareditor_wardrobe_base" />
+            <asset mimeType="text/xml" name="wardrobe_slot" />
+            <asset mimeType="text/xml" name="avatareditor_hotlooks_base" />
+
+
+            <asset mimeType="image/png" name="avatar_editor_download_icon" />
+            <asset mimeType="image/png" name="editor_clr_40x32_1" />
+            <asset mimeType="image/png" name="editor_clr_40x32_2" />
+            <asset mimeType="image/png" name="editor_clr_40x32_3" />
+            <asset mimeType="image/png" name="platform" />
+            <asset mimeType="image/png" name="removeSelection" />
+            <asset mimeType="image/png" name="ae_tabs_generic" />
+            <asset mimeType="image/png" name="ae_tabs_head" />
+            <asset mimeType="image/png" name="ae_tabs_legs" />
+            <asset mimeType="image/png" name="ae_tabs_torso" />
+            <asset mimeType="image/png" name="ae_tabs_hotlooks" />
+            <asset mimeType="image/png" name="ae_tabs_wardrobe" />
+            <asset mimeType="image/png" name="bottom_accessories" />
+            <asset mimeType="image/png" name="bottom_accessories_on" />
+            <asset mimeType="image/png" name="bottom_shoes" />
+            <asset mimeType="image/png" name="bottom_shoes_on" />
+            <asset mimeType="image/png" name="bottom_trousers" />
+            <asset mimeType="image/png" name="bottom_trousers_on" />
+            <asset mimeType="image/png" name="gender_female" />
+            <asset mimeType="image/png" name="gender_female_on" />
+            <asset mimeType="image/png" name="gender_male" />
+            <asset mimeType="image/png" name="gender_male_on" />
+            <asset mimeType="image/png" name="head_accessories" />
+            <asset mimeType="image/png" name="head_accessories_on" />
+            <asset mimeType="image/png" name="head_eyewear" />
+            <asset mimeType="image/png" name="head_eyewear_on" />
+            <asset mimeType="image/png" name="head_face_accessories" />
+            <asset mimeType="image/png" name="head_face_accessories_on" />
+            <asset mimeType="image/png" name="head_hair" />
+            <asset mimeType="image/png" name="head_hair_on" />
+            <asset mimeType="image/png" name="head_hats" />
+            <asset mimeType="image/png" name="head_hats_on" />
+            <asset mimeType="image/png" name="top_accessories" />
+            <asset mimeType="image/png" name="top_accessories_on" />
+            <asset mimeType="image/png" name="top_jacket" />
+            <asset mimeType="image/png" name="top_jacket_on" />
+            <asset mimeType="image/png" name="top_shirt" />
+            <asset mimeType="image/png" name="top_shirt_on" />
+            <asset mimeType="image/png" name="top_prints" />
+            <asset mimeType="image/png" name="top_prints_on" />
+            <asset mimeType="image/png" name="selectOutfit" />
+            <asset mimeType="image/png" name="selectOutfit_over" />
+            <asset mimeType="image/png" name="wardrobe_empty_slot" />
+
+		</assets>
+	</component>
+
+</manifest>

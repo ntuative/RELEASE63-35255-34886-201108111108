@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="rev_room_event" width="20" height="20" version="0.0">
+  <window>
+    <container x="5" y="0" width="218" height="240" params="98321" style="0" name="caption" color="0xff3d3d3d" background="true">
+      <children>
+        <text x="-6" y="2" width="233" height="13" params="786432" style="0" name="create_caption" caption="%24%7Bnavigator.createevent%7D" visible="false">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="16777215" type="uint"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="2" y="2" width="216" height="13" params="786432" style="0" name="edit_caption" caption="%24%7Bnavigator.eventsettings.editcaption%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="16777215" type="uint"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="0" y="20" width="218" height="1" params="16" style="0" name="ruler" color="0xFF232323" background="true"/>
+        <text x="0" y="25" width="78" height="13" params="0" style="0" name="name_label" caption="%24%7Bnavigator.eventsettings.name%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="16777215" type="uint"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <input x="0" y="40" width="217" height="15" params="1" style="0" name="event_name">
+          <variables>
+             <var key="font_face" value="Volter" type="String"/>                <var key="font_size" value="9" type="uint"/>                <var key="text_color" value="0xFFffffff" type="uint"/>                <var key="border_color" value="0xFFffffff" type="uint"/>                <var key="background" value="false" type="Boolean"/>                <var key="border" value="true" type="Boolean"/>                <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </input>
+        <text x="0" y="60" width="115" height="13" params="0" style="0" name="desc_label" caption="%24%7Bnavigator.eventsettings.desc%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="16777215" type="uint"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <input x="0" y="76" width="217" height="50" params="1" style="0" name="event_desc" caption="">
+          <variables>
+             <var key="font_face" value="Volter" type="String"/>                <var key="font_size" value="9" type="uint"/>                <var key="text_color" value="0xFFffffff" type="uint"/>                <var key="border_color" value="0xFFffffff" type="uint"/>                <var key="background" value="false" type="Boolean"/>                <var key="border" value="true" type="Boolean"/>                <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </input>
+        <text x="0" y="133" width="203" height="13" params="0" style="0" name="cat_label" caption="%24%7Bnavigator.category%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="16777215" type="uint"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <dropmenu x="0" y="149" width="218" height="20" params="1" style="1" name="event_type"/>        <container x="0" y="149" width="218" height="20" params="16" style="0" name="event_type_disabled_cont" color="0xFFffffff" background="true">         <children>          <container x="1" y="1" width="216" height="18" params="16" style="0" name="ruler" color="0xFF3d3d3d" background="true"/>
+          <text x="3" y="3" width="217" height="15" params="17" style="0" name="event_type_disabled_text" caption="PH%20event%20type%20disabled">
+           <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>            <var key="font_size" value="9" type="uint"/>            <var key="text_color" value="0xFFffffff" type="uint"/>            <var key="background" value="false" type="Boolean"/>            <var key="embed_fonts" value="true" type="Boolean"/>
+           </variables>
+          </text>         </children>        </container>
+        <text x="0" y="175" width="176" height="13" params="0" style="0" name="tags_label" caption="%24%7Bnavigator.tags%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="16777215" type="uint"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <input x="0" y="192" width="106" height="15" params="1" style="0" name="event_tag_1" caption="">
+          <variables>
+              <var key="font_face" value="Volter" type="String"/>                <var key="font_size" value="9" type="uint"/>                <var key="text_color" value="0xFFffffff" type="uint"/>                <var key="border_color" value="0xFFffffff" type="uint"/>                <var key="background" value="false" type="Boolean"/>                <var key="border" value="true" type="Boolean"/>                <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </input>
+        <input x="111" y="192" width="106" height="15" params="1" style="0" name="event_tag_2" caption="">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>                <var key="font_size" value="9" type="uint"/>                <var key="text_color" value="0xFFffffff" type="uint"/>                <var key="border_color" value="0xFFffffff" type="uint"/>                <var key="background" value="false" type="Boolean"/>                <var key="border" value="true" type="Boolean"/>                <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </input>
+        <container x="0" y="216" width="230" height="22" params="98321" style="0" name="buttons" color="0xff3d3d3d" background="true">
+          <children>
+            <button x="148" y="0" width="70" height="21" params="131089" style="1" name="cancel_button" caption="%24%7Bgeneric.cancel%7D" width_min="70" width_max="70"/>
+            <button_thick x="0" y="0" width="70" height="21" params="131121" style="1" name="create_button" caption="%24%7Bnavigator.create%7D" width_min="70" width_max="70"/>
+            <button_thick x="0" y="0" width="70" height="21" params="131121" style="1" name="edit_button" caption="%24%7Bnavigator.eventsettings.edit%7D" width_min="70" width_max="70"/>
+            <button x="74" y="0" width="70" height="21" params="917521" style="1" name="end_button" caption="%24%7Bnavigator.eventsettings.end%7D" width_min="70" width_max="70"/>
+          </children>
+        </container>
+      </children>
+    </container>
+  </window>
+</layout>

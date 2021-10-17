@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="help_itemlist_item" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="290" height="20" params="131089" style="0" width_max="290">
+      <children>
+        <border x="0" y="2" width="290" height="14" params="131089" style="2" name="item_bg" background="true" width_max="290">
+          <children>
+            <text x="0" y="1" width="290" height="13" params="16" style="0" caption="dsdsdsd" background="true" tags="text" width_min="290" width_max="290">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="underline" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+      </children>
+    </container>
+  </window>
+</layout>
